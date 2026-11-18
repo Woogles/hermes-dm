@@ -1,0 +1,26 @@
+campaign:
+  id: vanished-century
+
+  title: The Vanished Century
+
+  difficulty: beginner
+
+  levels:
+    start: 1
+    end: 12
+
+  players:
+    min: 3
+    max: 5
+
+  themes:
+    - mystery
+    - investigation
+    - time_anomaly
+
+  acts: 3
+
+  dm_style:
+    clue_friendly
+    evidence_based
+    beginner_friendly
