@@ -1,0 +1,21 @@
+faction:
+
+  id: silver-council
+
+  name: Silver Council
+
+  alignment: lawful-neutral
+
+  description: >
+      Rulers of Underhollow.
+
+relationship_scale:
+
+  trusted:
+      100
+
+  neutral:
+      0
+
+  hostile:
+      -100

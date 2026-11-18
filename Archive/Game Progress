@@ -1,0 +1,17 @@
+data/
+
+   campaigns/
+
+      campaign-id/
+
+         session-state.json
+
+JSON EXAMPLE
+{
+  "campaign":"vanished-century",
+  "current_act":1,
+  "current_adventure":"library-no-exit",
+  "current_location":"old-museum-quarter",
+  "paradox_level":1,
+  "quests_completed":[]
+}

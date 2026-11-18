@@ -1,0 +1,750 @@
+Assuming you mean **D&D 5.5e / the 2024 rules**, here’s a time-travel campaign framework you can run.
+
+# **A Shattered Century**  
+**A 5.5e time-travel campaign**
+
+## Campaign premise
+
+The party discovers that the town they start in, **Harlowe**, is not one town but the same town caught in **overlapping time loops**. A damaged artifact called the **Chronal Loom** lets them move between eras, but every change they make creates a new paradox. The town’s past, present, and future are in conflict:
+
+- In **The Founding**, the town was built peacefully.
+- In **The Bloom**, it is healthy and prosperous.
+- In **The Ashfall**, it is dying.
+- In **The Drowned**, it is underwater.
+- In **The Unwritten**, it is being rewritten by time-obsessed rebels.
+
+The party must repair the Loom, stop timeline collapse, and decide how to restore—or protect—century.
+
+This campaign is designed for **levels 1–12**, but can be compressed or stretched.
+
+---
+
+## 5.5 rule integration
+
+Use the **2024 core rules** for normal D&D:
+
+- Ability checks
+- Saving throws
+- Spell slots and spellbooks
+- Advantage/disadvantage
+- Actions, Bonus Actions, Reactions, Magic as an Action where applicable
+- Exhaustion
+- Proficiency bonus progression
+- Long rest and short rest structure, as your table uses
+
+Time travel is handled as **optional campaign rules**, not a replacement for 5.5 combat or spellcasting.
+
+---
+
+# Core time travel rules
+
+## 1. The Chronal Loom
+
+The Chronal Loom is the campaign’s time-travel mechanism.
+
+The party can use it to move between linked eras.
+
+### Loom charges
+
+Each era jump costs **Loom charges**.
+
+| Level range | Charges per long rest | Maximum era span |
+|---:|---:|---:|
+| 1–4 | 2 charges | 1 era |
+| 5–9 | 3 charges | 2 eras |
+| 10–12 | 4 charges | 3 eras |
+
+Extra charges can be gained from **Paradox Shards**: 3 shards recharge 1 Loom charge.
+
+This prevents unlimited time hopping while still making travel meaningful.
+
+---
+
+## 2. Time anchors
+
+You cannot safely arrive in a random dead year. You must arrive at a **Time Anchor**: a fixed location that exists in multiple eras.
+
+Examples:
+
+- The Market of Miracles, present and past
+- The Old Dam, found in the Bloom and Ashfall eras
+- The Clockwork Vaults, underground in every era
+- The Ashfall Shrine, future cult site
+
+If there is no anchor, travel to that era requires **3 charges** and triggers an automatic paradox.
+
+---
+
+## 3. Safe travel rules
+
+If multiple copies of the same character exist in the same era, they create a **Temporal Paradox**.
+
+Use this condition:
+
+> **Chronal Stasis**  
+> The duplicated character has disadvantage on Wisdom and Charisma checks until they are separated or the paradox is resolved.
+
+The older copy is the **Anchor Copy**. The newer copy is the **Echo Copy**.
+
+If not resolved, the Echo Copy risks being erased from existence at the end of a long rest.
+
+---
+
+## 4. Altering history
+
+A major historical change triggers a **Paradox Die**.
+
+Use a d6:
+
+| Result | Effect |
+|---:|---|
+| 1 | Catastrophic: the era branches. A faction gains +2 Influence, and the party must repair the paradox or lose access to one era for a session. |
+| 2–3 | Major paradox: a faction reacts strongly. The party must spend resources or make a skill challenge. |
+| 4–5 | Minor paradox: timeline shifts slightly, but a visible NPC or location changes. |
+| 6 | Stable: the change is contained. |
+
+The DM describes the immediate visible consequence, then uses the result to escalate or stabilize the campaign.
+
+---
+
+## 5. Repairing paradoxes
+
+Use 5.5 skill checks.
+
+| Paradox severity | Recommended check | DC |
+|---|---|---:|
+| Minor | Arcana / History / Investigation | 13 |
+| Major | Arcana / Investigation / Religion | 18 |
+| Catastrophic | Arcana / History / Religion, with one helper allowed | 23 |
+
+A failure does not erase progress; it worsens consequences or costs Loom charges.
+
+---
+
+## 6. Temporal exposure
+
+Repeated use of the Loom causes strain.
+
+Track **Temporal Exposure** per character.
+
+| Exposure level | Effect |
+|---:|---|
+| 1 | No HP regained from Short Rests until the next Long Rest. |
+| 2 | Disadvantage on Initiative and Dexterity checks. |
+| 3 | Treat as 1 Exhaustion. |
+| 4 | Treat as 2 Exhaustion. |
+
+Exposure increases by 1 when a character travels more than one era at a time, lands without an anchor, or remains in a paradox zone at the end of a Long Rest.
+
+---
+
+# Faction structure
+
+## 1. The Loomkeepers
+
+They police stable time travel.
+
+- Prefer anchors
+- Hate paradoxes
+- Reward safe restoration
+- Offer repair quests
+
+## 2. The Ashen Choir
+
+A cult of future believers.
+
+- Want to destroy stable timelines
+- Worship paradoxes
+- Send assassins and future warriors into the past
+- Reward chaos
+
+## 3. The Gilded Ledger
+
+A time-aware crime syndicate.
+
+- Steal across timelines
+- Exploit anchors
+- Buy future information
+- Create heists that require time jumps
+
+## 4. The Unwritten
+
+A rebel army from an alternate future.
+
+- They know what has not happened yet
+- They send soldiers backward
+- They want to rewrite the town’s fate
+- They are the main late-game threat
+
+## 5. The Bloom
+
+The natural, prosperous present faction.
+
+- They want stable ecology and water sources
+- They fear drought, blight, and paradox storms
+- They reward restoration of nature
+
+---
+
+# Campaign structure
+
+## Act 1: **The Almanac of the Ninth Year**  
+**Levels 1–4**
+
+### Goal
+
+Learn that time travel is happening, repair the Loom, and prevent a small paradox.
+
+### Opening quest
+
+The town has a drought. A local archivist notices that the almanac describes rain that never happened.
+
+The party discovers that a **time leak** is pulling water from the past into the present.
+
+### Objectives
+
+1. Find three Loom fragments hidden across the town.
+2. Repair the Chronal Loom.
+3. Stop one paradox storm.
+4. Decide whether to save the mayor or prevent a future flood.
+
+### Time travel problem
+
+They need to go back to a rainstorm in the Bloom or Founding era, then return the water route back to the present.
+
+### Main locations
+
+- The Market of Miracles
+- The Old Dam
+- The Clockwork Vaults
+- The Grave That Was Never Dug
+
+### Main antagonists
+
+- A Gilded Ledger heist cell
+- One Ashen Choir assassin, use a reskinned 5.5 humanoid statblock
+- Echo duplicates
+
+### Level 4 boss
+
+Use a reskinned 5.5 CR 3–4 caster as **The Echo Warden**.
+
+Its goal: prevent players from carrying future items back into the past.
+
+---
+
+## Act 2: **The Unwritten Century**  
+**Levels 5–8**
+
+### Goal
+
+Collect four Paradox Keys, stop future rebels, and stabilize the timeline.
+
+### Central problem
+
+The Unwritten are erasing events that the party has not yet witnessed.
+
+Future rebels send agents back in time to sabotage anchors. The party must decide which changes matter.
+
+### Objectives
+
+1. Recover the Paradox Keys from four factions.
+2. Repair one major timeline fracture.
+3. Prevent the Unwritten from rewriting the town’s founding.
+4. Save one anchor location that may cease to exist.
+
+### Locations
+
+- The Drowned Market
+- The Ashfall Shrine
+- The Founding Chapel
+- The Ledger Vault
+- The Clockwork Bridge
+
+### Faction conflicts
+
+The Loomkeepers want to stabilize everything.  
+The Unwritten want to destroy stable eras.  
+The Gilded Ledger wants to steal future knowledge.  
+The Bloom wants nature restored.
+
+### Mid-campaign challenge
+
+Use a skill challenge over 2 days:
+
+- Arcana DC 15: understand the fracture
+- History DC 17: find the correct anchor point
+- Investigation DC 14: locate the paradox core
+- Religion DC 16: calm or manipulate the Ashen Choir
+
+### Level 8 boss
+
+Use a reskinned 5.5 CR 8–9 caster as **The Unwritten Herald**.
+
+Mechanic: it has a “Rewrite” reaction. Once per round, it can reroll one damage roll or skill check against a timeline event.
+
+---
+
+## Act 3: **The Unmaking**  
+**Levels 9–12**
+
+### Goal
+
+Enter the Loom’s core, stabilize the century, and choose an ending.
+
+### Central problem
+
+All eras are beginning to overlap:
+
+- One street has four versions of itself.
+- A bridge is dry, flooded, and destroyed simultaneously.
+- NPCs remember being saved and never saved.
+- Weather is paradoxical.
+
+### Objectives
+
+1. Stabilize four anchors.
+2. Recover the Unmaking Key.
+3. Prevent a catastrophic collapse.
+4. Choose an ending.
+
+### Locations
+
+- The Loom Control Room
+- The Split Market
+- The Ninth Dam
+- The Chapel of Two Names
+- The Drowned Bridge
+- The Ashfall Throne
+
+### Major challenge
+
+Use a 5.5 group skill challenge:
+
+- Arcana DC 20 to bind the Loom
+- History DC 20 to identify the true founding event
+- Religion DC 22 to silence or empower the Ashen Choir
+- Investigation DC 18 to locate the Unmaking Key
+
+One failure is acceptable if the party spends resources.
+
+### Final boss
+
+Use a reskinned 5.5 CR 12 humanoid caster as **The Unwritten King** or **The Loom Paradox**.
+
+Lair actions:
+
+- Force one ally to reroll a Wisdom save
+- Reroll one initiative result
+- Trigger a minor paradox storm
+- Create an Echo duplicate
+- Spend a reaction to erase a temporary ally’s future anchor
+
+---
+
+# Endings
+
+The final choice should distinguish between **established timeline facts** and **unresolved paradoxes**.
+
+## 1. Restore the original century
+
+The party restores the founding timeline.
+
+- The town survives in its original form
+- Future rebels are erased
+- The Unwritten lose most influence
+- Any future tech the party brought back becomes unstable and may vanish unless anchored
+
+## 2. Accept a new stable timeline
+
+The party creates a new, clean present.
+
+- Harlowe is saved in a new form
+- Some NPCs remember changed events
+- The Unwritten are contained but not erased
+- The party can keep limited future knowledge safely
+
+## 3. Split the timeline
+
+The party stabilizes multiple futures.
+
+- One timeline becomes a sanctuary
+- One becomes a war zone
+- One becomes the true original timeline
+- The Loom can only travel between sanctioned branches
+
+## 4. Destroy the Loom
+
+The party ends time travel.
+
+- Paradoxes collapse into a single future
+- No one can bring future knowledge into the past
+- Harlowe remains stable, but all prior faction influence is frozen
+
+---
+
+# Sample side quests
+
+## 1. The Rain That Never Fell
+
+A farmer remembers rain in 1994, but the town has a drought in 2001.
+
+Time travel problem:
+
+- Go back to 1994
+- Find the missing dam gate
+- Return it to 2001
+- Avoid creating a new flood in the Ashfall era
+
+Paradox risk:
+
+- If the party removes too much water, the Ashfall Shrine loses its water source.
+- If they return too much, the present market floods.
+
+---
+
+## 2. The Grave That Was Never Dug
+
+A cemetery has two tombstones for the same person in one era, and one tombstone in another.
+
+Objective:
+
+- Find the original death anchor
+- Repair the memory paradox
+- Prevent the dead from becoming an uncontrolled echo
+
+5.5 skill challenge:
+
+- History DC 15: identify the true death
+- Religion DC 16: calm the restless dead
+- Arcana DC 14: stabilize the grave marker
+
+---
+
+## 3. The Ledger Heist of Two Years
+
+The Gilded Ledger stole a vault in 1997 and a second vault in 2003.
+
+Objective:
+
+- Go to 1997 to plant false evidence
+- Return to 2003 to erase their suspicion
+- Do not let their future copy find your past copy
+
+Anchor rule:
+
+- You cannot bring a 2020 lockpick back to 1997 unless that lockpick type existed at that time.
+
+---
+
+## 4. The Two Mayors
+
+Harlowe has two mayoral records for the same century.
+
+Objective:
+
+- Determine which mayor was real
+- Repair the civic anchor
+- Prevent the Ashen Choir from crowning the false mayor
+
+Paradox rule:
+
+- One mayor is an Anchor NPC.
+- The other is an Echo NPC.
+- If the Echo mayor is crowned, the town’s political history destabilizes.
+
+---
+
+# Key locations
+
+## The Market of Miracles
+
+A central marketplace with stalls that exist in multiple eras.
+
+- In The Bloom, it is prosperous.
+- In The Drowned, it is partly flooded.
+- In The Ashfall, it is burned.
+- In The Unwritten, it is being rewritten by rebels.
+
+## The Clockwork Vaults
+
+Underground engine rooms.
+
+- Good for combat
+- Good for Loom repair
+- Good for paradox cores
+- Good for Loomkeepers as allies
+
+## The Old Dam
+
+Water control center.
+
+- Best for the Act 1 drought problem
+- Can be altered across three eras
+- Should be a major anchor
+
+## The Ashfall Shrine
+
+Future cult site.
+
+- Ashen Choir rituals
+- Time storms
+- Cursed relics
+- Rituals require Religion checks
+
+## The Founding Chapel
+
+Past civic center.
+
+- Civic anchor
+- Mayor paradox
+- Historical records
+- Useful for resolving memory contradictions
+
+## The Split Market
+
+A late-game location where four versions of the same market overlap.
+
+- Environmental hazard
+- Paradox storm
+- Time-split combat zone
+
+---
+
+# Time travel hazards
+
+## Paradox storms
+
+When an era is unstable, use these effects as optional hazards:
+
+- Creatures gain disadvantage on Wisdom checks
+- Spellcasters must succeed on a DC 12 Concentration save when cast on a paradox zone
+- Initiative order changes after the first round
+- A duplicated NPC may become hostile instead of helpful
+
+## Echo zones
+
+A zone where future beings are visible.
+
+- The party can interact with them
+- If the party changes their cause too much, the Echo Copy becomes hostile
+- If they are stabilized, they can be removed from the timeline
+
+## Dead years
+
+An era with no anchor.
+
+- Time travel costs 3 charges
+- Arrival forces a Paradox Die
+- If no rescue is made, the party risks becoming Echo Copies themselves
+
+---
+
+# 5.5 combat integration
+
+Time travel should not change normal 5.5 combat too much.
+
+## Recommended combat approach
+
+- Use standard 5.5 initiative.
+- Echo duplicates use normal statblocks, with an Echo token.
+- Time magic uses normal spell slots and spellbooks.
+- Time effects should be campaign features, not universal combat balance.
+
+## Time effects in combat
+
+Use these sparingly.
+
+### Time Step
+
+**1st-level spell, 5.5 spellcasting compatible**
+
+- Range: self
+- Casting time: Bonus Action
+- Range: 15 feet
+- Effect: teleport to an unoccupied space, gain no speed until the start of your next turn, and gain one Echo Token.
+
+### Rewind
+
+**3rd-level spell, 5.5 spellcasting compatible**
+
+- Casting time: Reaction
+- Range: 10 feet
+- Trigger: one creature in range fails a saving throw or skill check
+- Effect: it can reroll after seeing the failure.
+- If the creature is a duplicate, it takes no damage from the spell that triggered the reaction.
+
+Use these only if you want the party to be directly time-capable.
+
+---
+
+# Optional campaign artifact
+
+## The Chronal Loom
+
+**Wondrous item, requires attunement**
+
+As an Action, spend one Loom Charge to travel to an anchored era.
+
+You can spend Paradox Shards to recharge charges.
+
+While attuned, a character can use:
+
+- **Anchor Sense**: perceive the nearest stable anchor within 100 feet.
+- **Echo Sense**: know whether an NPC is an Anchor Copy or Echo Copy.
+- **Repair Pulse**: once per Long Rest, grant advantage to one Arcana or History check made to stabilize a paradox.
+
+---
+
+# DM prep checklist
+
+Before starting the game, prepare:
+
+1. A timeline board with 5 eras:
+   - The Founding
+   - The Bloom
+   - The Ashfall
+   - The Drowned
+   - The Unwritten
+
+2. Loom charges track.
+
+3. Faction influence track:
+   - Loomkeepers
+   - Ashen Choir
+   - Gilded Ledger
+   - Unwritten
+   - Bloom
+
+4. Paradox track:
+   - Minor paradoxes: 3 slots
+   - Major paradoxes: 2 slots
+   - Catastrophic paradoxes: 1 slot
+
+5. Anchor list:
+   - Market of Miracles
+   - Old Dam
+   - Clockwork Vaults
+   - Ashfall Shrine
+   - Founding Chapel
+   - Split Market
+
+6. Session format:
+   - Travel decision
+   - Obstacle
+   - Paradox consequence
+   - Skill challenge or combat
+   - Repair attempt
+   - Consequence table
+   - Loom charge use
+   - Progress update
+
+---
+
+# How to run each session
+
+## 1. Travel
+
+The party chooses an era and anchor.
+
+Ask:
+
+- What changed?
+- What could make the change matter?
+- What faction is reacting?
+- What resource or time anchor is at risk?
+
+## 2. Arrival
+
+Describe the era.
+
+Use 5.5 skill checks to gather clues:
+
+- Investigation for physical changes
+- History for memories
+- Arcana for magical/time traces
+- Religion for cult reactions
+- Nature for weather/ecology if relevant
+
+## 3. Alteration
+
+If the party changes something, roll the Paradox Die.
+
+Do not narrate every consequence in full. Show the visible result first.
+
+Example:
+
+> “You repair the dam gate. The water returns to the present. But the Ashfall Shrine’s water source is now gone.”
+
+## 4. Repair
+
+Use a 5.5 skill challenge.
+
+The party can spend Paradox Shards or Loom charges to reduce DC or gain advantage.
+
+## 5. Update tracks
+
+Record:
+
+- Loom charges used
+- Faction influence
+- Paradox severity
+- Temporal exposure
+- Visible timeline changes
+
+---
+
+# What to keep this campaign balanced
+
+Do not let players use time travel as a free win condition.
+
+Use these limits:
+
+- You can only land at an anchor.
+- You cannot bring a future item into the past unless it existed there.
+- One major paradox should be unresolved at a time.
+- If a paradox escalates, faction influence increases.
+- If the party solves everything, they must still pay Loom charges.
+- Final resolution should require multiple skill challenges and one final encounter.
+
+---
+
+# Short version of the campaign arc
+
+1. Find the Loom.  
+2. Stabilize a water problem.  
+3. Repair a small paradox.  
+4. Collect Paradox Keys.  
+5. Stop future rebels.  
+6. Prevent civic rewriting.  
+7. Stabilize four anchors.  
+8. Enter the Loom.  
+9. Choose the final century.
+
+---
+
+# One-page starting hook
+
+You can give this to the party:
+
+> “Harlowe has a drought, but the town archives say it rained in the past. Worse, the market’s layout changes from year to year. A clockwork device beneath the Clockwork Vaults has three broken anchors. If the device stays damaged, Harlowe will not be one town. It will be four towns trying to become one.”
+
+Then the party begins with:
+
+- An investigation at the Market of Miracles
+- A Nature or History check about rain patterns
+- A minor combat with one Ledger agent and two Echo Guards
+- A skill challenge to locate one Loom fragment
+- A travel decision to the Founding or Bloom era
+
+---
+
+# Optional class support
+
+If you want the party to own time travel, use the 2024 spell system:
+
+- Time Step: 1st level
+- Rewind: 3rd level
+- Echo Sense: as a class feature, not a spell
+
+If you prefer a more balanced approach, make them Loom users rather than full time mages. That keeps 5.5 balance intact.

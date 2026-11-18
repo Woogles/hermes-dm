@@ -1,0 +1,3355 @@
+# **The Vanished Century**  
+### A beginner-friendly, story-driven **Artemis Fowl-inspired D&D 5.5e campaign**
+
+This campaign uses the spirit of **Artemis Fowl**: a brilliant young investigator, hidden magical worlds, high-tech fairies, and strange creatures from folklore. It avoids making a rules-heavy dungeon crawl. Instead, it is built around **mystery, decisions, consequences, and simple encounters**.
+
+This is designed as a **fan campaign setting**, not a copy of copyrighted characters or plots.
+
+---
+
+# Campaign concept
+
+## Premise
+
+A prestigious young investigator organization discovers that **modern cities are not safe from magical history**. Something has been stealing people, objects, and memories from ordinary places, but leaving **clean, impossible holes** behind.
+
+The campaign focuses on a case file:
+
+> **The Missing Century Case File**
+
+A century’s worth of records, landmarks, and memories has become unstable. Some places appear in the present, some appear in the past, and some appear in a hidden magical world called **Underhollow**.
+
+The players are recruited into the **Midnight Circle**, an Artemis Fowl-style organization that investigates impossible cases.
+
+---
+
+# Campaign tone
+
+The campaign should feel:
+
+- **Mystery first**
+- **Investigation first**
+- **Story and choices first**
+- **Combat second**
+- **Rules second**
+
+Beginners are not overwhelmed. The DM gives clear questions, obvious clues, and simple choices.
+
+---
+
+# Campaign structure
+
+This campaign is made for:
+
+- **3 to 5 beginner players**
+- **Levels 1 to 12**
+- **Three acts**
+- **Six to nine main adventures**
+- Easy expansion to more sessions
+
+Acts:
+
+1. **The First Impossible Case**  
+   Levels 1–4
+
+2. **The Hidden Ring of the Underhollow**  
+   Levels 5–8
+
+3. **The Unwritten Century**  
+   Levels 9–12
+
+---
+
+# Setting overview
+
+The world has three connected layers:
+
+## 1. The Aboveworld
+
+Normal modern society:
+
+- Cities
+- Schools
+- Museums
+- Train stations
+- Suburbs
+- News networks
+
+This is where the party begins.
+
+## 2. The Ring of Stones
+
+A hidden ley-line network beneath old cities:
+
+- Forgotten tunnels
+- Old libraries
+- Hidden parks
+- Buried statues
+- Subway passages that do not match city maps
+
+## 3. The Underhollow
+
+A magical underground city:
+
+- Built in stone, root, and crystal
+- Home to fairy society
+- Old goblin gangs
+- Giant troll security
+- Secret police
+- A council of ancient beings
+- A place where magic and technology are mixed
+
+This is the Artemis Fowl-inspired world layer.
+
+---
+
+# The party’s role
+
+The party are agents of the **Midnight Circle**.
+
+They are:
+
+- Young investigators
+- Students of strange facts
+- People who respect evidence
+- People who notice when memory does not match record
+- People who can work with magical witnesses
+
+They are not expected to be perfect combat experts.
+
+---
+
+# Beginner-friendly design rules
+
+## Use 5.5e normally
+
+Use the **2024 core rules** for:
+
+- Characters
+- Ability checks
+- Saving throws
+- Skill challenges
+- Magic items
+- Spells
+- Short rests
+- Long rests
+- Combat turns
+
+Then use **one easy campaign rule** for magical investigation.
+
+---
+
+## One simple rule: Case Marks
+
+Instead of complex time magic, use **Case Marks**.
+
+The party can spend a Case Mark to:
+
+- Re-examine a clue
+- Compare two records
+- Ask a witness how they remember an event
+- Notice a magical echo
+- Reconstruct a broken sequence of events
+
+Case Mark:
+
+> Spend one Case Mark when the party wants to check something important.  
+> The DM tells the player one true detail that matters.
+
+The party starts each session with:
+
+- **3 Case Marks** if level 1–4
+- **4 Case Marks** if level 5–8
+- **5 Case Marks** if level 9–12
+
+This gives the DM flexibility without giving the players too many choices.
+
+---
+
+# 5.5e integration
+
+## Skill challenges
+
+Use 2024 rules for:
+
+- Investigation
+- History
+- Nature
+- Arcana
+- Persuasion
+- Insight
+- Athletics
+- Stealth
+- Perception
+
+Keep DCs simple:
+
+| Difficulty | DC |
+|---|---:|
+| Simple clue | 10–12 |
+| Clear contradiction | 15 |
+| Hidden magical cause | 18 |
+| Deep memory or paradox | 20–23 |
+
+Beginners can succeed often.
+
+---
+
+## Spellcasting
+
+Keep magic simple at first.
+
+Use 5.5e spell slots normally, but teach players:
+
+1. **Can they see the problem?**  
+2. **Can they spend resources safely?**  
+3. **What will change if they use magic in public?**
+
+At early levels, recommend these spells for the setting:
+
+- **Prestidigitation**
+- **Speak with Animals**
+- **Identify** if available in your game
+- **Locate Animals/Plants** style magic, reskinned as magical senses
+- **Comprehend Languages**
+- **Detect Magic**
+- **Silvery Barbs**, if your group allows it
+
+If you want to keep it beginner-friendly, do not let players use magic to solve every mystery. Magic reveals clues, not complete answers.
+
+---
+
+## Combat
+
+Use normal 5.5e combat, but keep encounters light.
+
+Rules for beginners:
+
+1. Use **one major threat** and **one minor threat** per encounter.
+2. Do not use complex lairs early.
+3. Give the party a **story option** before combat.
+4. Allow **Insight checks** to learn tactics.
+5. If combat fails badly, create a consequence, not instant death.
+
+---
+
+# Main factions
+
+## 1. The Midnight Circle
+
+The player organization.
+
+- They investigate
+- They respect evidence
+- They want safe answers
+- They reward the party with resources
+
+## 2. The Silver Council
+
+The fairy society of Underhollow.
+
+- They enforce rules
+- They are cautious
+- They punish recklessness
+- They reward cooperation
+
+## 3. The Grotto Market
+
+A black market under Underhollow.
+
+- It sells forbidden items
+- It buys secrets
+- It creates crime and temptation
+- It rewards illegal knowledge
+
+## 4. The Unseen Century
+
+A mysterious force that erases or steals people, memories, and objects.
+
+- It creates holes in records
+- It moves people without warning
+- It leaves perfect silence
+- It rewards paradoxes
+
+## 5. The Aboveworld News Bureau
+
+Ordinary journalists who see impossible things but do not understand them.
+
+- They provide witnesses
+- They report contradictions
+- They create public suspicion
+- They help the party find ordinary clues
+
+---
+
+# Important locations
+
+## The Aboveworld
+
+## The Old Museum Quarter
+
+A normal city block.
+
+- Statues
+- Archives
+- A clock tower
+- A hidden statue room
+- A subway entrance that does not match the map
+- A witness circle: tour guides, teachers, old librarians
+
+## The Library With No Exit
+
+A public library.
+
+- The reading room has doors that do not match outside
+- A missing shelf exists in one memory but not another
+- A statue remembers a different name from the plaque
+
+This is the first mystery.
+
+---
+
+## The Ring of Stones
+
+A hidden network beneath the city.
+
+Locations:
+
+- A tunnel under a park
+- A hidden room under a bridge
+- A sealed well in an old square
+- A tunnel marked by a broken statue
+- A chamber under a train line
+
+---
+
+## The Underhollow
+
+A magical city.
+
+Locations:
+
+- The **Crystal Court**
+  - Fairy society
+  - Council meetings
+  - Safe zones
+- The **Grotto Market**
+  - Black market
+  - Stolen relics
+  - Forbidden tools
+- The **Bramble Stacks**
+  - Huge root libraries
+  - Old records
+  - Lost centuries
+- The **Fungus Commons**
+  - Underground public squares
+  - Strange festivals
+- The **Trollgate**
+  - Security gate
+  - Trolls guard access
+- The **Silken Road**
+  - Travel road
+  - Fast magical transport
+
+---
+
+# Starting the campaign for beginners
+
+## Session 0: Create characters
+
+Let players pick simple characters.
+
+Beginner recommendations:
+
+- Fighter, Barbarian, Ranger, Rogue
+- Cleric, Druid, Wizard with prepared spell lists
+- Bard, Paladin, Sorcerer
+
+Keep it simple:
+
+- Give players a favorite skill
+- Give players one spell or feature they trust
+- Let them choose one background:
+  - Student
+  - Investigator
+  - City child
+  - Forest guide
+
+---
+
+## Session 1 opening hook
+
+Read to players:
+
+> “The Midnight Circle received a strange report. Three witnesses say a person was missing from a photo for years. The photo changes when looked at from memory, but not when looked at physically. No theft was reported. No damage was reported. One witness says the person remembers being saved, but the records say the person was never saved. Something in the past is wrong.”
+
+Then ask the players:
+
+- What do you investigate first?
+- What do you ask witnesses?
+- Do you trust memory, records, or physical proof?
+
+This teaches them that the campaign is about evidence.
+
+---
+
+# Act 1: The First Impossible Case  
+**Levels 1–4**
+
+## Goal
+
+Discover that someone or something has been moved without leaving a hole.
+
+## Adventure 1: The Library With No Exit
+
+### Mystery
+
+The Library With No Exit has:
+
+- A shelf with a book that everyone remembers, but no physical copy exists
+- A statue whose plaque names one person, but people’s memories name another
+- A reading room that changes if witnesses remember it differently
+
+### Begin with investigation
+
+Use simple checks:
+
+| Action | Check | DC |
+|---|---|---:|
+| Find the missing shelf space | Investigation | 10 |
+| Learn why the plaque feels wrong | History | 10 |
+| Notice one witness’s memory is too perfect | Insight | 12 |
+| Reconstruct what happened first | History | 13 |
+
+Give one Case Mark when they compare two memories.
+
+If they succeed:
+
+> “The plaque changed before the statue was carved. The statue remembers the old name. The library remembers the new name.”
+
+If they fail but have a plan:
+
+> “You find that the book is not missing. It was never physically removed. It was removed from history.”
+
+### The first case mark lesson
+
+Teach players:
+
+- A physical hole can be real
+- A memory hole can be false
+- A record can be corrected
+- The DM must show what is known
+
+### Simple encounter
+
+A **Grotto Market runner** steals a note from a witness.
+
+Use a **reskinned 5.5e bandit** as:
+
+- Name: **Grotto Runner**
+- Statblock: ordinary bandit or doppelganger-style stat
+- Behavior:
+  - Runs away from witnesses
+  - Uses one magical trick to hide
+  - Drops a **Case Mark token**
+
+This teaches: chase clues, not just attack.
+
+### Boss-ish encounter
+
+Use a reskinned **5.5e CR 2 or 3 magical humanoid** as:
+
+- **Echo Warden**
+- Statblock: caster with a mirror image or echo ability
+
+Echo Warden behavior:
+
+- Uses reactions to confuse witnesses
+- Can create one fake echo of itself
+- Cannot fight for too long
+
+Beginner lesson:
+
+> “Use Insight or Arcana before attacking.”
+
+If players use Insight:
+
+> “You realize the Echo Warden is not attacking people. It is testing whether witnesses remember the same event.”
+
+If players use Arcana:
+
+> “You find that its magic leaves tiny frost marks on old records.”
+
+---
+
+## Adventure 2: The Missing Rainstorm
+
+### Mystery
+
+A town has a drought, but three witnesses remember a rainstorm that no record shows.
+
+### Clues
+
+- A dry riverbed
+- A photo of a flooded street
+- A child’s drawing of rain
+- A mayor’s speech about water, but no flood
+- A missing page from a yearbook
+
+### Skill challenge
+
+Use 2024 rules:
+
+| Check | DC | Meaning |
+|---|---:|---|
+| Nature | 12 | Weather pattern mismatch |
+| History | 13 | Public memory vs records |
+| Investigation | 12 | The photo was taken during a real event, not a fake event |
+| Arcana | 15 | A magical echo was left in the town’s memory |
+| Persuasion | 14 | Ask a witness if they remember physically or only through stories |
+
+Beginners should pass some checks.
+
+If they fail one, do not punish heavily. Show a consequence:
+
+> “You cannot prove the rain yet. But you can prove that the records were edited.”
+
+### The simple answer
+
+The rain did not disappear naturally.  
+It was moved by a magical echo.
+
+The party must decide what to do:
+
+1. **Save the present water supply**  
+   - Use modern repairs
+   - Risk creating a new flood
+2. **Return water to the past**  
+   - Must find a safe ring node
+   - Risk a paradox
+3. **Stabilize the memory only**  
+   - Prevent the drought lie
+   - The town stays in danger, but history is clean
+
+This teaches choice:
+
+- Solve the practical problem
+- Solve the mystery
+- Keep history stable
+
+The DM should make this easy to follow.
+
+---
+
+## Act 1 ending: The Clock That Does Not Tick
+
+### Final mystery
+
+At the Old Museum Quarter, a clock tower:
+
+- Has hands that move when seen
+- Has bells that ring when remembered
+- Has no one who believes it has ever been repaired
+- Has a maintenance record that says it was repaired twice
+
+### Final skill challenge
+
+| Check | DC | Effect |
+|---|---:|---|
+| Investigation | 12 | The clock is real but the repair log is wrong |
+| History | 15 | The clock was repaired during a memory rewrite |
+| Arcana | 16 | The clock holds a fragment of the Ring of Stones |
+| Persuasion | 13 | The city council is afraid of admitting the truth |
+
+### Consequence
+
+The party finds one **Ring Anchor**.
+
+The Ring of Stones becomes available.
+
+The DM says:
+
+> “The Aboveworld is only the first layer. The hidden Ring is now open. But if you enter it carelessly, you may create the next paradox.”
+
+---
+
+# Act 1 rewards
+
+For beginners, keep rewards simple:
+
+## Item: The Witness Notebook
+
+**Common wondrous item**
+
+While holding it, you can spend one Case Mark to remember one exact detail of a scene, conversation, or record.
+
+## Item: The Case Lens
+
+**Wondrous item**
+
+Once per Long Rest, spend a Bonus Action to see one true clue within 30 feet.
+
+The clue can be:
+
+- A magical residue
+- A witness contradiction
+- A hidden mark
+- A false plaque
+
+## Item: A Ring Anchor Token
+
+The party can use one token to safely enter the Ring of Stones in one session.
+
+This gives them story power without complex magic.
+
+---
+
+# Act 2: The Hidden Ring of the Underhollow  
+**Levels 5–8**
+
+## Goal
+
+Find the Underhollow, learn its rules, and stop the Unseen Century from moving people into it.
+
+## Session 2 opening
+
+The party has:
+
+- One Ring Anchor
+- Three Case Marks
+- One major contradiction
+- One witness who saw a tunnel where none existed
+
+Ask:
+
+- Do you enter the Ring?
+- Do you go aboveground or underground first?
+- Do you follow public records or private memories?
+
+---
+
+## Adventure 3: The Bridge That Was Never Built
+
+### Mystery
+
+A city has a bridge that exists in memory but not in maps.
+
+Clues:
+
+- A child remembers walking across it
+- A bus driver remembers avoiding it
+- A newspaper photo shows people crossing it
+- The physical street is broken in two places
+
+### Simple clues
+
+Use 2024 checks:
+
+| Check | DC | Result |
+|---|---:|---|
+| Investigation | 13 | There is a real gap where the bridge stood |
+| Nature | 14 | The road wear matches old traffic, not modern construction |
+| History | 15 | A bridge was removed from official memory during one decade |
+| Arcana | 16 | A ley-line node is under the broken gap |
+
+### Encounter
+
+Guardians try to stop the party.
+
+Use reskinned 5.5e creatures:
+
+- **Trollgate Warden**: use troll or brute statblock
+- **Grotto Market Fence**: use bandit or thug statblock
+- **Silent Auditor**: use doppelganger or spy statblock, reskinned as a faceless witness
+
+Beginner lesson:
+
+> The party should ask: Are they guards? Are they witnesses? Are they enemies?
+
+Give options:
+
+1. Talk to the Silent Auditor
+2. Prove they are witnesses
+3. Fight only if provoked
+4. Find a safer entry
+
+If the party succeeds:
+
+> “They are not attacking. They are checking whether you remember the bridge correctly.”
+
+### The Ring entry rule
+
+When they enter the Ring, they must choose one safe entry method:
+
+| Entry | Safe cost | Result |
+|---|---:|---|
+| Follow a known anchor | 1 Case Mark | Safe |
+| Use a witness’s memory | 2 Case Marks | Safe but a witness changes |
+| Follow a stolen item | automatic paradox | Risky |
+
+This teaches:
+
+- Do not use unproven sources
+- Use known anchors
+- Spend marks before acting
+
+---
+
+## Adventure 4: The Bramble Stacks
+
+### Setting
+
+A massive root-library under Underhollow.
+
+### Mystery
+
+One shelf contains a record that no witness remembers, but every witness remembers something else.
+
+### Clues
+
+- A book that was never printed
+- A shelf that was sealed
+- A fairy archive with missing pages
+- A gnome librarian who says the wrong thing on cue
+- A troll guard who protects a page no one admits to having
+
+### Skill challenge
+
+| Check | DC | Meaning |
+|---|---:|---|
+| Investigation | 13 | The missing record exists physically |
+| History | 15 | The record was copied, then erased |
+| Arcana | 16 | The page carries a Ring Anchor signature |
+| Religion | 16 | A witness’s memory is not true, but was made to be believed |
+| Persuasion | 14 | One guard can be convinced to reveal the page |
+
+Beginner rule:
+
+> If the party fails two checks but explains what they are trying to learn, let them use a Case Mark to get one true detail.
+
+### The real issue
+
+The record is not fake.  
+It is **future information moved into the past**.
+
+This is a big teaching moment.
+
+Show the difference:
+
+- Established fact:
+  - The page exists physically.
+- Unresolved question:
+  - Was the page written in the past, or brought from the future?
+- Consequence:
+  - If believed as real, it destabilizes history.
+
+---
+
+## Adventure 5: The Silver Council Meeting
+
+### Setting
+
+The party reaches the **Crystal Court**.
+
+They must speak to the Silver Council.
+
+### Social challenge
+
+The council believes:
+
+- You cannot lie
+- You must show proof
+- You must answer why you came
+- You must state what you changed
+- You must say whether your memory is from you, records, or magic
+
+Make this easy:
+
+Ask players to choose:
+
+1. Who speaks?
+2. What proof do they show?
+3. What do they say about the contradiction?
+
+Let them use a Case Mark to find one correct phrase.
+
+### Council response examples
+
+If the party is cautious:
+
+> “The Council accepts your statement. It marks you as a witness, not an enemy.”
+
+If the party is dishonest:
+
+> “The Council notices a mismatch. It will send a Silent Auditor after you.”
+
+If the party asks for help:
+
+> “The Council offers a safe escort through the Bramble Stacks.”
+
+This teaches roleplay over combat.
+
+---
+
+## Act 2 ending: The Silent Century
+
+### Final problem
+
+The party must stabilize the Ring before it collapses.
+
+Use one major skill challenge:
+
+| Check | DC | Effect |
+|---|---:|---|
+| Investigation | 16 | Locate the Ring fracture |
+| Arcana | 17 | Find the true anchor sequence |
+| History | 18 | Prove the correct founding memory |
+| Religion | 18 | Silence or correct a false witness |
+| Persuasion | 17 | Gain Silver Council trust |
+
+The party should spend resources wisely.
+
+The final result:
+
+- They repair the Ring
+- They open the Underhollow
+- The Unseen Century is still active
+- The Silver Council becomes a faction
+
+The DM says:
+
+> “You have reached the Underhollow. But the hidden century is not yours yet. You must enter it with proof, not memory alone.”
+
+---
+
+# Act 3: The Unwritten Century  
+**Levels 9–12**
+
+## Goal
+
+The party must decide how the century should exist.
+
+## Final premise
+
+The Underhollow has four versions of itself:
+
+- One true past
+- One prosperous present
+- One erased future
+- One rewritten century
+
+The DM should not hide this. Tell players:
+
+> “You are trying to make the century stable, not find every secret.”
+
+---
+
+## Adventure 6: The City With No Name
+
+### Mystery
+
+A city exists in records but not in any witness’s memory.
+
+Clues:
+
+- A statue with a blank plaque
+- A road named in one century but not another
+- A tunnel that leads to a city no one entered
+- A witness who saw a city from above
+
+### Begin with a map choice
+
+Ask players:
+
+- Do we repair this city?
+- Do we protect it?
+- Do we move it to a stable layer?
+
+Use a simple skill challenge:
+
+| Check | DC |
+|---|---:|
+| Investigation | 18 |
+| History | 18 |
+| Arcana | 20 |
+| Insight | 17 |
+
+If the party fails, the city becomes a dead year:
+
+- No anchor
+- Harder to enter
+- More paradoxes
+- More danger
+
+---
+
+## Adventure 7: The Four Courts
+
+### Setting
+
+A final location where the party must stabilize four anchors:
+
+1. The Old Museum Anchor
+2. The Bridge Gap Anchor
+3. The Bramble Anchor
+4. The Crystal Anchor
+
+Use four simple scenes.
+
+Each scene:
+
+- 2 obvious clues
+- 1 contradiction
+- 1 skill challenge
+- 1 resource cost
+- 1 consequence
+
+This makes the final act easy.
+
+---
+
+### The four anchors lesson
+
+Teach players:
+
+- An anchor is a stable point
+- A false witness is a memory trap
+- A future record is unstable unless anchored
+- A stable timeline must have at least two fixed points
+
+The DM gives them a table:
+
+| Anchor type | Safe if... | Unsafe if... |
+|---|---|---|
+| Public witness | Many witnesses agree | One witness is perfect and emotional |
+| Physical record | Object exists | Object exists in memory only |
+| Magic residue | Mark stays | Mark fades when touched |
+| Council memory | Council repeats it | Council changes it after rest |
+
+Beginners can use this.
+
+---
+
+## Final boss: The Unwritten Archivist
+
+Use a reskinned 5.5e CR 11–12 humanoid caster or ancient construct.
+
+Name:
+
+- **The Unwritten Archivist**
+
+Behaviors:
+
+- Erases one memory
+- Replaces one witness
+- Creates one fake record
+- Forces the party to choose:
+
+  1. Save the witness
+  2. Save the record
+  3. Save the future
+
+Give a simple stat structure:
+
+- High defense
+- Many reactions
+- One legendary artifact
+- One action that rewrites a phrase
+
+Beginners can win by:
+
+- Using Insight to predict the next rewrite
+- Using Arcana to stabilize one anchor
+- Spending a Case Mark to save one witness
+- Not fighting forever
+
+If the party loses, do not TPK.
+
+Consequence:
+
+> “The Archivist erases one final witness. One future remains visible. One memory is still false.”
+
+---
+
+# Final endings
+
+Each ending should distinguish between facts and questions.
+
+## Ending 1: The True Century
+
+The party restores the original timeline.
+
+Established facts:
+
+- The true anchor sequence was repaired
+- The public records match physical traces
+- The Underhollow is stable
+
+Unresolved questions:
+
+- One future witness remains hidden
+- One magical echo is still moving
+- The Silver Council does not know who erased the first record
+
+---
+
+## Ending 2: The Protected Century
+
+The party prevents harm.
+
+Established facts:
+
+- The Underhollow exists
+- The Ring is sealed
+- No one can move the century
+
+Unresolved questions:
+
+- Why did the witnesses remember a different name?
+- Why does the physical library still feel wrong?
+- What did the Unseen Century take?
+
+---
+
+## Ending 3: The Split Century
+
+The party creates two safe centuries.
+
+Established facts:
+
+- One future is preserved
+- One past is stable
+- The Ring supports two branches
+
+Unresolved questions:
+
+- Which future is true?
+- Which version of the Underhollow should live?
+- Which branch has the better future?
+
+---
+
+## Ending 4: The Silent Century
+
+The party makes the century unspeakable.
+
+Established facts:
+
+- The Unwritten are contained
+- The Ring cannot be opened
+- No future record can enter the past
+
+Unresolved questions:
+
+- What was lost?
+- Who knew the truth?
+- Can the truth be remembered without being moved?
+
+---
+
+# How to make it beginner-friendly
+
+The DM should do these things every session:
+
+## 1. Give a simple clue
+
+Always give at least one easy clue:
+
+- A contradiction
+- A missing object
+- A witness memory
+- A map error
+- A magical mark
+- A public record
+
+Do not make all clues hidden.
+
+---
+
+## 2. Ask one question at a time
+
+Good beginner questions:
+
+- “What do you think changed first?”
+- “Do you trust memory or records?”
+- “Do you know what caused this?”
+- “What can you prove?”
+- “What are you trying to change?”
+
+This keeps the mystery clear.
+
+---
+
+## 3. Make success matter
+
+If the party fails, give them partial information.
+
+Example:
+
+> “You did not find the full answer, but you learned that the witness’s memory is too perfect to be normal.”
+
+This keeps play moving.
+
+---
+
+## 4. Let players use resources before rolls
+
+If they explain:
+
+- “We will spend a Case Mark to ask what the record says exactly.”
+- “We will use the Case Lens.”
+- “We will ask the council why they remember it differently.”
+
+Allow it.
+
+---
+
+## 5. Keep the table simple
+
+Use one sheet:
+
+### The Case File
+
+| Known fact | Contradiction | Unresolved | Next choice |
+|---|---|---|---|
+
+Fill it in during play.
+
+---
+
+# DM tools
+
+## Case Mark tracker
+
+The party has Case Marks.
+
+Each player can use Case Marks for:
+
+- One detail
+- One witness question
+- One memory comparison
+- One record correction
+
+DM rule:
+
+> Spend one Case Mark, get one true detail.
+
+This prevents confusion.
+
+---
+
+## Ring Anchor table
+
+Use these anchors:
+
+| Anchor | Where it works | Safe if... |
+|---|---|---|
+| Old Museum Anchor | Aboveworld | Physical object exists |
+| Bridge Gap Anchor | Ring of Stones | Road wear is old |
+| Bramble Anchor | Underhollow | Physical page exists |
+| Crystal Anchor | Underhollow | Council repeats it |
+| Split Anchor | Late game | Four anchors stable |
+
+---
+
+## Paradox track
+
+Keep it visual and simple:
+
+| Level | Meaning |
+|---|---|
+| 0 | Clean |
+| 1 | Small contradiction |
+| 2 | Faction reacts |
+| 3 | Public danger |
+| 4 | Major paradox |
+| 5 | Catastrophic |
+
+Beginners can handle this.
+
+---
+
+# Sample opening scene
+
+Use this for Session 1:
+
+> “The Midnight Circle is called to an investigation. A teacher says she saw a flood in the school courtyard. A principal says the same courtyard was always dry. The school records show no flood. The pavement shows old water lines, but no one admits to repairing them.  
+>  
+> What is the first thing you check?”
+
+Then ask:
+
+- Physical evidence?
+- Public memory?
+- Written records?
+- Magical residue?
+
+Use one Case Mark if they ask a good question.
+
+---
+
+# Example clues
+
+Give players simple clue cards.
+
+## Clue 1: The Dry Riverbed
+
+> The riverbed is dry today.  
+> But there are water stains higher than usual.  
+> The stains are old, not recent.
+
+Meaning:
+
+- The riverbed remembers a different water level.
+
+---
+
+## Clue 2: The Perfect Memory
+
+> A witness says she remembers the rain perfectly.  
+> She never misses a word or name.
+
+Meaning:
+
+- Her memory is not natural.
+
+---
+
+## Clue 3: The Missing Page
+
+> A page was removed from a yearbook.  
+> The page was removed cleanly, with no tear.
+
+Meaning:
+
+- It was not torn. It was taken from history.
+
+---
+
+# Beginner combat guidelines
+
+Use 5.5e normally, but keep combat short.
+
+## Early game
+
+One major enemy and one minor enemy.
+
+Example:
+
+- **Echo Warden** plus **Grotto Runner**
+
+Give players one obvious strategy:
+
+- Use Insight to learn behavior
+- Use Arcana to find magic marks
+- Use Stealth if they have it
+- Use the environment
+
+---
+
+## Late game
+
+For a big boss, give players two story options:
+
+1. Stabilize one anchor during combat
+2. Convince one witness to reveal the truth
+3. Fight the final boss directly
+
+If they try stabilizing, allow a simple check:
+
+- DC 18 Arcana or History
+- One success is enough
+- One failure still helps partially
+
+This is more beginner-friendly than endless damage.
+
+---
+
+# Magic in this campaign
+
+Use standard 5.5e spells, but add these setting ideas:
+
+## Safe magical clues
+
+These do not solve mysteries:
+
+- Detect Magic style effects reveal residue
+- Comprehend Languages style effects reveal hidden writing
+- Speak with Animals style effects reveal animal memories
+- Minor divination style effects reveal “a person who remembers differently”
+
+## Powerful time magic
+
+Avoid giving players direct:
+
+- Time stop
+- Instant rewind
+- Full memory rewrite
+- Free future vision
+
+Use Case Marks instead.
+
+---
+
+# Sample case file format
+
+The DM can use this for each adventure:
+
+```text
+Case: The Missing Century
+
+Known:
+- A public record says X happened.
+- A physical trace says Y happened.
+- A witness says Z happened.
+
+Contradictions:
+- Physical and record disagree.
+- Witness memory is too perfect.
+- A magical mark remains.
+
+Unresolved:
+- Which memory is first?
+- What was erased?
+- What is the cause?
+
+Choices:
+1. Fix the present.
+2. Fix the record.
+3. Stabilize the Ring.
+4. Stop the faction.
+
+Consequence:
+If they fail, one paradox track rises by 1.
+```
+
+---
+
+# How to keep the story dramatic
+
+Use three simple story beats:
+
+## 1. A public problem
+
+Something normal is wrong:
+
+- drought
+- missing bridge
+- fake school event
+- missing photo
+- changed name
+
+## 2. An impossible answer
+
+The cause is not ordinary:
+
+- magical echo
+- Ring Anchor
+- Underhollow
+- Unwritten Century
+- Silver Council
+
+## 3. A faction reaction
+
+Someone reacts:
+
+- The Council is angry
+- The Market wants a deal
+- The Unwritten want more holes
+- The News Bureau starts rumors
+
+This keeps drama clear.
+
+---
+
+# Optional 5.5e class hooks
+
+If players want to use classes naturally, give these beginner hooks:
+
+## Bard
+
+They can learn witness contradictions through songs.
+
+Hook:
+
+> “When you hear a story, you can notice which version feels too perfect.”
+
+## Rogue
+
+They can steal from the Grotto Market.
+
+Hook:
+
+> “If you steal a record, it may contain future information. Do not bring it into the past without an anchor.”
+
+## Paladin
+
+They can be recruited by the Silver Council.
+
+Hook:
+
+> “You can ask the Council for trust, but not for secrets.”
+
+## Druid
+
+They can learn ley-line patterns.
+
+Hook:
+
+> “If you touch stone, you can feel whether it remembers a different age.”
+
+## Cleric
+
+They can heal and protect witnesses.
+
+Hook:
+
+> “You can keep a witness from being erased during a paradox.”
+
+---
+
+# One-page DM start
+
+If you want a fast start, use this:
+
+> “The campaign begins with the Midnight Circle investigating a missing century. The Aboveworld has normal records, but three witnesses disagree. A Ring of Stones lies beneath. A hidden Underhollow waits. The Unwritten Century is rewriting people. The party must prove what happened, not assume what they remember.”
+
+Then start with:
+
+1. A public witness contradiction
+2. One missing object
+3. One easy Investigation or History check
+4. One minor combat or stealth scene
+5. One Case Mark choice
+
+---
+
+# Beginner mistakes to avoid
+
+Do not:
+
+- Make the mystery too vague
+- Use too many hidden clues
+- Make every failure severe
+- Make players use time magic constantly
+- Make combat the main solution
+- Make players choose every branch at once
+
+Do instead:
+
+- Give one obvious clue
+- Ask one simple question
+- Show one contradiction
+- Offer one clear choice
+- Let success matter, not just success over failure
+
+---
+
+# Recommended pacing
+
+For beginners, this works best:
+
+- One case per session
+- One major choice per act
+- One clear final goal
+- Two or three side cases
+- Four to eight main adventures
+
+---
+
+# Recommended final table for beginners
+
+## The Party’s Choices
+
+| If they... | Then... |
+|---|---|
+| Trust memory only | Risk a false witness |
+| Trust records only | Miss magical traces |
+| Use physical proof first | Get one clear clue |
+| Ask “what caused this?” | Get one true detail with a Case Mark |
+| Spend Case Marks before acting | Avoid one paradox |
+| Use anchors first | Travel safely |
+| Bring future items without proof | Create a paradox |
+| Ask the Council for proof | Gain faction trust |
+| Steal records | Create black market trouble |
+| Repair one contradiction | Gain one Ring fragment |
+| Stabilize two anchors | Make a branch safe |
+
+---
+
+# Campaign hook for players
+
+Read this:
+
+> “You are not heroes saving a kingdom. You are investigators learning why the century refuses to stay in order. People remember things that did not happen. Places exist where they should not. Things exist where they should not. Your job is to find what is real, what is remembered, and what is being moved before it is believed.”
+
+Then ask:
+
+1. Do we investigate the city?
+2. Do we investigate the records?
+3. Do we follow the Ring?
+4. Do we ask the Underhollow?
+
+---
+
+# Recommended first level 1 adventure
+
+Use this simple starter:
+
+## **Case File 01: The School That Remembers Rain**
+
+### Opening
+
+A school says it was flooded last century.
+
+The principal says it was never flooded.
+
+The school says it was flooded.
+
+The records say it was dry.
+
+The pavement says it was wet.
+
+### First clue
+
+Ask players:
+
+> What should we check first: pavement, records, or memories?
+
+Give them one easy answer if they choose pavement.
+
+Use:
+
+- Investigation DC 10
+- History DC 10
+- Nature DC 10
+
+### First twist
+
+A teacher’s memory is too perfect.
+
+Use Insight DC 12.
+
+If they succeed:
+
+> “Her memory is not just memory. It is a witness echo.”
+
+### First consequence
+
+A small magical echo is in the schoolyard.
+
+If the party does not stabilize it:
+
+- The school will remember rain every day
+- Students begin avoiding the courtyard
+- One parent remembers the flood, even though it never happened
+
+### First choice
+
+The party can:
+
+1. Dry the school now
+2. Ask the council if the school ever built a flood channel
+3. Go to the Ring of Stones and find an anchor
+4. Ask a witness who saw the flood
+
+If they try to fix the school now, ask:
+
+- Do you want the school to remember rain?
+- Do you want the school to remember dryness?
+- Do you want the public to accept this?
+
+Beginners should pick one.
+
+### Simple combat
+
+A **Witness Echo** appears.
+
+Use:
+
+- **5.5e doppelganger** or **echo statue**
+- Or use a **5.5e animated statue**
+
+Beginner lesson:
+
+> The Witness Echo is not attacking. It is proving that one memory exists without records.
+
+The party should:
+
+- Use Insight
+- Use Arcana
+- Or use a witness to show proof
+
+If they succeed:
+
+- The Echo disappears
+- The school remembers rain physically
+- The public record becomes unstable
+- The Silver Council sends a note
+
+If they fail but have a plan:
+
+- The Echo is quiet
+- One public witness remains confused
+- The DM says:
+
+> “You have not stopped it. But you now know the cause is magical, not natural.”
+
+This is a gentle lesson.
+
+---
+
+# DM cheat sheet
+
+## Session 1: Aboveworld
+
+Start with:
+
+- One witness contradiction
+- One missing object
+- One easy check
+- One minor mystery creature
+- One simple choice
+
+Ask:
+
+- “What are we trying to prove?”
+- “Are we fixing the present or the memory?”
+
+## Session 2: Ring entry
+
+Start with:
+
+- One known anchor
+- One contradiction
+- One minor social encounter
+- One simple skill challenge
+
+Ask:
+
+- “What proof do we have?”
+- “Who can we trust?”
+
+## Session 3: Underhollow
+
+Start with:
+
+- One Council meeting
+- One black market temptation
+- One hidden record
+- One simple paradox
+
+Ask:
+
+- “Do we protect the record?”
+- “Do we follow the future?”
+- “Do we stabilize the anchor?”
+
+## Final act
+
+Use:
+
+- Four anchors
+- One major case
+- One final faction
+- One final choice
+
+Ask:
+
+- “What should the century become?”
+
+---
+
+# Why this campaign is easy for beginners
+
+The campaign works because it teaches:
+
+1. **Facts can be physical**
+2. **Memory is not proof**
+3. **Contradictions matter**
+4. **Choices change the century**
+5. **Resources limit risk**
+6. **Anchors stabilize time**
+7. **Factions react to evidence**
+8. **Mystery is more important than combat**
+9. **Case Marks guide the party**
+10. **The DM can make failures matter**
+
+This gives a beginner table room to feel clever without being crushed by complexity.# **The Vanished Century**  
+### A beginner-friendly, story-driven **Artemis Fowl-inspired D&D 5.5e campaign**
+
+This campaign uses the spirit of **Artemis Fowl**: a brilliant young investigator, hidden magical worlds, high-tech fairies, and strange creatures from folklore. It avoids making a rules-heavy dungeon crawl. Instead, it is built around **mystery, decisions, consequences, and simple encounters**.
+
+This is designed as a **fan campaign setting**, not a copy of copyrighted characters or plots.
+
+---
+
+# Campaign concept
+
+## Premise
+
+A prestigious young investigator organization discovers that **modern cities are not safe from magical history**. Something has been stealing people, objects, and memories from ordinary places, but leaving **clean, impossible holes** behind.
+
+The campaign focuses on a case file:
+
+> **The Missing Century Case File**
+
+A century’s worth of records, landmarks, and memories has become unstable. Some places appear in the present, some appear in the past, and some appear in a hidden magical world called **Underhollow**.
+
+The players are recruited into the **Midnight Circle**, an Artemis Fowl-style organization that investigates impossible cases.
+
+---
+
+# Campaign tone
+
+The campaign should feel:
+
+- **Mystery first**
+- **Investigation first**
+- **Story and choices first**
+- **Combat second**
+- **Rules second**
+
+Beginners are not overwhelmed. The DM gives clear questions, obvious clues, and simple choices.
+
+---
+
+# Campaign structure
+
+This campaign is made for:
+
+- **3 to 5 beginner players**
+- **Levels 1 to 12**
+- **Three acts**
+- **Six to nine main adventures**
+- Easy expansion to more sessions
+
+Acts:
+
+1. **The First Impossible Case**  
+   Levels 1–4
+
+2. **The Hidden Ring of the Underhollow**  
+   Levels 5–8
+
+3. **The Unwritten Century**  
+   Levels 9–12
+
+---
+
+# Setting overview
+
+The world has three connected layers:
+
+## 1. The Aboveworld
+
+Normal modern society:
+
+- Cities
+- Schools
+- Museums
+- Train stations
+- Suburbs
+- News networks
+
+This is where the party begins.
+
+## 2. The Ring of Stones
+
+A hidden ley-line network beneath old cities:
+
+- Forgotten tunnels
+- Old libraries
+- Hidden parks
+- Buried statues
+- Subway passages that do not match city maps
+
+## 3. The Underhollow
+
+A magical underground city:
+
+- Built in stone, root, and crystal
+- Home to fairy society
+- Old goblin gangs
+- Giant troll security
+- Secret police
+- A council of ancient beings
+- A place where magic and technology are mixed
+
+This is the Artemis Fowl-inspired world layer.
+
+---
+
+# The party’s role
+
+The party are agents of the **Midnight Circle**.
+
+They are:
+
+- Young investigators
+- Students of strange facts
+- People who respect evidence
+- People who notice when memory does not match record
+- People who can work with magical witnesses
+
+They are not expected to be perfect combat experts.
+
+---
+
+# Beginner-friendly design rules
+
+## Use 5.5e normally
+
+Use the **2024 core rules** for:
+
+- Characters
+- Ability checks
+- Saving throws
+- Skill challenges
+- Magic items
+- Spells
+- Short rests
+- Long rests
+- Combat turns
+
+Then use **one easy campaign rule** for magical investigation.
+
+---
+
+## One simple rule: Case Marks
+
+Instead of complex time magic, use **Case Marks**.
+
+The party can spend a Case Mark to:
+
+- Re-examine a clue
+- Compare two records
+- Ask a witness how they remember an event
+- Notice a magical echo
+- Reconstruct a broken sequence of events
+
+Case Mark:
+
+> Spend one Case Mark when the party wants to check something important.  
+> The DM tells the player one true detail that matters.
+
+The party starts each session with:
+
+- **3 Case Marks** if level 1–4
+- **4 Case Marks** if level 5–8
+- **5 Case Marks** if level 9–12
+
+This gives the DM flexibility without giving the players too many choices.
+
+---
+
+# 5.5e integration
+
+## Skill challenges
+
+Use 2024 rules for:
+
+- Investigation
+- History
+- Nature
+- Arcana
+- Persuasion
+- Insight
+- Athletics
+- Stealth
+- Perception
+
+Keep DCs simple:
+
+| Difficulty | DC |
+|---|---:|
+| Simple clue | 10–12 |
+| Clear contradiction | 15 |
+| Hidden magical cause | 18 |
+| Deep memory or paradox | 20–23 |
+
+Beginners can succeed often.
+
+---
+
+## Spellcasting
+
+Keep magic simple at first.
+
+Use 5.5e spell slots normally, but teach players:
+
+1. **Can they see the problem?**  
+2. **Can they spend resources safely?**  
+3. **What will change if they use magic in public?**
+
+At early levels, recommend these spells for the setting:
+
+- **Prestidigitation**
+- **Speak with Animals**
+- **Identify** if available in your game
+- **Locate Animals/Plants** style magic, reskinned as magical senses
+- **Comprehend Languages**
+- **Detect Magic**
+- **Silvery Barbs**, if your group allows it
+
+If you want to keep it beginner-friendly, do not let players use magic to solve every mystery. Magic reveals clues, not complete answers.
+
+---
+
+## Combat
+
+Use normal 5.5e combat, but keep encounters light.
+
+Rules for beginners:
+
+1. Use **one major threat** and **one minor threat** per encounter.
+2. Do not use complex lairs early.
+3. Give the party a **story option** before combat.
+4. Allow **Insight checks** to learn tactics.
+5. If combat fails badly, create a consequence, not instant death.
+
+---
+
+# Main factions
+
+## 1. The Midnight Circle
+
+The player organization.
+
+- They investigate
+- They respect evidence
+- They want safe answers
+- They reward the party with resources
+
+## 2. The Silver Council
+
+The fairy society of Underhollow.
+
+- They enforce rules
+- They are cautious
+- They punish recklessness
+- They reward cooperation
+
+## 3. The Grotto Market
+
+A black market under Underhollow.
+
+- It sells forbidden items
+- It buys secrets
+- It creates crime and temptation
+- It rewards illegal knowledge
+
+## 4. The Unseen Century
+
+A mysterious force that erases or steals people, memories, and objects.
+
+- It creates holes in records
+- It moves people without warning
+- It leaves perfect silence
+- It rewards paradoxes
+
+## 5. The Aboveworld News Bureau
+
+Ordinary journalists who see impossible things but do not understand them.
+
+- They provide witnesses
+- They report contradictions
+- They create public suspicion
+- They help the party find ordinary clues
+
+---
+
+# Important locations
+
+## The Aboveworld
+
+## The Old Museum Quarter
+
+A normal city block.
+
+- Statues
+- Archives
+- A clock tower
+- A hidden statue room
+- A subway entrance that does not match the map
+- A witness circle: tour guides, teachers, old librarians
+
+## The Library With No Exit
+
+A public library.
+
+- The reading room has doors that do not match outside
+- A missing shelf exists in one memory but not another
+- A statue remembers a different name from the plaque
+
+This is the first mystery.
+
+---
+
+## The Ring of Stones
+
+A hidden network beneath the city.
+
+Locations:
+
+- A tunnel under a park
+- A hidden room under a bridge
+- A sealed well in an old square
+- A tunnel marked by a broken statue
+- A chamber under a train line
+
+---
+
+## The Underhollow
+
+A magical city.
+
+Locations:
+
+- The **Crystal Court**
+  - Fairy society
+  - Council meetings
+  - Safe zones
+- The **Grotto Market**
+  - Black market
+  - Stolen relics
+  - Forbidden tools
+- The **Bramble Stacks**
+  - Huge root libraries
+  - Old records
+  - Lost centuries
+- The **Fungus Commons**
+  - Underground public squares
+  - Strange festivals
+- The **Trollgate**
+  - Security gate
+  - Trolls guard access
+- The **Silken Road**
+  - Travel road
+  - Fast magical transport
+
+---
+
+# Starting the campaign for beginners
+
+## Session 0: Create characters
+
+Let players pick simple characters.
+
+Beginner recommendations:
+
+- Fighter, Barbarian, Ranger, Rogue
+- Cleric, Druid, Wizard with prepared spell lists
+- Bard, Paladin, Sorcerer
+
+Keep it simple:
+
+- Give players a favorite skill
+- Give players one spell or feature they trust
+- Let them choose one background:
+  - Student
+  - Investigator
+  - City child
+  - Forest guide
+
+---
+
+## Session 1 opening hook
+
+Read to players:
+
+> “The Midnight Circle received a strange report. Three witnesses say a person was missing from a photo for years. The photo changes when looked at from memory, but not when looked at physically. No theft was reported. No damage was reported. One witness says the person remembers being saved, but the records say the person was never saved. Something in the past is wrong.”
+
+Then ask the players:
+
+- What do you investigate first?
+- What do you ask witnesses?
+- Do you trust memory, records, or physical proof?
+
+This teaches them that the campaign is about evidence.
+
+---
+
+# Act 1: The First Impossible Case  
+**Levels 1–4**
+
+## Goal
+
+Discover that someone or something has been moved without leaving a hole.
+
+## Adventure 1: The Library With No Exit
+
+### Mystery
+
+The Library With No Exit has:
+
+- A shelf with a book that everyone remembers, but no physical copy exists
+- A statue whose plaque names one person, but people’s memories name another
+- A reading room that changes if witnesses remember it differently
+
+### Begin with investigation
+
+Use simple checks:
+
+| Action | Check | DC |
+|---|---|---:|
+| Find the missing shelf space | Investigation | 10 |
+| Learn why the plaque feels wrong | History | 10 |
+| Notice one witness’s memory is too perfect | Insight | 12 |
+| Reconstruct what happened first | History | 13 |
+
+Give one Case Mark when they compare two memories.
+
+If they succeed:
+
+> “The plaque changed before the statue was carved. The statue remembers the old name. The library remembers the new name.”
+
+If they fail but have a plan:
+
+> “You find that the book is not missing. It was never physically removed. It was removed from history.”
+
+### The first case mark lesson
+
+Teach players:
+
+- A physical hole can be real
+- A memory hole can be false
+- A record can be corrected
+- The DM must show what is known
+
+### Simple encounter
+
+A **Grotto Market runner** steals a note from a witness.
+
+Use a **reskinned 5.5e bandit** as:
+
+- Name: **Grotto Runner**
+- Statblock: ordinary bandit or doppelganger-style stat
+- Behavior:
+  - Runs away from witnesses
+  - Uses one magical trick to hide
+  - Drops a **Case Mark token**
+
+This teaches: chase clues, not just attack.
+
+### Boss-ish encounter
+
+Use a reskinned **5.5e CR 2 or 3 magical humanoid** as:
+
+- **Echo Warden**
+- Statblock: caster with a mirror image or echo ability
+
+Echo Warden behavior:
+
+- Uses reactions to confuse witnesses
+- Can create one fake echo of itself
+- Cannot fight for too long
+
+Beginner lesson:
+
+> “Use Insight or Arcana before attacking.”
+
+If players use Insight:
+
+> “You realize the Echo Warden is not attacking people. It is testing whether witnesses remember the same event.”
+
+If players use Arcana:
+
+> “You find that its magic leaves tiny frost marks on old records.”
+
+---
+
+## Adventure 2: The Missing Rainstorm
+
+### Mystery
+
+A town has a drought, but three witnesses remember a rainstorm that no record shows.
+
+### Clues
+
+- A dry riverbed
+- A photo of a flooded street
+- A child’s drawing of rain
+- A mayor’s speech about water, but no flood
+- A missing page from a yearbook
+
+### Skill challenge
+
+Use 2024 rules:
+
+| Check | DC | Meaning |
+|---|---:|---|
+| Nature | 12 | Weather pattern mismatch |
+| History | 13 | Public memory vs records |
+| Investigation | 12 | The photo was taken during a real event, not a fake event |
+| Arcana | 15 | A magical echo was left in the town’s memory |
+| Persuasion | 14 | Ask a witness if they remember physically or only through stories |
+
+Beginners should pass some checks.
+
+If they fail one, do not punish heavily. Show a consequence:
+
+> “You cannot prove the rain yet. But you can prove that the records were edited.”
+
+### The simple answer
+
+The rain did not disappear naturally.  
+It was moved by a magical echo.
+
+The party must decide what to do:
+
+1. **Save the present water supply**  
+   - Use modern repairs
+   - Risk creating a new flood
+2. **Return water to the past**  
+   - Must find a safe ring node
+   - Risk a paradox
+3. **Stabilize the memory only**  
+   - Prevent the drought lie
+   - The town stays in danger, but history is clean
+
+This teaches choice:
+
+- Solve the practical problem
+- Solve the mystery
+- Keep history stable
+
+The DM should make this easy to follow.
+
+---
+
+## Act 1 ending: The Clock That Does Not Tick
+
+### Final mystery
+
+At the Old Museum Quarter, a clock tower:
+
+- Has hands that move when seen
+- Has bells that ring when remembered
+- Has no one who believes it has ever been repaired
+- Has a maintenance record that says it was repaired twice
+
+### Final skill challenge
+
+| Check | DC | Effect |
+|---|---:|---|
+| Investigation | 12 | The clock is real but the repair log is wrong |
+| History | 15 | The clock was repaired during a memory rewrite |
+| Arcana | 16 | The clock holds a fragment of the Ring of Stones |
+| Persuasion | 13 | The city council is afraid of admitting the truth |
+
+### Consequence
+
+The party finds one **Ring Anchor**.
+
+The Ring of Stones becomes available.
+
+The DM says:
+
+> “The Aboveworld is only the first layer. The hidden Ring is now open. But if you enter it carelessly, you may create the next paradox.”
+
+---
+
+# Act 1 rewards
+
+For beginners, keep rewards simple:
+
+## Item: The Witness Notebook
+
+**Common wondrous item**
+
+While holding it, you can spend one Case Mark to remember one exact detail of a scene, conversation, or record.
+
+## Item: The Case Lens
+
+**Wondrous item**
+
+Once per Long Rest, spend a Bonus Action to see one true clue within 30 feet.
+
+The clue can be:
+
+- A magical residue
+- A witness contradiction
+- A hidden mark
+- A false plaque
+
+## Item: A Ring Anchor Token
+
+The party can use one token to safely enter the Ring of Stones in one session.
+
+This gives them story power without complex magic.
+
+---
+
+# Act 2: The Hidden Ring of the Underhollow  
+**Levels 5–8**
+
+## Goal
+
+Find the Underhollow, learn its rules, and stop the Unseen Century from moving people into it.
+
+## Session 2 opening
+
+The party has:
+
+- One Ring Anchor
+- Three Case Marks
+- One major contradiction
+- One witness who saw a tunnel where none existed
+
+Ask:
+
+- Do you enter the Ring?
+- Do you go aboveground or underground first?
+- Do you follow public records or private memories?
+
+---
+
+## Adventure 3: The Bridge That Was Never Built
+
+### Mystery
+
+A city has a bridge that exists in memory but not in maps.
+
+Clues:
+
+- A child remembers walking across it
+- A bus driver remembers avoiding it
+- A newspaper photo shows people crossing it
+- The physical street is broken in two places
+
+### Simple clues
+
+Use 2024 checks:
+
+| Check | DC | Result |
+|---|---:|---|
+| Investigation | 13 | There is a real gap where the bridge stood |
+| Nature | 14 | The road wear matches old traffic, not modern construction |
+| History | 15 | A bridge was removed from official memory during one decade |
+| Arcana | 16 | A ley-line node is under the broken gap |
+
+### Encounter
+
+Guardians try to stop the party.
+
+Use reskinned 5.5e creatures:
+
+- **Trollgate Warden**: use troll or brute statblock
+- **Grotto Market Fence**: use bandit or thug statblock
+- **Silent Auditor**: use doppelganger or spy statblock, reskinned as a faceless witness
+
+Beginner lesson:
+
+> The party should ask: Are they guards? Are they witnesses? Are they enemies?
+
+Give options:
+
+1. Talk to the Silent Auditor
+2. Prove they are witnesses
+3. Fight only if provoked
+4. Find a safer entry
+
+If the party succeeds:
+
+> “They are not attacking. They are checking whether you remember the bridge correctly.”
+
+### The Ring entry rule
+
+When they enter the Ring, they must choose one safe entry method:
+
+| Entry | Safe cost | Result |
+|---|---:|---|
+| Follow a known anchor | 1 Case Mark | Safe |
+| Use a witness’s memory | 2 Case Marks | Safe but a witness changes |
+| Follow a stolen item | automatic paradox | Risky |
+
+This teaches:
+
+- Do not use unproven sources
+- Use known anchors
+- Spend marks before acting
+
+---
+
+## Adventure 4: The Bramble Stacks
+
+### Setting
+
+A massive root-library under Underhollow.
+
+### Mystery
+
+One shelf contains a record that no witness remembers, but every witness remembers something else.
+
+### Clues
+
+- A book that was never printed
+- A shelf that was sealed
+- A fairy archive with missing pages
+- A gnome librarian who says the wrong thing on cue
+- A troll guard who protects a page no one admits to having
+
+### Skill challenge
+
+| Check | DC | Meaning |
+|---|---:|---|
+| Investigation | 13 | The missing record exists physically |
+| History | 15 | The record was copied, then erased |
+| Arcana | 16 | The page carries a Ring Anchor signature |
+| Religion | 16 | A witness’s memory is not true, but was made to be believed |
+| Persuasion | 14 | One guard can be convinced to reveal the page |
+
+Beginner rule:
+
+> If the party fails two checks but explains what they are trying to learn, let them use a Case Mark to get one true detail.
+
+### The real issue
+
+The record is not fake.  
+It is **future information moved into the past**.
+
+This is a big teaching moment.
+
+Show the difference:
+
+- Established fact:
+  - The page exists physically.
+- Unresolved question:
+  - Was the page written in the past, or brought from the future?
+- Consequence:
+  - If believed as real, it destabilizes history.
+
+---
+
+## Adventure 5: The Silver Council Meeting
+
+### Setting
+
+The party reaches the **Crystal Court**.
+
+They must speak to the Silver Council.
+
+### Social challenge
+
+The council believes:
+
+- You cannot lie
+- You must show proof
+- You must answer why you came
+- You must state what you changed
+- You must say whether your memory is from you, records, or magic
+
+Make this easy:
+
+Ask players to choose:
+
+1. Who speaks?
+2. What proof do they show?
+3. What do they say about the contradiction?
+
+Let them use a Case Mark to find one correct phrase.
+
+### Council response examples
+
+If the party is cautious:
+
+> “The Council accepts your statement. It marks you as a witness, not an enemy.”
+
+If the party is dishonest:
+
+> “The Council notices a mismatch. It will send a Silent Auditor after you.”
+
+If the party asks for help:
+
+> “The Council offers a safe escort through the Bramble Stacks.”
+
+This teaches roleplay over combat.
+
+---
+
+## Act 2 ending: The Silent Century
+
+### Final problem
+
+The party must stabilize the Ring before it collapses.
+
+Use one major skill challenge:
+
+| Check | DC | Effect |
+|---|---:|---|
+| Investigation | 16 | Locate the Ring fracture |
+| Arcana | 17 | Find the true anchor sequence |
+| History | 18 | Prove the correct founding memory |
+| Religion | 18 | Silence or correct a false witness |
+| Persuasion | 17 | Gain Silver Council trust |
+
+The party should spend resources wisely.
+
+The final result:
+
+- They repair the Ring
+- They open the Underhollow
+- The Unseen Century is still active
+- The Silver Council becomes a faction
+
+The DM says:
+
+> “You have reached the Underhollow. But the hidden century is not yours yet. You must enter it with proof, not memory alone.”
+
+---
+
+# Act 3: The Unwritten Century  
+**Levels 9–12**
+
+## Goal
+
+The party must decide how the century should exist.
+
+## Final premise
+
+The Underhollow has four versions of itself:
+
+- One true past
+- One prosperous present
+- One erased future
+- One rewritten century
+
+The DM should not hide this. Tell players:
+
+> “You are trying to make the century stable, not find every secret.”
+
+---
+
+## Adventure 6: The City With No Name
+
+### Mystery
+
+A city exists in records but not in any witness’s memory.
+
+Clues:
+
+- A statue with a blank plaque
+- A road named in one century but not another
+- A tunnel that leads to a city no one entered
+- A witness who saw a city from above
+
+### Begin with a map choice
+
+Ask players:
+
+- Do we repair this city?
+- Do we protect it?
+- Do we move it to a stable layer?
+
+Use a simple skill challenge:
+
+| Check | DC |
+|---|---:|
+| Investigation | 18 |
+| History | 18 |
+| Arcana | 20 |
+| Insight | 17 |
+
+If the party fails, the city becomes a dead year:
+
+- No anchor
+- Harder to enter
+- More paradoxes
+- More danger
+
+---
+
+## Adventure 7: The Four Courts
+
+### Setting
+
+A final location where the party must stabilize four anchors:
+
+1. The Old Museum Anchor
+2. The Bridge Gap Anchor
+3. The Bramble Anchor
+4. The Crystal Anchor
+
+Use four simple scenes.
+
+Each scene:
+
+- 2 obvious clues
+- 1 contradiction
+- 1 skill challenge
+- 1 resource cost
+- 1 consequence
+
+This makes the final act easy.
+
+---
+
+### The four anchors lesson
+
+Teach players:
+
+- An anchor is a stable point
+- A false witness is a memory trap
+- A future record is unstable unless anchored
+- A stable timeline must have at least two fixed points
+
+The DM gives them a table:
+
+| Anchor type | Safe if... | Unsafe if... |
+|---|---|---|
+| Public witness | Many witnesses agree | One witness is perfect and emotional |
+| Physical record | Object exists | Object exists in memory only |
+| Magic residue | Mark stays | Mark fades when touched |
+| Council memory | Council repeats it | Council changes it after rest |
+
+Beginners can use this.
+
+---
+
+## Final boss: The Unwritten Archivist
+
+Use a reskinned 5.5e CR 11–12 humanoid caster or ancient construct.
+
+Name:
+
+- **The Unwritten Archivist**
+
+Behaviors:
+
+- Erases one memory
+- Replaces one witness
+- Creates one fake record
+- Forces the party to choose:
+
+  1. Save the witness
+  2. Save the record
+  3. Save the future
+
+Give a simple stat structure:
+
+- High defense
+- Many reactions
+- One legendary artifact
+- One action that rewrites a phrase
+
+Beginners can win by:
+
+- Using Insight to predict the next rewrite
+- Using Arcana to stabilize one anchor
+- Spending a Case Mark to save one witness
+- Not fighting forever
+
+If the party loses, do not TPK.
+
+Consequence:
+
+> “The Archivist erases one final witness. One future remains visible. One memory is still false.”
+
+---
+
+# Final endings
+
+Each ending should distinguish between facts and questions.
+
+## Ending 1: The True Century
+
+The party restores the original timeline.
+
+Established facts:
+
+- The true anchor sequence was repaired
+- The public records match physical traces
+- The Underhollow is stable
+
+Unresolved questions:
+
+- One future witness remains hidden
+- One magical echo is still moving
+- The Silver Council does not know who erased the first record
+
+---
+
+## Ending 2: The Protected Century
+
+The party prevents harm.
+
+Established facts:
+
+- The Underhollow exists
+- The Ring is sealed
+- No one can move the century
+
+Unresolved questions:
+
+- Why did the witnesses remember a different name?
+- Why does the physical library still feel wrong?
+- What did the Unseen Century take?
+
+---
+
+## Ending 3: The Split Century
+
+The party creates two safe centuries.
+
+Established facts:
+
+- One future is preserved
+- One past is stable
+- The Ring supports two branches
+
+Unresolved questions:
+
+- Which future is true?
+- Which version of the Underhollow should live?
+- Which branch has the better future?
+
+---
+
+## Ending 4: The Silent Century
+
+The party makes the century unspeakable.
+
+Established facts:
+
+- The Unwritten are contained
+- The Ring cannot be opened
+- No future record can enter the past
+
+Unresolved questions:
+
+- What was lost?
+- Who knew the truth?
+- Can the truth be remembered without being moved?
+
+---
+
+# How to make it beginner-friendly
+
+The DM should do these things every session:
+
+## 1. Give a simple clue
+
+Always give at least one easy clue:
+
+- A contradiction
+- A missing object
+- A witness memory
+- A map error
+- A magical mark
+- A public record
+
+Do not make all clues hidden.
+
+---
+
+## 2. Ask one question at a time
+
+Good beginner questions:
+
+- “What do you think changed first?”
+- “Do you trust memory or records?”
+- “Do you know what caused this?”
+- “What can you prove?”
+- “What are you trying to change?”
+
+This keeps the mystery clear.
+
+---
+
+## 3. Make success matter
+
+If the party fails, give them partial information.
+
+Example:
+
+> “You did not find the full answer, but you learned that the witness’s memory is too perfect to be normal.”
+
+This keeps play moving.
+
+---
+
+## 4. Let players use resources before rolls
+
+If they explain:
+
+- “We will spend a Case Mark to ask what the record says exactly.”
+- “We will use the Case Lens.”
+- “We will ask the council why they remember it differently.”
+
+Allow it.
+
+---
+
+## 5. Keep the table simple
+
+Use one sheet:
+
+### The Case File
+
+| Known fact | Contradiction | Unresolved | Next choice |
+|---|---|---|---|
+
+Fill it in during play.
+
+---
+
+# DM tools
+
+## Case Mark tracker
+
+The party has Case Marks.
+
+Each player can use Case Marks for:
+
+- One detail
+- One witness question
+- One memory comparison
+- One record correction
+
+DM rule:
+
+> Spend one Case Mark, get one true detail.
+
+This prevents confusion.
+
+---
+
+## Ring Anchor table
+
+Use these anchors:
+
+| Anchor | Where it works | Safe if... |
+|---|---|---|
+| Old Museum Anchor | Aboveworld | Physical object exists |
+| Bridge Gap Anchor | Ring of Stones | Road wear is old |
+| Bramble Anchor | Underhollow | Physical page exists |
+| Crystal Anchor | Underhollow | Council repeats it |
+| Split Anchor | Late game | Four anchors stable |
+
+---
+
+## Paradox track
+
+Keep it visual and simple:
+
+| Level | Meaning |
+|---|---|
+| 0 | Clean |
+| 1 | Small contradiction |
+| 2 | Faction reacts |
+| 3 | Public danger |
+| 4 | Major paradox |
+| 5 | Catastrophic |
+
+Beginners can handle this.
+
+---
+
+# Sample opening scene
+
+Use this for Session 1:
+
+> “The Midnight Circle is called to an investigation. A teacher says she saw a flood in the school courtyard. A principal says the same courtyard was always dry. The school records show no flood. The pavement shows old water lines, but no one admits to repairing them.  
+>  
+> What is the first thing you check?”
+
+Then ask:
+
+- Physical evidence?
+- Public memory?
+- Written records?
+- Magical residue?
+
+Use one Case Mark if they ask a good question.
+
+---
+
+# Example clues
+
+Give players simple clue cards.
+
+## Clue 1: The Dry Riverbed
+
+> The riverbed is dry today.  
+> But there are water stains higher than usual.  
+> The stains are old, not recent.
+
+Meaning:
+
+- The riverbed remembers a different water level.
+
+---
+
+## Clue 2: The Perfect Memory
+
+> A witness says she remembers the rain perfectly.  
+> She never misses a word or name.
+
+Meaning:
+
+- Her memory is not natural.
+
+---
+
+## Clue 3: The Missing Page
+
+> A page was removed from a yearbook.  
+> The page was removed cleanly, with no tear.
+
+Meaning:
+
+- It was not torn. It was taken from history.
+
+---
+
+# Beginner combat guidelines
+
+Use 5.5e normally, but keep combat short.
+
+## Early game
+
+One major enemy and one minor enemy.
+
+Example:
+
+- **Echo Warden** plus **Grotto Runner**
+
+Give players one obvious strategy:
+
+- Use Insight to learn behavior
+- Use Arcana to find magic marks
+- Use Stealth if they have it
+- Use the environment
+
+---
+
+## Late game
+
+For a big boss, give players two story options:
+
+1. Stabilize one anchor during combat
+2. Convince one witness to reveal the truth
+3. Fight the final boss directly
+
+If they try stabilizing, allow a simple check:
+
+- DC 18 Arcana or History
+- One success is enough
+- One failure still helps partially
+
+This is more beginner-friendly than endless damage.
+
+---
+
+# Magic in this campaign
+
+Use standard 5.5e spells, but add these setting ideas:
+
+## Safe magical clues
+
+These do not solve mysteries:
+
+- Detect Magic style effects reveal residue
+- Comprehend Languages style effects reveal hidden writing
+- Speak with Animals style effects reveal animal memories
+- Minor divination style effects reveal “a person who remembers differently”
+
+## Powerful time magic
+
+Avoid giving players direct:
+
+- Time stop
+- Instant rewind
+- Full memory rewrite
+- Free future vision
+
+Use Case Marks instead.
+
+---
+
+# Sample case file format
+
+The DM can use this for each adventure:
+
+```text
+Case: The Missing Century
+
+Known:
+- A public record says X happened.
+- A physical trace says Y happened.
+- A witness says Z happened.
+
+Contradictions:
+- Physical and record disagree.
+- Witness memory is too perfect.
+- A magical mark remains.
+
+Unresolved:
+- Which memory is first?
+- What was erased?
+- What is the cause?
+
+Choices:
+1. Fix the present.
+2. Fix the record.
+3. Stabilize the Ring.
+4. Stop the faction.
+
+Consequence:
+If they fail, one paradox track rises by 1.
+```
+
+---
+
+# How to keep the story dramatic
+
+Use three simple story beats:
+
+## 1. A public problem
+
+Something normal is wrong:
+
+- drought
+- missing bridge
+- fake school event
+- missing photo
+- changed name
+
+## 2. An impossible answer
+
+The cause is not ordinary:
+
+- magical echo
+- Ring Anchor
+- Underhollow
+- Unwritten Century
+- Silver Council
+
+## 3. A faction reaction
+
+Someone reacts:
+
+- The Council is angry
+- The Market wants a deal
+- The Unwritten want more holes
+- The News Bureau starts rumors
+
+This keeps drama clear.
+
+---
+
+# Optional 5.5e class hooks
+
+If players want to use classes naturally, give these beginner hooks:
+
+## Bard
+
+They can learn witness contradictions through songs.
+
+Hook:
+
+> “When you hear a story, you can notice which version feels too perfect.”
+
+## Rogue
+
+They can steal from the Grotto Market.
+
+Hook:
+
+> “If you steal a record, it may contain future information. Do not bring it into the past without an anchor.”
+
+## Paladin
+
+They can be recruited by the Silver Council.
+
+Hook:
+
+> “You can ask the Council for trust, but not for secrets.”
+
+## Druid
+
+They can learn ley-line patterns.
+
+Hook:
+
+> “If you touch stone, you can feel whether it remembers a different age.”
+
+## Cleric
+
+They can heal and protect witnesses.
+
+Hook:
+
+> “You can keep a witness from being erased during a paradox.”
+
+---
+
+# One-page DM start
+
+If you want a fast start, use this:
+
+> “The campaign begins with the Midnight Circle investigating a missing century. The Aboveworld has normal records, but three witnesses disagree. A Ring of Stones lies beneath. A hidden Underhollow waits. The Unwritten Century is rewriting people. The party must prove what happened, not assume what they remember.”
+
+Then start with:
+
+1. A public witness contradiction
+2. One missing object
+3. One easy Investigation or History check
+4. One minor combat or stealth scene
+5. One Case Mark choice
+
+---
+
+# Beginner mistakes to avoid
+
+Do not:
+
+- Make the mystery too vague
+- Use too many hidden clues
+- Make every failure severe
+- Make players use time magic constantly
+- Make combat the main solution
+- Make players choose every branch at once
+
+Do instead:
+
+- Give one obvious clue
+- Ask one simple question
+- Show one contradiction
+- Offer one clear choice
+- Let success matter, not just success over failure
+
+---
+
+# Recommended pacing
+
+For beginners, this works best:
+
+- One case per session
+- One major choice per act
+- One clear final goal
+- Two or three side cases
+- Four to eight main adventures
+
+---
+
+# Recommended final table for beginners
+
+## The Party’s Choices
+
+| If they... | Then... |
+|---|---|
+| Trust memory only | Risk a false witness |
+| Trust records only | Miss magical traces |
+| Use physical proof first | Get one clear clue |
+| Ask “what caused this?” | Get one true detail with a Case Mark |
+| Spend Case Marks before acting | Avoid one paradox |
+| Use anchors first | Travel safely |
+| Bring future items without proof | Create a paradox |
+| Ask the Council for proof | Gain faction trust |
+| Steal records | Create black market trouble |
+| Repair one contradiction | Gain one Ring fragment |
+| Stabilize two anchors | Make a branch safe |
+
+---
+
+# Campaign hook for players
+
+Read this:
+
+> “You are not heroes saving a kingdom. You are investigators learning why the century refuses to stay in order. People remember things that did not happen. Places exist where they should not. Things exist where they should not. Your job is to find what is real, what is remembered, and what is being moved before it is believed.”
+
+Then ask:
+
+1. Do we investigate the city?
+2. Do we investigate the records?
+3. Do we follow the Ring?
+4. Do we ask the Underhollow?
+
+---
+
+# Recommended first level 1 adventure
+
+Use this simple starter:
+
+## **Case File 01: The School That Remembers Rain**
+
+### Opening
+
+A school says it was flooded last century.
+
+The principal says it was never flooded.
+
+The school says it was flooded.
+
+The records say it was dry.
+
+The pavement says it was wet.
+
+### First clue
+
+Ask players:
+
+> What should we check first: pavement, records, or memories?
+
+Give them one easy answer if they choose pavement.
+
+Use:
+
+- Investigation DC 10
+- History DC 10
+- Nature DC 10
+
+### First twist
+
+A teacher’s memory is too perfect.
+
+Use Insight DC 12.
+
+If they succeed:
+
+> “Her memory is not just memory. It is a witness echo.”
+
+### First consequence
+
+A small magical echo is in the schoolyard.
+
+If the party does not stabilize it:
+
+- The school will remember rain every day
+- Students begin avoiding the courtyard
+- One parent remembers the flood, even though it never happened
+
+### First choice
+
+The party can:
+
+1. Dry the school now
+2. Ask the council if the school ever built a flood channel
+3. Go to the Ring of Stones and find an anchor
+4. Ask a witness who saw the flood
+
+If they try to fix the school now, ask:
+
+- Do you want the school to remember rain?
+- Do you want the school to remember dryness?
+- Do you want the public to accept this?
+
+Beginners should pick one.
+
+### Simple combat
+
+A **Witness Echo** appears.
+
+Use:
+
+- **5.5e doppelganger** or **echo statue**
+- Or use a **5.5e animated statue**
+
+Beginner lesson:
+
+> The Witness Echo is not attacking. It is proving that one memory exists without records.
+
+The party should:
+
+- Use Insight
+- Use Arcana
+- Or use a witness to show proof
+
+If they succeed:
+
+- The Echo disappears
+- The school remembers rain physically
+- The public record becomes unstable
+- The Silver Council sends a note
+
+If they fail but have a plan:
+
+- The Echo is quiet
+- One public witness remains confused
+- The DM says:
+
+> “You have not stopped it. But you now know the cause is magical, not natural.”
+
+This is a gentle lesson.
+
+---
+
+# DM cheat sheet
+
+## Session 1: Aboveworld
+
+Start with:
+
+- One witness contradiction
+- One missing object
+- One easy check
+- One minor mystery creature
+- One simple choice
+
+Ask:
+
+- “What are we trying to prove?”
+- “Are we fixing the present or the memory?”
+
+## Session 2: Ring entry
+
+Start with:
+
+- One known anchor
+- One contradiction
+- One minor social encounter
+- One simple skill challenge
+
+Ask:
+
+- “What proof do we have?”
+- “Who can we trust?”
+
+## Session 3: Underhollow
+
+Start with:
+
+- One Council meeting
+- One black market temptation
+- One hidden record
+- One simple paradox
+
+Ask:
+
+- “Do we protect the record?”
+- “Do we follow the future?”
+- “Do we stabilize the anchor?”
+
+## Final act
+
+Use:
+
+- Four anchors
+- One major case
+- One final faction
+- One final choice
+
+Ask:
+
+- “What should the century become?”
+
+---
+
+# Why this campaign is easy for beginners
+
+The campaign works because it teaches:
+
+1. **Facts can be physical**
+2. **Memory is not proof**
+3. **Contradictions matter**
+4. **Choices change the century**
+5. **Resources limit risk**
+6. **Anchors stabilize time**
+7. **Factions react to evidence**
+8. **Mystery is more important than combat**
+9. **Case Marks guide the party**
+10. **The DM can make failures matter**
+
+This gives a beginner table room to feel clever without being crushed by complexity.

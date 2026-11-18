@@ -1,0 +1,29 @@
+In the following structure 
+vanished-century/
+
+├── campaign.yaml
+│
+├── lore.md
+├── factions.md
+├── locations.md
+├── rewards.md
+│
+├── acts/
+│
+│   ├── act1.md
+│   ├── act2.md
+│   └── act3.md
+│
+├── adventures/
+│
+│   ├── library-no-exit.md
+│   ├── missing-rainstorm.md
+│   └── clock-that-does-not-tick.md
+│
+├── npcs/
+│
+├── encounters/
+│
+├── items/
+│
+└── session0.md
