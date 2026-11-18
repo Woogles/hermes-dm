@@ -1,0 +1,8 @@
+location:
+  id: old-museum-quarter
+  name: The Old Museum Quarter
+  kind: public-area
+  description: >
+    A normal city block with statues, archives, a clock tower, a hidden statue room,
+    a witness circle, and a subway entrance that does not match the map.
+  anchor: old-museum-anchor

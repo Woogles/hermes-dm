@@ -1,0 +1,20 @@
+act:
+  number: 2
+  name: The Hidden Ring of the Underhollow
+  level_range: "5-8"
+  goal: Find the Underhollow, learn its rules, and stop the Unseen Century from moving people into it.
+  adventures:
+    - bridge-that-was-never-built
+    - bramble-stacks
+    - silver-council-meeting
+    - silent-century
+  main_locations:
+    - bridge-gap
+    - bramble-stacks
+    - crystal-court
+  main_factions:
+    - silver-council
+    - grotto-market
+    - unseen-century
+  ending_condition: >
+    The party repairs the Ring, opens the Underhollow, and proves the correct founding memory.

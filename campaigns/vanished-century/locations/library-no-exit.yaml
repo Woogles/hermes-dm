@@ -1,0 +1,8 @@
+location:
+  id: library-no-exit
+  name: The Library With No Exit
+  kind: public-building
+  description: >
+    A public library whose reading room doors do not match outside. A shelf remembers
+    a book that no longer exists physically. A statue remembers a different name from its plaque.
+  anchor: library-anchor

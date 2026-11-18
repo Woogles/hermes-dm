@@ -1,0 +1,6 @@
+location:
+  id: grotto-market
+  name: Grotto Market
+  kind: black-market
+  description: >
+    A black market under Underhollow. It sells stolen relics and forbidden tools.

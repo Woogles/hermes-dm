@@ -1,0 +1,11 @@
+faction:
+  id: midnight-circle
+  name: Midnight Circle
+  alignment: neutral-good
+  description: >
+    The player organization. They investigate, respect evidence, want safe answers,
+    and reward the party with resources.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

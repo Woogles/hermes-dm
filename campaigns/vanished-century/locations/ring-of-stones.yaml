@@ -1,0 +1,6 @@
+location:
+  id: ring-of-stones
+  name: The Ring of Stones
+  kind: hidden-network
+  description: >
+    A hidden ley-line network beneath old cities. It becomes available after Act 1.

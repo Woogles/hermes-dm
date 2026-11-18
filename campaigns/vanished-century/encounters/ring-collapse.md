@@ -1,9 +1,0 @@
-encounter:
-  id: ring-collapse
-  type: skill-challenge
-  level_range: "7-8"
-  tone: high
-  major_problem: >
-    The Ring is beginning to collapse.
-  failure_consequence: >
-    A major paradox becomes active, but the party can still repair one anchor.

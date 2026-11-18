@@ -1,0 +1,11 @@
+faction:
+  id: unseen-century
+  name: Unseen Century
+  alignment: chaotic-neutral
+  description: >
+    A mysterious force that erases or steals people, memories, and objects. It creates holes
+    in records, moves people without warning, leaves perfect silence, and rewards paradoxes.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

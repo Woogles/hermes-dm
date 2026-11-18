@@ -1,0 +1,11 @@
+faction:
+  id: silver-council
+  name: Silver Council
+  alignment: lawful-neutral
+  description: >
+    The fairy society of Underhollow. They enforce rules, are cautious, punish recklessness,
+    and reward cooperation.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

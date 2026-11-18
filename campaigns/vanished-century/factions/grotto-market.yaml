@@ -1,0 +1,11 @@
+faction:
+  id: grotto-market
+  name: Grotto Market
+  alignment: chaotic-neutral
+  description: >
+    A black market under Underhollow. It sells forbidden items, buys secrets, creates crime
+    and temptation, and rewards illegal knowledge.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
