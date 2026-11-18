@@ -1,0 +1,10 @@
+faction:
+  id: drowned-choir
+  name: Drowned Choir
+  alignment: chaotic-neutral
+  description: >
+    A memory cult that remembers drowned people, false floods, and lighthouse songs.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

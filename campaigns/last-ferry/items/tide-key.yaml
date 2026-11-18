@@ -1,0 +1,6 @@
+item:
+  id: tide-key
+  name: Tide Key
+  rarity: rare
+  mechanical: >
+    Opens one safe harbor anchor route.

@@ -1,0 +1,10 @@
+npc:
+  id: tide-auditor
+  name: Tide Auditor
+  faction: tide-guild
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: tide-ledger
+  role: >
+    Checks harbor ledgers and tide records for edits.

@@ -1,0 +1,10 @@
+npc:
+  id: fog-ledger-clerk
+  name: Fog Ledger Clerk
+  faction: fog-ledger
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: tide-ledger
+  role: >
+    A shady clerk who plants false tickets or edits ferry ledgers.

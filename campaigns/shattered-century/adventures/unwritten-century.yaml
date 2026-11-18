@@ -1,0 +1,25 @@
+adventure:
+  id: unwritten-century
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Repair one major timeline fracture.
+  major_clues:
+    - erased event not witnessed yet
+    - false anchor memory
+    - Ashen Choir ritual
+  success_condition: repair fracture
+  failure_condition: major paradox +1
+  skill_challenge:
+    - check: Arcana
+      dc: 15
+      meaning: understand the fracture
+    - check: History
+      dc: 17
+      meaning: find correct anchor point
+    - check: Investigation
+      dc: 14
+      meaning: locate paradox core
+    - check: Religion
+      dc: 16
+      meaning: calm or manipulate Ashen Choir

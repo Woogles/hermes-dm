@@ -1,0 +1,10 @@
+npc:
+  id: salt-auditor
+  name: Salt Auditor
+  faction: harbor-guild
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: salt-map-remembers-harbor
+  role: >
+    Checks whether harbor maps were copied, erased, or rewritten.

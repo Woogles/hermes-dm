@@ -1,0 +1,12 @@
+adventure:
+  id: paper-fairground
+  act: 3
+  level_range: "7-8"
+  objective: |
+    Decide whether to restore, protect, or replace the remembered fairground.
+  major_clues:
+    - old fairground anchor
+    - copied memory
+    - false ticket ledger
+  success_condition: stable fairground ending
+  failure_condition: unresolved paradox ending

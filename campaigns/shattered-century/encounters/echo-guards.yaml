@@ -1,0 +1,11 @@
+encounter:
+  id: echo-guards
+  type: combat-social
+  level_range: "1-4"
+  enemies:
+    - Gilded Ledger agent
+    - two Echo Guards
+  options:
+    - identify Anchor Copy or Echo Copy
+    - repair nearby anchor
+    - fight only if anchor is threatened

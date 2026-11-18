@@ -1,0 +1,11 @@
+faction:
+  id: loomkeepers
+  name: Loomkeepers
+  alignment: lawful-neutral
+  description: >
+    They police stable time travel. They prefer anchors, hate paradoxes, reward safe restoration,
+    and offer repair quests.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

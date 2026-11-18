@@ -1,0 +1,21 @@
+act:
+  number: 2
+  name: The Unwritten Century
+  level_range: "5-8"
+  goal: Collect Paradox Keys, stop future rebels, and stabilize the timeline.
+  adventures:
+    - paradox-key-recovery
+    - unwritten-century
+    - founding-chapel
+    - ledger-vault
+  main_locations:
+    - ashfall-shrine
+    - founding-chapel
+    - ledger-vault
+    - clockwork-bridge
+  main_factions:
+    - unwritten
+    - loomkeepers
+    - gilded-ledger
+    - bloom
+  boss: unwritten-herald

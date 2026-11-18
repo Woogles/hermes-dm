@@ -1,0 +1,6 @@
+location:
+  id: ticket-yard
+  name: Ticket Yard
+  kind: black-market
+  description: >
+    A small fairground market selling false tickets and forbidden souvenirs.

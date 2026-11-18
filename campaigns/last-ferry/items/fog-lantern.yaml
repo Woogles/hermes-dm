@@ -1,0 +1,6 @@
+item:
+  id: fog-lantern
+  name: Fog Lantern
+  rarity: common-wondrous
+  mechanical: >
+    Once per long rest, spend a bonus action to see one true harbor clue within 30 feet.

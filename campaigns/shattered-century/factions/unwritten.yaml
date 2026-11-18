@@ -1,0 +1,11 @@
+faction:
+  id: unwritten
+  name: The Unwritten
+  alignment: chaotic-neutral
+  description: >
+    A rebel army from an alternate future. They know what has not happened yet,
+    send soldiers backward, and want to rewrite the town's fate.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

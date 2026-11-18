@@ -1,0 +1,7 @@
+location:
+  id: old-dam
+  name: Old Dam
+  kind: anchor
+  description: >
+    Water control center. Best for the Act 1 drought problem.
+  anchor: true

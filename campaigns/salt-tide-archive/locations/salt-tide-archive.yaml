@@ -1,0 +1,6 @@
+location:
+  id: salt-tide-archive
+  name: Salt-Tide Archive
+  kind: hub
+  description: >
+    The campaign archive for tides, floods, harbor names, and memories.

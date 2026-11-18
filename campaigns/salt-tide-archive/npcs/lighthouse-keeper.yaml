@@ -1,0 +1,10 @@
+npc:
+  id: lighthouse-keeper
+  name: Lighthouse Keeper
+  faction: salt-tide-archivists
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: old-lighthouse
+  role: >
+    Remembers flood names and lighthouse songs, but memory may be drowned.

@@ -1,0 +1,7 @@
+item:
+  id: archive-lens
+  name: Archive Lens
+  rarity: uncommon
+  mechanical: >
+    Once per long rest, spend a bonus action to see whether one paper record is a true copy,
+    a copied false version, or a witness echo.

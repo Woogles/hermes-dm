@@ -1,0 +1,9 @@
+encounter:
+  id: ferry-echo
+  type: combat-social
+  level_range: "5-8"
+  goal: stabilize one ferry copy
+  options:
+    - prove it is Echo
+    - use Tide Key
+    - use Bell Token

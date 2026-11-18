@@ -1,0 +1,14 @@
+npc:
+  id: echo-warden
+  name: Echo Warden
+  faction: loomkeepers
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: old-dam-anchor
+  role: >
+    Prevents players from carrying future items back into the past.
+  behavior:
+    - creates Echo tokens
+    - blocks unsafe anchor movement
+    - cannot fight for too long

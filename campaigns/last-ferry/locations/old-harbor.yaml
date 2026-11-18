@@ -1,0 +1,6 @@
+location:
+  id: old-harbor
+  name: Old Harbor
+  kind: hub
+  description: >
+    The main campaign hub. Ferries arrive here, but not every remembered arrival appears in records.

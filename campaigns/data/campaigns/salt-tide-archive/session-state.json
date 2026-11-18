@@ -1,0 +1,19 @@
+{
+  "campaign": "salt-tide-archive",
+  "current_act": 1,
+  "current_adventure": "dry-archive-that-remembers-water",
+  "current_location": "salt-tide-archive",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "tide_log_fragments": 0,
+    "salt_compass_uses": 1,
+    "lighthouse_tokens": 0,
+    "false_floods": [],
+    "water_anchors": [
+      "harbor-clock"
+    ]
+  }
+}

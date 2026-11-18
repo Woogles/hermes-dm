@@ -1,0 +1,22 @@
+adventure:
+  id: missing-night
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover why a ferry arrived on a night not in the ledger.
+  major_clues:
+    - missing night ledger page
+    - witness remembers crossing
+    - fog bell rings with old names
+  success_condition: prove one ferry memory
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 10
+      meaning: find missing ledger page
+    - check: History
+      dc: 10
+      meaning: compare witness memory to ledger
+    - check: Insight
+      dc: 12
+      meaning: notice witness memory is too perfect

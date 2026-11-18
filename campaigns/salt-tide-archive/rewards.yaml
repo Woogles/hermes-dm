@@ -1,0 +1,9 @@
+rewards:
+  - tide-lens
+  - salt-compass
+  - lighthouse-token
+  - tide-log-fragment
+
+summary:
+  reward_type: beginner-water-investigation-tools
+  goal: Give beginners simple clues and low-complexity memory tools.

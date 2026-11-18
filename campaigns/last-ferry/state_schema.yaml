@@ -1,0 +1,41 @@
+state_schema:
+  campaign_id: last-ferry
+
+  custom_fields:
+    memory_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
+
+    max_memory_marks:
+      type: integer
+      default: 3
+
+    ferry_log_fragments:
+      type: integer
+      default: 0
+
+    tide_keys:
+      type: integer
+      default: 0
+
+    bell_tokens:
+      type: integer
+      default: 0
+
+    echo_nights:
+      type: integer
+      default: 0
+
+    faction_influence:
+      type: object
+      default:
+        hollowmouth-ferrykeepers: 0
+        fog-ledger: 0
+        drowned-choir: 0
+        tide-guild: 0
+
+    false_names:
+      type: array
+      default: []

@@ -1,0 +1,12 @@
+adventure:
+  id: tide-that-will-not-wait
+  act: 3
+  level_range: "7-10"
+  objective: |
+    Stabilize the final tide before the harbor becomes paradoxical.
+  major_clues:
+    - harbor-clock anchor
+    - false witness
+    - copied flood log
+  success_condition: choose stable ending
+  failure_condition: unresolved tide ending

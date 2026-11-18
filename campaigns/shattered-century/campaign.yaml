@@ -1,0 +1,196 @@
+Campaign 2: shattered-century
+version: 1.0
+
+campaign:
+  id: shattered-century
+  title: A Shattered Century
+
+  description: >
+    An advanced time-travel investigation campaign in which a town called Harlowe is
+    caught in overlapping time loops. A damaged artifact called the Chronal Loom moves the
+    party between eras, and every change the party makes raises a paradox the factions
+    race to exploit. The party must repair the Loom, protect anchors, and choose how the
+    century should end.
+
+author: Eric
+
+difficulty: advanced
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 12
+
+theme:
+  - time-travel
+  - investigation
+  - time-anomalies
+  - faction-conflict
+
+style:
+  combat: medium
+  roleplay: medium
+  exploration: high
+
+estimated_sessions: 30
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: advanced
+
+ai_instructions:
+  emphasize:
+    - time anchors
+    - Loom charges
+    - paradox consequences
+    - visible timeline changes
+    - faction reactions
+  avoid:
+    - excessive combat
+    - time travel as unlimited exploit
+    - hidden information overload
+    - instant timeline death
+  always:
+    - show one immediate visible consequence after a change
+    - explain paradox severity clearly
+    - ask one question at a time
+    - let failure still change the timeline visibly
+  never:
+    - completely block progression
+    - hide that Loom charges were spent
+    - let future items freely exist in the past without anchor rules
+
+runtime_variables:
+  loom_charges:
+    type: integer
+    default: 2
+    min: 0
+    max: 4
+  max_loom_charges:
+    type: integer
+    default: 2
+  paradox_shards:
+    type: integer
+    default: 0
+    min: 0
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  era:
+    type: string
+    default: the-bloom
+    allowed:
+      - the-founding
+      - the-bloom
+      - the-ashfall
+      - the-drowned
+      - the-unwritten
+  time_anchors_discovered:
+    type: integer
+    default: 3
+    min: 0
+  paradox_keys:
+    type: integer
+    default: 0
+    min: 0
+    max: 4
+  unmaking_key_found:
+    type: integer
+    default: 0
+    min: 0
+    max: 1
+  chronal_loom_attuned:
+    type: integer
+    default: 0
+    min: 0
+    max: 1
+  temporal_exposure:
+    type: object
+    default:
+      characters: {}
+  chronal_stasis:
+    type: array
+    default: []
+  faction_influence:
+    type: object
+    default:
+      loomkeepers: 0
+      ashen-choir: 0
+      gilded-ledger: 0
+      unwritten: 0
+      bloom: 0
+  visible_timeline_changes:
+    type: array
+    default: []
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - loomkeepers
+    - ashen-choir
+    - gilded-ledger
+    - unwritten
+    - bloom
+  locations:
+    - harlowe
+    - market-of-miracles
+    - clockwork-vaults
+    - old-dam
+    - grave-that-was-never-dug
+    - ashfall-shrine
+    - founding-chapel
+    - ledger-vault
+    - clockwork-bridge
+    - split-market
+    - ninth-dam
+    - chapel-of-two-names
+    - drowned-bridge
+    - loom-control-room
+  adventures:
+    - almanac-ninth-year
+    - rain-that-never-fell
+    - grave-that-was-never-dug
+    - old-dam-anchor
+    - paradox-key-recovery
+    - unwritten-century
+    - founding-chapel
+    - ledger-vault
+    - split-market
+    - loom-control-room
+    - final-century
+  npcs:
+    - loomkeeper-warden
+    - gilded-ledger-spy
+    - echo-warden
+    - ash-choir-assassin
+    - unwritten-herald
+    - unwritten-king
+  encounters:
+    - paradox-storm
+    - echo-guards
+    - loom-defense
+    - unwritten-rewrite
+    - split-market
+  items:
+    - chronal-loom
+    - paradox-shard
+    - paradox-key
+    - unmaking-key
+  rewards:
+    - chronal-loom
+    - paradox-shard
+    - paradox-key
+    - unmaking-key

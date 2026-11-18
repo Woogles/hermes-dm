@@ -1,0 +1,13 @@
+adventure:
+  id: last-ferry
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Decide what the Last Ferry should become: stable route, protected anomaly, or erased route.
+  major_clues:
+    - final anchors
+    - final witness
+    - Drowned Choir
+    - Ferrykeepers
+  success_condition: choose ending
+  failure_condition: unresolved ferry paradox ending

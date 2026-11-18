@@ -1,0 +1,6 @@
+location:
+  id: drydock
+  name: Drydock
+  kind: site
+  description: >
+    A shipyard where missing ferries were built or removed.

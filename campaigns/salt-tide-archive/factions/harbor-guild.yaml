@@ -1,0 +1,10 @@
+faction:
+  id: harbor-guild
+  name: Harbor Guild
+  alignment: lawful-neutral
+  description: >
+    The safe harbor faction. They want ships, piers, and water routes stable.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

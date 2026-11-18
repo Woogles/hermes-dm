@@ -1,0 +1,6 @@
+location:
+  id: old-lighthouse
+  name: Old Lighthouse
+  kind: memory-site
+  description: >
+    A lighthouse that remembers different flood names.

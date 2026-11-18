@@ -1,0 +1,700 @@
+Campaign 5: salt-tide-archive
+
+This is the second new beginner campaign.
+salt-tide-archive/campaign.yaml
+version: 1.0
+
+campaign:
+  id: salt-tide-archive
+  title: The Salt-Tide Archive
+
+  description: >
+    A beginner coastal-archive mystery where a town remembers a flood that its records,
+    witnesses, and pavement disagree about. The party uses water marks, tide logs, and
+    salt compasses to separate real physical evidence from copied or drowned memory.
+
+author: Eric
+
+difficulty: beginner
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 10
+
+theme:
+  - mystery
+  - investigation
+  - water
+  - memory
+  - archives
+
+style:
+  combat: low
+  roleplay: high
+  exploration: high
+
+estimated_sessions: 20
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - water marks
+    - tide logs
+    - memory
+    - simple clues
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - complex time magic
+    - instant drowning death
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failure reveal water evidence
+    - keep tide logs physical
+  never:
+    - completely block progression
+    - hide all water clues
+    - make memory alone solve the mystery
+
+runtime_variables:
+  memory_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_memory_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  tide_log_fragments:
+    type: integer
+    default: 0
+    min: 0
+  salt_compass_uses:
+    type: integer
+    default: 1
+    min: 0
+    max: 1
+  lighthouse_tokens:
+    type: integer
+    default: 0
+    min: 0
+  water_anchors_stable:
+    type: integer
+    default: 1
+    min: 0
+    max: 5
+  false_floods:
+    type: array
+    default: []
+  drowned_choir_influence:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - salt-tide-archivists
+    - drowned-choir
+    - harbor-guild
+    - salt-guild
+  locations:
+    - salt-tide-archive
+    - old-lighthouse
+    - flooded-pier
+    - salt-chapel
+    - harbor-clock
+  adventures:
+    - dry-archive-that-remembers-water
+    - flood-that-never-was
+    - salt-map-remembers-harbor
+    - drowned-choir-memory
+    - two-named-tower
+    - tide-that-will-not-wait
+  npcs:
+    - tide-keeper
+    - lighthouse-keeper
+    - salt-auditor
+    - drowned-singer
+  encounters:
+    - memory-flood
+    - salt-auditor
+  items:
+    - tide-lens
+    - salt-compass
+    - lighthouse-token
+    - tide-log-fragment
+  rewards:
+    - tide-lens
+    - salt-compass
+    - lighthouse-token
+    - tide-log-fragment
+	
+	
+salt-tide-archive/dm_behavior.yaml
+yaml
+
+dm_behavior:
+
+  clue_style: obvious
+
+  mystery_complexity: beginner
+
+  combat_lethality: forgiving
+
+  guidance_level: high
+
+  allow_rule_explanations: true
+
+  remind_players: true
+
+  ask_one_question_at_a_time: true
+
+  hidden_information: low
+
+  fail_forward: true
+
+salt-tide-archive/lore.md
+markdown
+
+# The Salt-Tide Archive Lore
+
+The coastal town of Saltmouth keeps records of tides, floods, lighthouse memories, and harbor names.
+
+But some people remember a flood that no record shows. Some records say the flood happened but no one admits it. Some tide logs contradict themselves.
+
+Physical water evidence is real. Memory can be true, false, copied, drowned, or made to be believed.
+
+salt-tide-archive/state_schema.yaml
+yaml
+
+state_schema:
+  campaign_id: salt-tide-archive
+
+  custom_fields:
+    memory_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
+
+    max_memory_marks:
+      type: integer
+      default: 3
+
+    tide_log_fragments:
+      type: integer
+      default: 0
+
+    salt_compass_uses:
+      type: integer
+      default: 1
+      minimum: 0
+      maximum: 1
+
+    lighthouse_tokens:
+      type: integer
+      default: 0
+
+    false_floods:
+      type: array
+      default: []
+
+    water_anchors:
+      type: array
+      default:
+        - harbor-clock
+
+salt-tide-archive/session0.md
+markdown
+
+# Session 0: The Salt-Tide Archive
+
+## Characters
+
+Keep it simple.
+
+Recommended classes:
+
+- Fighter
+- Ranger
+- Rogue
+- Bard
+- Cleric
+- Druid
+- Wizard with prepared spells
+
+Give each player:
+
+- One favorite skill
+- One trusted spell or feature
+- One background:
+  - Tide child
+  - Harbor clerk
+  - Lighthouse apprentice
+  - Salt runner
+
+## Opening hook
+
+Read to players:
+
+> “The tide archive says there was a flood in one year. The town council says there was not. The pavement says it was dry. A witness says she saw water. Which one should you check first?”
+
+Then ask:
+
+- What do you check first?
+- Do you trust the record, the witness, or the pavement?
+- What can you prove?
+
+salt-tide-archive/rewards.yaml
+yaml
+
+rewards:
+  - tide-lens
+  - salt-compass
+  - lighthouse-token
+  - tide-log-fragment
+
+summary:
+  reward_type: beginner-water-investigation-tools
+  goal: Give beginners simple clues and low-complexity memory tools.
+
+salt-tide-archive/factions/salt-tide-archivists.yaml
+yaml
+
+faction:
+  id: salt-tide-archivists
+  name: Salt-Tide Archivists
+  alignment: neutral-good
+  description: >
+    The keepers of tide logs, flood marks, and harbor records.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+salt-tide-archive/factions/drowned-choir.yaml
+yaml
+
+faction:
+  id: drowned-choir
+  name: Drowned Choir
+  alignment: chaotic-neutral
+  description: >
+    A memory cult that remembers drowned people, false floods, and lighthouse songs.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+salt-tide-archive/factions/harbor-guild.yaml
+yaml
+
+faction:
+  id: harbor-guild
+  name: Harbor Guild
+  alignment: lawful-neutral
+  description: >
+    The safe harbor faction. They want ships, piers, and water routes stable.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+salt-tide-archive/factions/salt-guild.yaml
+yaml
+
+faction:
+  id: salt-guild
+  name: Salt Guild
+  alignment: neutral-good
+  description: >
+    Ecology and tide workers who want the coast stable and healthy.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+salt-tide-archive/locations/salt-tide-archive.yaml
+yaml
+
+location:
+  id: salt-tide-archive
+  name: Salt-Tide Archive
+  kind: hub
+  description: >
+    The campaign archive for tides, floods, harbor names, and memories.
+
+salt-tide-archive/locations/old-lighthouse.yaml
+yaml
+
+location:
+  id: old-lighthouse
+  name: Old Lighthouse
+  kind: memory-site
+  description: >
+    A lighthouse that remembers different flood names.
+
+salt-tide-archive/locations/flooded-pier.yaml
+yaml
+
+location:
+  id: flooded-pier
+  name: Flooded Pier
+  kind: site
+  description: >
+    A pier with old water marks and modern dry pavement.
+
+salt-tide-archive/locations/salt-chapel.yaml
+yaml
+
+location:
+  id: salt-chapel
+  name: Salt Chapel
+  kind: site
+  description: >
+    A coastal shrine where flood memories become public prayers.
+
+salt-tide-archive/locations/harbor-clock.yaml
+yaml
+
+location:
+  id: harbor-clock
+  name: Harbor Clock
+  kind: anchor
+  description: >
+    A stable harbor anchor used to stabilize tide memory.
+  anchor: true
+
+salt-tide-archive/acts/act1.yaml
+yaml
+
+act:
+  number: 1
+  name: The Dry Archive That Remembers Water
+  level_range: "1-3"
+  goal: Learn that one memory of water is real but unstable.
+  adventures:
+    - dry-archive-that-remembers-water
+    - flood-that-never-was
+  main_locations:
+    - salt-tide-archive
+    - flooded-pier
+    - old-lighthouse
+  main_factions:
+    - salt-tide-archivists
+    - drowned-choir
+
+salt-tide-archive/acts/act2.yaml
+yaml
+
+act:
+  number: 2
+  name: The Salt Map
+  level_range: "4-6"
+  goal: Decide which harbor memory is true and protect one stable tide.
+  adventures:
+    - salt-map-remembers-harbor
+    - drowned-choir-memory
+  main_locations:
+    - harbor-clock
+    - salt-chapel
+  main_factions:
+    - salt-tide-archivists
+    - drowned-choir
+    - harbor-guild
+
+salt-tide-archive/acts/act3.yaml
+yaml
+
+act:
+  number: 3
+  name: The Tide That Will Not Wait
+  level_range: "7-10"
+  goal: Stabilize the archive and decide whether to restore or protect the forgotten tide.
+  adventures:
+    - two-named-tower
+    - tide-that-will-not-wait
+  main_locations:
+    - old-lighthouse
+    - harbor-clock
+  main_factions:
+    - drowned-choir
+    - harbor-guild
+    - salt-guild
+
+salt-tide-archive/adventures/dry-archive-that-remembers-water.yaml
+yaml
+
+adventure:
+  id: dry-archive-that-remembers-water
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover why the archive remembers a flood that the town records deny.
+  major_clues:
+    - old water marks
+    - dry pavement
+    - tide log
+  success_condition: identify one physical flood clue
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 10
+      meaning: find water marks
+    - check: History
+      dc: 10
+      meaning: compare records
+    - check: Nature
+      dc: 10
+      meaning: weather and water signs
+
+salt-tide-archive/adventures/flood-that-never-was.yaml
+yaml
+
+adventure:
+  id: flood-that-never-was
+  act: 1
+  level_range: "1-3"
+  objective: |
+    Discover why multiple people remember a flood that no record admits.
+  major_clues:
+    - witness remembers rain
+    - salt chapel prayer
+    - dry pavement
+  success_condition: stabilize flood memory
+  failure_condition: paradox +1
+
+salt-tide-archive/adventures/salt-map-remembers-harbor.yaml
+yaml
+
+adventure:
+  id: salt-map-remembers-harbor
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Discover why the salt map shows a harbor route that modern maps deny.
+  major_clues:
+    - old salt map
+    - broken pier marks
+    - witness contradiction
+  success_condition: prove one anchor
+  failure_condition: paradox +1
+
+salt-tide-archive/adventures/drowned-choir-memory.yaml
+yaml
+
+adventure:
+  id: drowned-choir-memory
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Discover why the Drowned Choir remembers names that no archive confirms.
+  major_clues:
+    - false lighthouse name
+    - copied tide log
+    - public witness memory
+  success_condition: stabilize false memory
+  failure_condition: major paradox
+
+salt-tide-archive/adventures/two-named-tower.yaml
+yaml
+
+adventure:
+  id: two-named-tower
+  act: 3
+  level_range: "7-8"
+  objective: |
+    Discover why the lighthouse has two names in one century.
+  major_clues:
+    - blank plaque
+    - two witness names
+    - copied prayer
+  success_condition: stabilize lighthouse anchor
+  failure_condition: major paradox +1
+
+salt-tide-archive/adventures/tide-that-will-not-wait.yaml
+yaml
+
+adventure:
+  id: tide-that-will-not-wait
+  act: 3
+  level_range: "7-10"
+  objective: |
+    Stabilize the final tide before the harbor becomes paradoxical.
+  major_clues:
+    - harbor-clock anchor
+    - false witness
+    - copied flood log
+  success_condition: choose stable ending
+  failure_condition: unresolved tide ending
+
+salt-tide-archive/npcs/tide-keeper.yaml
+yaml
+
+npc:
+  id: tide-keeper
+  name: Tide Keeper
+  faction: salt-tide-archivists
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: dry-archive-that-remembers-water
+  role: >
+    Keeps tide logs and flood marks, but one memory may be copied.
+
+salt-tide-archive/npcs/lighthouse-keeper.yaml
+yaml
+
+npc:
+  id: lighthouse-keeper
+  name: Lighthouse Keeper
+  faction: salt-tide-archivists
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: old-lighthouse
+  role: >
+    Remembers flood names and lighthouse songs, but memory may be drowned.
+
+salt-tide-archive/npcs/salt-auditor.yaml
+yaml
+
+npc:
+  id: salt-auditor
+  name: Salt Auditor
+  faction: harbor-guild
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: salt-map-remembers-harbor
+  role: >
+    Checks whether harbor maps were copied, erased, or rewritten.
+
+salt-tide-archive/npcs/drowned-singer.yaml
+yaml
+
+npc:
+  id: drowned-singer
+  name: Drowned Singer
+  faction: drowned-choir
+  importance: major
+  disposition: hostile
+  secrets: 4
+  first_appearance: drowned-choir-memory
+  role: >
+    A false-memory cult member who makes people remember drowned names and floods.
+
+salt-tide-archive/encounters/memory-flood.yaml
+yaml
+
+encounter:
+  id: memory-flood
+  type: light-combat-skill
+  level_range: "1-10"
+  goal: stabilize one false flood memory
+  options:
+    - Insight
+    - Nature
+    - use Salt Compass
+
+salt-tide-archive/encounters/salt-auditor.yaml
+yaml
+
+encounter:
+  id: salt-auditor
+  type: social-skill
+  level_range: "1-10"
+  goal: determine whether auditor is truthful, copied, or false
+  options:
+    - compare tide logs
+    - ask one question
+    - use Tide Lens
+
+salt-tide-archive/items/tide-lens.yaml
+yaml
+
+item:
+  id: tide-lens
+  name: Tide Lens
+  rarity: uncommon
+  mechanical: >
+    Once per long rest, spend a bonus action to see one true water mark within 30 feet.
+
+salt-tide-archive/items/salt-compass.yaml
+yaml
+
+item:
+  id: salt-compass
+  name: Salt Compass
+  rarity: rare
+  kind: resource
+  mechanical: >
+    Once, let the party stabilize one tide memory without a paradox.
+
+salt-tide-archive/items/lighthouse-token.yaml
+yaml
+
+item:
+  id: lighthouse-token
+  name: Lighthouse Token
+  rarity: story
+  kind: resource
+  mechanical: >
+    Spend one token to stabilize one false lighthouse memory.
+
+salt-tide-archive/items/tide-log-fragment.yaml
+yaml
+
+item:
+  id: tide-log-fragment
+  name: Tide Log Fragment
+  rarity: uncommon
+  mechanical: >
+    A true fragment that can prove one flood or tide memory.
+
+data/campaigns/salt-tide-archive/session-state.json
+json
+
+{
+  "campaign": "salt-tide-archive",
+  "current_act": 1,
+  "current_adventure": "dry-archive-that-remembers-water",
+  "current_location": "salt-tide-archive",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "tide_log_fragments": 0,
+    "salt_compass_uses": 1,
+    "lighthouse_tokens": 0,
+    "false_floods": [],
+    "water_anchors": [
+      "harbor-clock"
+    ]
+  }
+}

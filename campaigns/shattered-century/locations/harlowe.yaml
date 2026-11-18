@@ -1,0 +1,6 @@
+location:
+  id: harlowe
+  name: Harlowe
+  kind: town
+  description: >
+    The campaign town, caught in overlapping time loops.

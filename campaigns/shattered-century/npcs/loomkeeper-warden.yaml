@@ -1,0 +1,14 @@
+npc:
+  id: loomkeeper-warden
+  name: Loomkeeper Warden
+  faction: loomkeepers
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: almanac-ninth-year
+  role: >
+    Prefers anchors and hates paradoxes.
+  behavior:
+    - offers repair quests
+    - corrects unsafe travel
+    - punishes reckless future-item misuse

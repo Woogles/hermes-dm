@@ -1,0 +1,17 @@
+act:
+  number: 2
+  name: Two Nights
+  level_range: "5-8"
+  goal: Prove which ferry route was tampered and stabilize one anchor.
+  adventures:
+    - ferry-arrives-twice
+    - dock-that-cannot-dock
+    - manifest-of-two-nights
+  main_locations:
+    - fog-bell
+    - drydock
+    - tide-archive
+  main_factions:
+    - fog-ledger
+    - drowned-choir
+    - hollowmouth-ferrykeepers

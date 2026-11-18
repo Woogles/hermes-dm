@@ -1,0 +1,14 @@
+npc:
+  id: unwritten-herald
+  name: Unwritten Herald
+  faction: unwritten
+  importance: major
+  disposition: hostile
+  secrets: 4
+  first_appearance: unwritten-century
+  role: >
+    Mid-campaign Act 2 boss.
+  behavior:
+    - Rewrite reaction once per round
+    - rerolls one damage roll or skill check against a timeline event
+    - erases future events that the party has not yet witnessed

@@ -1,0 +1,6 @@
+location:
+  id: fog-bell
+  name: Fog Bell
+  kind: memory-site
+  description: >
+    A bell that remembers names that should not be there.

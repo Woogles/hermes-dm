@@ -1,0 +1,10 @@
+npc:
+  id: ash-choir-assassin
+  name: Ashen Choir Assassin
+  faction: ashen-choir
+  importance: minor
+  disposition: hostile
+  secrets: 2
+  first_appearance: rain-that-never-fell
+  role: >
+    Sends assassins and future warriors into the past.

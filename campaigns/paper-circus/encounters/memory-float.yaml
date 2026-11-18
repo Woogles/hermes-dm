@@ -1,0 +1,9 @@
+encounter:
+  id: memory-float
+  type: light-combat-skill
+  level_range: "1-8"
+  goal: stabilize one false parade memory
+  options:
+    - Insight
+    - Performance
+    - use Memory Mark

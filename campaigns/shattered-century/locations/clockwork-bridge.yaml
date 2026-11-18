@@ -1,0 +1,6 @@
+location:
+  id: clockwork-bridge
+  name: Clockwork Bridge
+  kind: site
+  description: >
+    A bridge that can become dry, flooded, destroyed, or rewritten.

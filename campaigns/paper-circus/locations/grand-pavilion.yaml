@@ -1,0 +1,6 @@
+location:
+  id: grand-pavilion
+  name: Grand Pavilion
+  kind: hub
+  description: >
+    The town fairground where the remembered parade happens.

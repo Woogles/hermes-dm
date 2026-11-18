@@ -1,0 +1,6 @@
+location:
+  id: archive-barn
+  name: Archive Barn
+  kind: archive
+  description: >
+    A town archive holding posters, programs, and false tickets.

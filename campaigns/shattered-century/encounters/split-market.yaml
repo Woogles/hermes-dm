@@ -1,0 +1,8 @@
+encounter:
+  id: split-market
+  type: paradox-boss
+  level_range: "9-12"
+  hazards:
+    - four versions of market overlap
+    - paradox storm
+    - time-split combat zone

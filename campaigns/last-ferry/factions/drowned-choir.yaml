@@ -1,0 +1,11 @@
+faction:
+  id: drowned-choir
+  name: Drowned Choir
+  alignment: chaotic-neutral
+  description: >
+    A future cult that wants the Last Ferry to arrive for a lost voyage. They send drowned
+    singers into fog zones and reward memory paradoxes.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

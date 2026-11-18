@@ -1,0 +1,14 @@
+act:
+  number: 3
+  name: The Paper Fairground
+  level_range: "7-8"
+  goal: Stabilize the remembered fairground and choose what the next parade should be.
+  adventures:
+    - paper-fairground
+  main_locations:
+    - grand-pavilion
+    - archive-barn
+  main_factions:
+    - vellam-town-council
+    - forgotten-faces
+    - lantern-foxes

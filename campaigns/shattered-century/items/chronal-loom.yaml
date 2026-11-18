@@ -1,0 +1,12 @@
+item:
+  id: chronal-loom
+  name: Chronal Loom
+  rarity: wondrous
+  requires_attunement: true
+  actions:
+    - spend one Loom Charge to travel to an anchored era
+  senses:
+    - Anchor Sense within 100 feet
+    - Echo Sense for Anchor Copy or Echo Copy
+  repair_pulse:
+    - once per long rest, grant advantage on one Arcana or History paradox check

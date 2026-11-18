@@ -1,0 +1,17 @@
+act:
+  number: 1
+  name: The Night the Ferry Should Not Have Arrived
+  level_range: "1-4"
+  goal: Learn that the ferry anomaly is real and find one safe harbor anchor.
+  adventures:
+    - missing-night
+    - fog-that-remembers-the-ship
+    - tide-ledger
+  main_locations:
+    - old-harbor
+    - tide-archive
+    - ferry-landing
+  main_factions:
+    - hollowmouth-ferrykeepers
+    - fog-ledger
+    - tide-guild

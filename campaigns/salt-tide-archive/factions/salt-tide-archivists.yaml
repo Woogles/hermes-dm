@@ -1,0 +1,10 @@
+faction:
+  id: salt-tide-archivists
+  name: Salt-Tide Archivists
+  alignment: neutral-good
+  description: >
+    The keepers of tide logs, flood marks, and harbor records.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

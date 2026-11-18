@@ -1,0 +1,6 @@
+location:
+  id: tide-archive
+  name: Tide Archive
+  kind: archive
+  description: >
+    Harbor ledgers, ferry logs, and contradictory records.

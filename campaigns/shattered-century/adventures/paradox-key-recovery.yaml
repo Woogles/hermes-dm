@@ -1,0 +1,17 @@
+adventure:
+  id: paradox-key-recovery
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Recover four Paradox Keys without letting The Unwritten erase witnessed events.
+  major_clues:
+    - future rebels sabotaging anchors
+    - faction conflicts
+    - keys held by faction-aligned sites
+  success_condition: recover four Paradox Keys
+  failure_condition: major paradox
+  faction_conflicts:
+    - Loomkeepers want stability.
+    - The Unwritten want destruction.
+    - Gilded Ledger wants to steal future knowledge.
+    - The Bloom wants nature restored.

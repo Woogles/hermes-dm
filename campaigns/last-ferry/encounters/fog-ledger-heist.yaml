@@ -1,0 +1,11 @@
+encounter:
+  id: fog-ledger-heist
+  type: social-skill
+  level_range: "1-4"
+  goal: expose false ledger evidence
+  options:
+    - ask witness questions
+    - check paper
+    - compare ferry logs
+  failure_consequence: >
+    Fog Ledger gains influence, but party learns one ledger edit.

@@ -1,0 +1,12 @@
+adventure:
+  id: bell-of-drowned-names
+  act: 3
+  level_range: "9-10"
+  objective: |
+    Discover why the bell remembers passengers who were never ferried.
+  major_clues:
+    - bell remembers drowned names
+    - tide log contradicts itself
+    - false witness
+  success_condition: stabilize one drowned witness
+  failure_condition: major paradox +1

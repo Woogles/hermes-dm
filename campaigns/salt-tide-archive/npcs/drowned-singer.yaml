@@ -1,0 +1,10 @@
+npc:
+  id: drowned-singer
+  name: Drowned Singer
+  faction: drowned-choir
+  importance: major
+  disposition: hostile
+  secrets: 4
+  first_appearance: drowned-choir-memory
+  role: >
+    A false-memory cult member who makes people remember drowned names and floods.

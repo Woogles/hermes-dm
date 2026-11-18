@@ -1,1 +1,0 @@
-Tell players this is a village mystery about memory, trust, and community. Characters should have a reason to visit Brackenmere or care about one of its residents. Agree on boundaries around memory loss, forgotten loved ones, and supernatural influence. The mystery is designed to reward investigation; combat is not the only path forward.

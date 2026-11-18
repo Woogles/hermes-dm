@@ -1,0 +1,7 @@
+item:
+  id: salt-compass
+  name: Salt Compass
+  rarity: rare
+  kind: resource
+  mechanical: >
+    Once, let the party stabilize one tide memory without a paradox.

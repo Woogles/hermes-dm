@@ -1,0 +1,14 @@
+act:
+  number: 2
+  name: The Forgotten Circus
+  level_range: "4-6"
+  goal: Decide which circus act was real and which was copied or believed.
+  adventures:
+    - forgotten-circus
+    - archive-of-two-shows
+  main_locations:
+    - archive-barn
+    - ticket-yard
+  main_factions:
+    - forgotten-faces
+    - paper-ticket-ledger

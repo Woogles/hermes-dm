@@ -1,0 +1,10 @@
+faction:
+  id: tide-guild
+  name: Tide Guild
+  alignment: neutral-good
+  description: >
+    The nature and ecology faction. They want the harbor stable, safe, and free from blight.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

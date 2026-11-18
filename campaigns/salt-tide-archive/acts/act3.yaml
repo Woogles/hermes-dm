@@ -1,0 +1,15 @@
+act:
+  number: 3
+  name: The Tide That Will Not Wait
+  level_range: "7-10"
+  goal: Stabilize the archive and decide whether to restore or protect the forgotten tide.
+  adventures:
+    - two-named-tower
+    - tide-that-will-not-wait
+  main_locations:
+    - old-lighthouse
+    - harbor-clock
+  main_factions:
+    - drowned-choir
+    - harbor-guild
+    - salt-guild

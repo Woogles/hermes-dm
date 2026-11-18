@@ -1,0 +1,6 @@
+location:
+  id: loom-control-room
+  name: Loom Control Room
+  kind: final-site
+  description: >
+    The final Loom stabilization zone.

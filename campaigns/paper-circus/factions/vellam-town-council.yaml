@@ -1,0 +1,10 @@
+faction:
+  id: vellam-town-council
+  name: Vellam Town Council
+  alignment: lawful-neutral
+  description: >
+    Ordinary civic leaders who want the parade to be safe and remembered correctly.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

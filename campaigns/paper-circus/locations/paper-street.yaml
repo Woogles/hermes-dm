@@ -1,0 +1,6 @@
+location:
+  id: paper-street
+  name: Paper Street
+  kind: street
+  description: >
+    A street full of posters, tickets, and remembered parade routes.

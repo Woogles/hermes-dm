@@ -1,0 +1,673 @@
+Campaign 4: paper-circus
+
+This is a new beginner campaign.
+paper-circus/campaign.yaml
+version: 1.0
+
+campaign:
+  id: paper-circus
+  title: The Paper Circus
+
+  description: >
+    A beginner memory-mystery campaign where a town remembers a big circus parade that the
+    ledger, posters, and tickets disagree about. The party uses memory marks and ticket
+    evidence to tell real performances from copied, sold, or falsely remembered ones.
+
+author: Eric
+
+difficulty: beginner
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 8
+
+theme:
+  - mystery
+  - memory
+  - circus
+  - folklore
+
+style:
+  combat: low
+  roleplay: high
+  exploration: medium
+
+estimated_sessions: 18
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - memory
+    - clues
+    - tickets
+    - posters
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - complex time magic
+    - instant death
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failure reveal something useful
+    - keep clues physical and simple
+  never:
+    - completely block progression
+    - hide all clues
+    - make a memory-only answer without proof
+
+runtime_variables:
+  memory_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_memory_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  tickets_found:
+    type: array
+    default: []
+  false_tickets:
+    type: array
+    default: []
+  witnesses_confirmed:
+    type: array
+    default: []
+  parade_routes_stabilized:
+    type: integer
+    default: 0
+    min: 0
+    max: 3
+  forgotten_faces_trust:
+    type: integer
+    default: 0
+    min: -100
+    max: 100
+  lantern_paper_disturbance:
+    type: integer
+    default: 0
+    min: 0
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - vellam-town-council
+    - forgotten-faces
+    - paper-ticket-ledger
+    - lantern-foxes
+  locations:
+    - grand-pavilion
+    - paper-street
+    - archive-barn
+    - ticket-yard
+  adventures:
+    - missing-ringmaster
+    - phantom-parade
+    - ticket-that-says-nothing
+    - forgotten-circus
+    - archive-of-two-shows
+    - paper-fairground
+  npcs:
+    - ringmaster-quill
+    - missing-girl
+    - ledger-auditor
+    - lantern-fox
+  encounters:
+    - paper-auditor
+    - memory-float
+  items:
+    - memory-ticket
+    - ringmaster-whistle
+    - archive-lens
+    - fairground-compass
+  rewards:
+    - memory-ticket
+    - ringmaster-whistle
+    - archive-lens
+    - fairground-compass
+	
+
+paper-circus/dm_behavior.yaml
+yaml
+
+dm_behavior:
+
+  clue_style: obvious
+
+  mystery_complexity: beginner
+
+  combat_lethality: forgiving
+
+  guidance_level: high
+
+  allow_rule_explanations: true
+
+  remind_players: true
+
+  ask_one_question_at_a_time: true
+
+  hidden_information: low
+
+  fail_forward: true
+
+paper-circus/lore.md
+markdown
+
+# The Paper Circus Lore
+
+The town of Vellam remembers a big circus parade every year, but some people say one ringmaster, one performer, or one float was never part of it.
+
+The campaign is about memory and proof.
+
+Posters may be real.
+Tickets may be false.
+A witness may remember too perfectly.
+An archive may have copied one version of the show.
+
+paper-circus/state_schema.yaml
+yaml
+
+state_schema:
+  campaign_id: paper-circus
+
+  custom_fields:
+    memory_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
+
+    max_memory_marks:
+      type: integer
+      default: 3
+
+    tickets_found:
+      type: array
+      default: []
+
+    false_tickets:
+      type: array
+      default: []
+
+    witnesses_confirmed:
+      type: array
+      default: []
+
+    parade_routes:
+      type: array
+      default: []
+
+paper-circus/session0.md
+markdown
+
+# Session 0: The Paper Circus
+
+## Characters
+
+Keep it simple.
+
+Recommended classes:
+
+- Fighter
+- Ranger
+- Rogue
+- Bard
+- Cleric
+- Druid
+- Wizard with prepared spells
+
+Give each player:
+
+- One favorite skill
+- One trusted spell or feature
+- One background:
+  - Parade child
+  - Ticket seller
+  - Town apprentice
+  - Lantern runner
+
+## Opening hook
+
+Read to players:
+
+> “Every year, Vellam remembers a big parade. But one year, a ticket says one show happened. The archive says another show happened. A child remembers a float that no one else can name. What do you trust first: the ticket, the archive, or the child's memory?”
+
+paper-circus/rewards.yaml
+yaml
+
+rewards:
+  - memory-ticket
+  - ringmaster-whistle
+  - archive-lens
+  - fairground-compass
+
+summary:
+  reward_type: beginner-investigation-tools
+  goal: Give beginners simple memory and evidence tools.
+
+paper-circus/factions/vellam-town-council.yaml
+yaml
+
+faction:
+  id: vellam-town-council
+  name: Vellam Town Council
+  alignment: lawful-neutral
+  description: >
+    Ordinary civic leaders who want the parade to be safe and remembered correctly.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+paper-circus/factions/forgotten-faces.yaml
+yaml
+
+faction:
+  id: forgotten-faces
+  name: Circus of Forgotten Faces
+  alignment: chaotic-neutral
+  description: >
+    A mysterious performer group that remembers acts no one can prove happened.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+paper-circus/factions/paper-ticket-ledger.yaml
+yaml
+
+faction:
+  id: paper-ticket-ledger
+  name: Paper Ticket Ledger
+  alignment: neutral-evil
+  description: >
+    A shady society that sells false tickets and edits parade records.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+paper-circus/factions/lantern-foxes.yaml
+yaml
+
+faction:
+  id: lantern-foxes
+  name: Lantern Foxes
+  alignment: chaotic-good
+  description: >
+    Mischievous folk spirits who move paper, lanterns, and witnesses around fairgrounds.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+paper-circus/locations/grand-pavilion.yaml
+yaml
+
+location:
+  id: grand-pavilion
+  name: Grand Pavilion
+  kind: hub
+  description: >
+    The town fairground where the remembered parade happens.
+
+paper-circus/locations/paper-street.yaml
+yaml
+
+location:
+  id: paper-street
+  name: Paper Street
+  kind: street
+  description: >
+    A street full of posters, tickets, and remembered parade routes.
+
+paper-circus/locations/archive-barn.yaml
+yaml
+
+location:
+  id: archive-barn
+  name: Archive Barn
+  kind: archive
+  description: >
+    A town archive holding posters, programs, and false tickets.
+
+paper-circus/locations/ticket-yard.yaml
+yaml
+
+location:
+  id: ticket-yard
+  name: Ticket Yard
+  kind: black-market
+  description: >
+    A small fairground market selling false tickets and forbidden souvenirs.
+
+paper-circus/acts/act1.yaml
+yaml
+
+act:
+  number: 1
+  name: The Parade That Was Not in the Ledger
+  level_range: "1-3"
+  goal: Learn that at least one circus memory is true without a record.
+  adventures:
+    - missing-ringmaster
+    - phantom-parade
+    - ticket-that-says-nothing
+  main_locations:
+    - grand-pavilion
+    - paper-street
+    - archive-barn
+  main_factions:
+    - vellam-town-council
+    - forgotten-faces
+    - paper-ticket-ledger
+
+paper-circus/acts/act2.yaml
+yaml
+
+act:
+  number: 2
+  name: The Forgotten Circus
+  level_range: "4-6"
+  goal: Decide which circus act was real and which was copied or believed.
+  adventures:
+    - forgotten-circus
+    - archive-of-two-shows
+  main_locations:
+    - archive-barn
+    - ticket-yard
+  main_factions:
+    - forgotten-faces
+    - paper-ticket-ledger
+
+paper-circus/acts/act3.yaml
+yaml
+
+act:
+  number: 3
+  name: The Paper Fairground
+  level_range: "7-8"
+  goal: Stabilize the remembered fairground and choose what the next parade should be.
+  adventures:
+    - paper-fairground
+  main_locations:
+    - grand-pavilion
+    - archive-barn
+  main_factions:
+    - vellam-town-council
+    - forgotten-faces
+    - lantern-foxes
+
+paper-circus/adventures/missing-ringmaster.yaml
+yaml
+
+adventure:
+  id: missing-ringmaster
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover why the town remembers a ringmaster who does not appear in the ledger.
+  major_clues:
+    - poster with ringmaster
+    - ticket says one show
+    - witness remembers too perfectly
+  success_condition: identify ringmaster memory
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 10
+      meaning: find poster and ticket
+    - check: History
+      dc: 10
+      meaning: compare memory to ledger
+    - check: Insight
+      dc: 12
+      meaning: witness memory is too perfect
+
+paper-circus/adventures/phantom-parade.yaml
+yaml
+
+adventure:
+  id: phantom-parade
+  act: 1
+  level_range: "1-3"
+  objective: |
+    Discover why one parade float appears in memory but not in the physical parade.
+  major_clues:
+    - missing float route
+    - child remembers float
+    - old poster exists
+  success_condition: stabilize float memory
+  failure_condition: paradox +1
+
+paper-circus/adventures/ticket-that-says-nothing.yaml
+yaml
+
+adventure:
+  id: ticket-that-says-nothing
+  act: 1
+  level_range: "1-3"
+  objective: |
+    Discover why one ticket matches one show but not another.
+  major_clues:
+    - false ticket
+    - copied program
+    - vendor remembers buying ticket
+  success_condition: identify copied record
+  failure_condition: Paper Ticket Ledger gains influence
+
+paper-circus/adventures/forgotten-circus.yaml
+yaml
+
+adventure:
+  id: forgotten-circus
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Discover why one circus act was erased from public memory but still remembered privately.
+  major_clues:
+    - private note
+    - false public record
+    - performer memory
+  success_condition: prove one act existed
+  failure_condition: paradox +1
+
+paper-circus/adventures/archive-of-two-shows.yaml
+yaml
+
+adventure:
+  id: archive-of-two-shows
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Compare two archive versions of the same parade.
+  major_clues:
+    - two programs
+    - one copied poster
+    - one witness echo
+  success_condition: identify true archive version
+  failure_condition: archive becomes false memory
+
+paper-circus/adventures/paper-fairground.yaml
+yaml
+
+adventure:
+  id: paper-fairground
+  act: 3
+  level_range: "7-8"
+  objective: |
+    Decide whether to restore, protect, or replace the remembered fairground.
+  major_clues:
+    - old fairground anchor
+    - copied memory
+    - false ticket ledger
+  success_condition: stable fairground ending
+  failure_condition: unresolved paradox ending
+
+paper-circus/npcs/ringmaster-quill.yaml
+yaml
+
+npc:
+  id: ringmaster-quill
+  name: Ringmaster Quill
+  faction: forgotten-faces
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: missing-ringmaster
+  role: >
+    A remembered performer whose existence is contested by the archive.
+
+paper-circus/npcs/missing-girl.yaml
+yaml
+
+npc:
+  id: missing-girl
+  name: Missing Girl
+  faction: vellam-town-council
+  importance: minor
+  disposition: curious
+  secrets: 1
+  first_appearance: phantom-parade
+  role: >
+    A child witness who remembers one float or act very strongly.
+
+paper-circus/npcs/ledger-auditor.yaml
+yaml
+
+npc:
+  id: ledger-auditor
+  name: Ledger Auditor
+  faction: paper-ticket-ledger
+  importance: major
+  disposition: cautious
+  secrets: 2
+  first_appearance: ticket-that-says-nothing
+  role: >
+    Checks whether parade tickets were copied, edited, or sold.
+
+paper-circus/npcs/lantern-fox.yaml
+yaml
+
+npc:
+  id: lantern-fox
+  name: Lantern Fox
+  faction: lantern-foxes
+  importance: minor
+  disposition: mischievous
+  secrets: 1
+  first_appearance: phantom-parade
+  role: >
+    A folk spirit that moves paper, lanterns, and false tickets around the fairground.
+
+paper-circus/encounters/paper-auditor.yaml
+yaml
+
+encounter:
+  id: paper-auditor
+  type: social-skill
+  level_range: "1-8"
+  goal: determine whether auditor is telling truth or copying false records
+  options:
+    - compare papers
+    - ask one question
+    - use Archive Lens
+
+paper-circus/encounters/memory-float.yaml
+yaml
+
+encounter:
+  id: memory-float
+  type: light-combat-skill
+  level_range: "1-8"
+  goal: stabilize one false parade memory
+  options:
+    - Insight
+    - Performance
+    - use Memory Mark
+
+paper-circus/items/memory-ticket.yaml
+yaml
+
+item:
+  id: memory-ticket
+  name: Memory Ticket
+  rarity: common
+  mechanical: >
+    Spend one Memory Mark to remember one exact detail from a ticket, poster, or witness statement.
+
+paper-circus/items/ringmaster-whistle.yaml
+yaml
+
+item:
+  id: ringmaster-whistle
+  name: Ringmaster Whistle
+  rarity: uncommon
+  kind: story-item
+  mechanical: >
+    Once per long rest, grant advantage on one Performance, Insight, or Persuasion check connected
+    to a remembered circus scene.
+
+paper-circus/items/archive-lens.yaml
+yaml
+
+item:
+  id: archive-lens
+  name: Archive Lens
+  rarity: uncommon
+  mechanical: >
+    Once per long rest, spend a bonus action to see whether one paper record is a true copy,
+    a copied false version, or a witness echo.
+
+paper-circus/items/fairground-compass.yaml
+yaml
+
+item:
+  id: fairground-compass
+  name: Fairground Compass
+  rarity: rare
+  kind: resource
+  mechanical: >
+    Once, allow the party to choose one parade route to stabilize without a paradox.
+
+data/campaigns/paper-circus/session-state.json
+json
+
+{
+  "campaign": "paper-circus",
+  "current_act": 1,
+  "current_adventure": "missing-ringmaster",
+  "current_location": "grand-pavilion",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "tickets_found": [],
+    "false_tickets": [],
+    "witnesses_confirmed": [],
+    "parade_routes": []
+  }
+}

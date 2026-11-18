@@ -1,0 +1,7 @@
+location:
+  id: ferry-landing
+  name: Ferry Landing
+  kind: anchor
+  description: >
+    A stable ferry anchor. Safe travel begins here.
+  anchor: true

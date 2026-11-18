@@ -1,0 +1,6 @@
+item:
+  id: bell-token
+  name: Bell Token
+  rarity: story
+  mechanical: >
+    Spend one Bell Token to stabilize one false memory in a fog bell.

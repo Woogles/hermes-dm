@@ -1,0 +1,12 @@
+adventure:
+  id: salt-map-remembers-harbor
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Discover why the salt map shows a harbor route that modern maps deny.
+  major_clues:
+    - old salt map
+    - broken pier marks
+    - witness contradiction
+  success_condition: prove one anchor
+  failure_condition: paradox +1

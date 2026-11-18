@@ -1,0 +1,9 @@
+encounter:
+  id: paper-auditor
+  type: social-skill
+  level_range: "1-8"
+  goal: determine whether auditor is telling truth or copying false records
+  options:
+    - compare papers
+    - ask one question
+    - use Archive Lens

@@ -1,0 +1,6 @@
+location:
+  id: ninth-dam
+  name: Ninth Dam
+  kind: late-site
+  description: >
+    A late-game water anchor that may overlap with other dam versions.

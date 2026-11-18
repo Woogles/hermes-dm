@@ -1,0 +1,7 @@
+location:
+  id: founding-chapel
+  name: Founding Chapel
+  kind: anchor
+  description: >
+    Past civic center, civic anchor, mayor paradox, and historical records.
+  anchor: true

@@ -1,0 +1,17 @@
+act:
+  number: 1
+  name: The Parade That Was Not in the Ledger
+  level_range: "1-3"
+  goal: Learn that at least one circus memory is true without a record.
+  adventures:
+    - missing-ringmaster
+    - phantom-parade
+    - ticket-that-says-nothing
+  main_locations:
+    - grand-pavilion
+    - paper-street
+    - archive-barn
+  main_factions:
+    - vellam-town-council
+    - forgotten-faces
+    - paper-ticket-ledger

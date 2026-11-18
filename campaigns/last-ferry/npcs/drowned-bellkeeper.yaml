@@ -1,0 +1,10 @@
+npc:
+  id: drowned-bellkeeper
+  name: Drowned Bellkeeper
+  faction: drowned-choir
+  importance: major
+  disposition: hostile
+  secrets: 4
+  first_appearance: bell-of-drowned-names
+  role: >
+    A cult figure who makes the bell remember names that should not exist.

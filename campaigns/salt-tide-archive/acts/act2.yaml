@@ -1,0 +1,15 @@
+act:
+  number: 2
+  name: The Salt Map
+  level_range: "4-6"
+  goal: Decide which harbor memory is true and protect one stable tide.
+  adventures:
+    - salt-map-remembers-harbor
+    - drowned-choir-memory
+  main_locations:
+    - harbor-clock
+    - salt-chapel
+  main_factions:
+    - salt-tide-archivists
+    - drowned-choir
+    - harbor-guild

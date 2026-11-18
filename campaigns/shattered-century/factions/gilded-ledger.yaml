@@ -1,0 +1,11 @@
+faction:
+  id: gilded-ledger
+  name: Gilded Ledger
+  alignment: neutral-evil
+  description: >
+    A time-aware crime syndicate. They steal across timelines, exploit anchors,
+    buy future information, and create heists that require time jumps.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

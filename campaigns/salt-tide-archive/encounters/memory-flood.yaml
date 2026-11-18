@@ -1,0 +1,9 @@
+encounter:
+  id: memory-flood
+  type: light-combat-skill
+  level_range: "1-10"
+  goal: stabilize one false flood memory
+  options:
+    - Insight
+    - Nature
+    - use Salt Compass

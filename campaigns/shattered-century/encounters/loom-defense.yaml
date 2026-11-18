@@ -1,0 +1,10 @@
+encounter:
+  id: loom-defense
+  type: combat-skill
+  level_range: "5-8"
+  objective: >
+    Protect one stable anchor while repairing the Loom.
+  options:
+    - stabilize one anchor
+    - convince Loomkeeper ally
+    - fight to hold line

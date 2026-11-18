@@ -1,0 +1,14 @@
+adventure:
+  id: ledger-vault
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Stop or expose a time-aware heist across years.
+  major_clues:
+    - vault stolen in 1997
+    - second vault in 2003
+    - future copy must not find past copy
+  success_condition: erase suspicion safely
+  failure_condition: Gilded Ledger gains Influence
+  anchor_rule: >
+    You cannot bring a 2020 lockpick back to 1997 unless that lockpick type existed then.

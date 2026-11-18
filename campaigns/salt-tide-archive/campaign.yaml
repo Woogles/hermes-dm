@@ -1,0 +1,153 @@
+Campaign 5: salt-tide-archive
+
+This is the second new beginner campaign.
+version: 1.0
+
+campaign:
+  id: salt-tide-archive
+  title: The Salt-Tide Archive
+
+  description: >
+    A beginner coastal-archive mystery where a town remembers a flood that its records,
+    witnesses, and pavement disagree about. The party uses water marks, tide logs, and
+    salt compasses to separate real physical evidence from copied or drowned memory.
+
+author: Eric
+
+difficulty: beginner
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 10
+
+theme:
+  - mystery
+  - investigation
+  - water
+  - memory
+  - archives
+
+style:
+  combat: low
+  roleplay: high
+  exploration: high
+
+estimated_sessions: 20
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - water marks
+    - tide logs
+    - memory
+    - simple clues
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - complex time magic
+    - instant drowning death
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failure reveal water evidence
+    - keep tide logs physical
+  never:
+    - completely block progression
+    - hide all water clues
+    - make memory alone solve the mystery
+
+runtime_variables:
+  memory_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_memory_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  tide_log_fragments:
+    type: integer
+    default: 0
+    min: 0
+  salt_compass_uses:
+    type: integer
+    default: 1
+    min: 0
+    max: 1
+  lighthouse_tokens:
+    type: integer
+    default: 0
+    min: 0
+  water_anchors_stable:
+    type: integer
+    default: 1
+    min: 0
+    max: 5
+  false_floods:
+    type: array
+    default: []
+  drowned_choir_influence:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - salt-tide-archivists
+    - drowned-choir
+    - harbor-guild
+    - salt-guild
+  locations:
+    - salt-tide-archive
+    - old-lighthouse
+    - flooded-pier
+    - salt-chapel
+    - harbor-clock
+  adventures:
+    - dry-archive-that-remembers-water
+    - flood-that-never-was
+    - salt-map-remembers-harbor
+    - drowned-choir-memory
+    - two-named-tower
+    - tide-that-will-not-wait
+  npcs:
+    - tide-keeper
+    - lighthouse-keeper
+    - salt-auditor
+    - drowned-singer
+  encounters:
+    - memory-flood
+    - salt-auditor
+  items:
+    - tide-lens
+    - salt-compass
+    - lighthouse-token
+    - tide-log-fragment
+  rewards:
+    - tide-lens
+    - salt-compass
+    - lighthouse-token
+    - tide-log-fragment

@@ -1,0 +1,19 @@
+dm_behavior:
+
+  clue_style: medium
+
+  mystery_complexity: intermediate
+
+  combat_lethality: moderate
+
+  guidance_level: medium
+
+  allow_rule_explanations: true
+
+  remind_players: true
+
+  ask_one_question_at_a_time: true
+
+  hidden_information: medium
+
+  fail_forward: partial

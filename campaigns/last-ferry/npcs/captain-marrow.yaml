@@ -1,0 +1,10 @@
+npc:
+  id: captain-marrow
+  name: Captain Marrow
+  faction: hollowmouth-ferrykeepers
+  importance: major
+  disposition: friendly
+  secrets: 4
+  first_appearance: missing-night
+  role: >
+    Remembers routes and ferry customs, but memory can be fog-touched.

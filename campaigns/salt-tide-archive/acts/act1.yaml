@@ -1,0 +1,15 @@
+act:
+  number: 1
+  name: The Dry Archive That Remembers Water
+  level_range: "1-3"
+  goal: Learn that one memory of water is real but unstable.
+  adventures:
+    - dry-archive-that-remembers-water
+    - flood-that-never-was
+  main_locations:
+    - salt-tide-archive
+    - flooded-pier
+    - old-lighthouse
+  main_factions:
+    - salt-tide-archivists
+    - drowned-choir

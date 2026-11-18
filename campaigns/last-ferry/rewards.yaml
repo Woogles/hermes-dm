@@ -1,0 +1,9 @@
+rewards:
+  - ferry-log-fragment
+  - fog-lantern
+  - tide-key
+  - bell-token
+
+summary:
+  reward_type: harbor-tools
+  goal: Provide moderate investigation tools without full time magic.

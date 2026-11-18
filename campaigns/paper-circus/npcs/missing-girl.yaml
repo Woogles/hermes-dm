@@ -1,0 +1,10 @@
+npc:
+  id: missing-girl
+  name: Missing Girl
+  faction: vellam-town-council
+  importance: minor
+  disposition: curious
+  secrets: 1
+  first_appearance: phantom-parade
+  role: >
+    A child witness who remembers one float or act very strongly.

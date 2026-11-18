@@ -1,0 +1,59 @@
+state_schema:
+  campaign_id: shattered-century
+
+  custom_fields:
+    loom_charges:
+      type: integer
+      default: 2
+      minimum: 0
+      maximum: 4
+
+    max_loom_charges:
+      type: integer
+      default: 2
+
+    paradox_shards:
+      type: integer
+      default: 0
+
+    faction_influence:
+      type: object
+      default:
+        loomkeepers: 0
+        ashen-choir: 0
+        gilded-ledger: 0
+        unwritten: 0
+        bloom: 0
+
+    time_anchors:
+      type: array
+      default:
+        - market-of-miracles
+        - old-dam
+        - clockwork-vaults
+
+    era:
+      type: string
+      default: the-bloom
+
+    era_values:
+      type: array
+      default:
+        - the-founding
+        - the-bloom
+        - the-ashfall
+        - the-drowned
+        - the-unwritten
+
+    temporal_exposure:
+      type: object
+      default:
+        characters: {}
+
+    chronal_stasis:
+      type: array
+      default: []
+
+    visible_timeline_changes:
+      type: array
+      default: []

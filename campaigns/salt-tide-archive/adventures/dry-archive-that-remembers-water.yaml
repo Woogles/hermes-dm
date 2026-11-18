@@ -1,0 +1,22 @@
+adventure:
+  id: dry-archive-that-remembers-water
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover why the archive remembers a flood that the town records deny.
+  major_clues:
+    - old water marks
+    - dry pavement
+    - tide log
+  success_condition: identify one physical flood clue
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 10
+      meaning: find water marks
+    - check: History
+      dc: 10
+      meaning: compare records
+    - check: Nature
+      dc: 10
+      meaning: weather and water signs

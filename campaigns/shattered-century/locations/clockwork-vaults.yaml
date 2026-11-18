@@ -1,0 +1,6 @@
+location:
+  id: clockwork-vaults
+  name: Clockwork Vaults
+  kind: underground
+  description: >
+    Underground engine rooms. Useful for combat, Loom repair, paradox cores, and Loomkeepers.

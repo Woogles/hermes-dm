@@ -1,0 +1,23 @@
+act:
+  number: 3
+  name: The Unmaking
+  level_range: "9-12"
+  goal: Enter the Loom's core, stabilize the century, and choose an ending.
+  adventures:
+    - split-market
+    - loom-control-room
+    - final-century
+  main_locations:
+    - loom-control-room
+    - split-market
+    - ninth-dam
+    - chapel-of-two-names
+    - drowned-bridge
+    - ashfall-throne
+  main_factions:
+    - unwritten
+    - loomkeepers
+    - gilded-ledger
+    - bloom
+    - ashen-choir
+  boss: unwritten-king

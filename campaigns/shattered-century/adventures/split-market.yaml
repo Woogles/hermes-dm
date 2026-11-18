@@ -1,0 +1,16 @@
+adventure:
+  id: split-market
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Stabilize a location where four versions of the market overlap.
+  major_clues:
+    - same market in four states
+    - paradox storm
+    - duplicated NPCs
+  success_condition: stabilize one anchor path
+  failure_condition: major paradox
+  hazards:
+    - Wisdom disadvantage in unstable era
+    - concentration saves in paradox zones
+    - initiative changes after first round

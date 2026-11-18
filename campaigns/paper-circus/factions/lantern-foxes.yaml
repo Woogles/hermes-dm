@@ -1,0 +1,10 @@
+faction:
+  id: lantern-foxes
+  name: Lantern Foxes
+  alignment: chaotic-good
+  description: >
+    Mischievous folk spirits who move paper, lanterns, and witnesses around fairgrounds.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

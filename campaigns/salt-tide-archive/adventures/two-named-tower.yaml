@@ -1,0 +1,12 @@
+adventure:
+  id: two-named-tower
+  act: 3
+  level_range: "7-8"
+  objective: |
+    Discover why the lighthouse has two names in one century.
+  major_clues:
+    - blank plaque
+    - two witness names
+    - copied prayer
+  success_condition: stabilize lighthouse anchor
+  failure_condition: major paradox +1

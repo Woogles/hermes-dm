@@ -1,0 +1,6 @@
+location:
+  id: flooded-pier
+  name: Flooded Pier
+  kind: site
+  description: >
+    A pier with old water marks and modern dry pavement.

@@ -1,0 +1,6 @@
+location:
+  id: split-harbor
+  name: Split Harbor
+  kind: paradox-zone
+  description: >
+    A final paradox zone where multiple harbor versions overlap.

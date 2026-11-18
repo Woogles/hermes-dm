@@ -1,0 +1,8 @@
+rewards:
+  - witness-notebook
+  - case-lens
+  - ring-anchor-token
+
+summary:
+  reward_type: story-items
+  goal: Give beginners simple investigative tools without complex magic.

@@ -1,0 +1,10 @@
+npc:
+  id: lantern-fox
+  name: Lantern Fox
+  faction: lantern-foxes
+  importance: minor
+  disposition: mischievous
+  secrets: 1
+  first_appearance: phantom-parade
+  role: >
+    A folk spirit that moves paper, lanterns, and false tickets around the fairground.

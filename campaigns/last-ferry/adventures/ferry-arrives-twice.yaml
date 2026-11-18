@@ -1,0 +1,14 @@
+adventure:
+  id: ferry-arrives-twice
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Determine which ferry is Anchor and which is Echo.
+  major_clues:
+    - same ferry appears in same harbor
+    - manifest mismatch
+    - anchor rule
+  success_condition: stabilize one ferry copy
+  failure_condition: paradox +1
+  echo_rule: >
+    One copy is an Echo. If not separated or stabilized, it may become hostile.

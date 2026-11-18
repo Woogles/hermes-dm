@@ -1,0 +1,31 @@
+{
+  "campaign": "shattered-century",
+  "current_act": 1,
+  "current_adventure": "almanac-ninth-year",
+  "current_location": "market-of-miracles",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "loom_charges": 2,
+    "max_loom_charges": 2,
+    "paradox_shards": 0,
+    "faction_influence": {
+      "loomkeepers": 0,
+      "ashen-choir": 0,
+      "gilded-ledger": 0,
+      "unwritten": 0,
+      "bloom": 0
+    },
+    "time_anchors": [
+      "market-of-miracles",
+      "old-dam",
+      "clockwork-vaults"
+    ],
+    "era": "the-bloom",
+    "temporal_exposure": {
+      "characters": {}
+    },
+    "chronal_stasis": [],
+    "visible_timeline_changes": []
+  }
+}

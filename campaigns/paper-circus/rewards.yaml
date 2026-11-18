@@ -1,0 +1,9 @@
+rewards:
+  - memory-ticket
+  - ringmaster-whistle
+  - archive-lens
+  - fairground-compass
+
+summary:
+  reward_type: beginner-investigation-tools
+  goal: Give beginners simple memory and evidence tools.

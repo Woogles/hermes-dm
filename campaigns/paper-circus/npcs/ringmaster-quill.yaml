@@ -1,0 +1,10 @@
+npc:
+  id: ringmaster-quill
+  name: Ringmaster Quill
+  faction: forgotten-faces
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: missing-ringmaster
+  role: >
+    A remembered performer whose existence is contested by the archive.

@@ -1,0 +1,6 @@
+location:
+  id: drowned-bridge
+  name: Drowned Bridge
+  kind: late-site
+  description: >
+    A bridge version existing underwater in another era.

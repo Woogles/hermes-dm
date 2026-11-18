@@ -1,43 +1,169 @@
+Campaign 1: vanished-century
 version: 1.0
 
-schema:
-  campaign_metadata:
-    description:
-      type: text
-      max_words: 60
-    status:
-      - draft
-      - beta
-      - released
-      - deprecated
+campaign:
+  id: vanished-century
+  title: The Vanished Century
 
-  runtime_variables:
-    allowed_types:
-      - integer
-      - string
-      - boolean
-      - array
-      - object
-    fields:
-      - type
-      - default
-      - min
-      - max
-      - allowed
-    note: >
-      Declares dynamic campaign state. Live values are stored in
-      session-state.json under a "runtime" map. Defaults here are initial only,
-      not hardcoded truth.
+  description: >
+    A beginner mystery-investigation campaign where a hidden magical world called
+    Underhollow is rewriting people, objects, and memories across a modern city,
+    leaving clean impossible holes. The party proves what happened instead of trusting memory.
 
-  resources:
-    keys:
-      - session
-      - acts
-      - factions
-      - locations
-      - adventures
-      - npcs
-      - encounters
-      - items
-      - rewards
-    rule: every id must have a corresponding Layer 3 file.
+author: Eric
+
+difficulty: beginner
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 12
+
+theme:
+  - mystery
+  - investigation
+  - time-anomalies
+  - modern-underhollow
+
+style:
+  combat: low
+  roleplay: high
+  exploration: medium
+
+estimated_sessions: 24
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - evidence
+    - clues
+    - simple choices
+    - visible consequences
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - instant death
+    - complex time magic
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failed checks still reveal something useful
+    - show known facts clearly
+  never:
+    - completely block progression
+    - make the answer unknowable without clues
+
+runtime_variables:
+  case_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_case_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  ring_anchors:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  ring_anchor_tokens:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  silver_council_trust:
+    type: integer
+    default: 0
+    min: -100
+    max: 100
+  unseen_century_threat:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  known_facts:
+    type: array
+    default: []
+  unresolved_questions:
+    type: array
+    default:
+      - source-of-anomaly
+  case_file:
+    type: object
+    default:
+      known: []
+      contradictions: []
+      unresolved:
+        - source-of-anomaly
+      choices: []
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - midnight-circle
+    - silver-council
+    - grotto-market
+    - unseen-century
+    - aboveworld-news-bureau
+  locations:
+    - old-museum-quarter
+    - library-no-exit
+    - ring-of-stones
+    - crystal-court
+    - grotto-market
+    - bramble-stacks
+    - bridge-gap
+    - city-with-no-name
+    - four-courts
+  adventures:
+    - library-no-exit
+    - missing-rainstorm
+    - clock-that-does-not-tick
+    - bridge-that-was-never-built
+    - bramble-stacks
+    - silver-council-meeting
+    - silent-century
+    - city-with-no-name
+    - four-courts
+  npcs:
+    - echo-warden
+    - grotto-runner
+    - silent-auditor
+    - gnome-librarian
+    - troll-guard
+    - silver-council-voice
+    - unwritten-archivist
+  encounters:
+    - grotto-runner-ambush
+    - echo-warden-confusion
+    - bridge-guardian-test
+    - ring-collapse
+  items:
+    - witness-notebook
+    - case-lens
+    - ring-anchor-token
+  rewards:
+    - witness-notebook
+    - case-lens
+    - ring-anchor-token

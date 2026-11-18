@@ -1,0 +1,12 @@
+adventure:
+  id: drowned-choir-memory
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Discover why the Drowned Choir remembers names that no archive confirms.
+  major_clues:
+    - false lighthouse name
+    - copied tide log
+    - public witness memory
+  success_condition: stabilize false memory
+  failure_condition: major paradox

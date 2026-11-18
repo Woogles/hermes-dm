@@ -1,0 +1,10 @@
+faction:
+  id: paper-ticket-ledger
+  name: Paper Ticket Ledger
+  alignment: neutral-evil
+  description: >
+    A shady society that sells false tickets and edits parade records.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

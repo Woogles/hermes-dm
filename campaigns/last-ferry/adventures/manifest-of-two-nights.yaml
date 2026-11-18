@@ -1,0 +1,12 @@
+adventure:
+  id: manifest-of-two-nights
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Compare two ferry manifests and prove which names were false.
+  major_clues:
+    - two nights
+    - repeated names
+    - false ticket
+  success_condition: identify false names
+  failure_condition: Drowned Choir reacts

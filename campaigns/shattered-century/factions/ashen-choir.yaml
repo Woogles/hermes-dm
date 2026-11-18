@@ -1,0 +1,11 @@
+faction:
+  id: ashen-choir
+  name: Ashen Choir
+  alignment: chaotic-neutral
+  description: >
+    A cult of future believers. They want to destroy stable timelines, worship paradoxes,
+    send assassins and future warriors into the past, and reward chaos.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

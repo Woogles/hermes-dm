@@ -1,0 +1,10 @@
+npc:
+  id: tide-keeper
+  name: Tide Keeper
+  faction: salt-tide-archivists
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: dry-archive-that-remembers-water
+  role: >
+    Keeps tide logs and flood marks, but one memory may be copied.

@@ -1,0 +1,14 @@
+npc:
+  id: gilded-ledger-spy
+  name: Gilded Ledger Spy
+  faction: gilded-ledger
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: almanac-ninth-year
+  role: >
+    Steals across timelines and exploits anchors.
+  behavior:
+    - creates heists requiring time jumps
+    - buys future information
+    - plants false evidence

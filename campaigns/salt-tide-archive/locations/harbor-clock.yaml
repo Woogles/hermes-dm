@@ -1,0 +1,7 @@
+location:
+  id: harbor-clock
+  name: Harbor Clock
+  kind: anchor
+  description: >
+    A stable harbor anchor used to stabilize tide memory.
+  anchor: true

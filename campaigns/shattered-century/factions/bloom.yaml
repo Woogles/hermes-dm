@@ -1,0 +1,11 @@
+faction:
+  id: bloom
+  name: The Bloom
+  alignment: neutral-good
+  description: >
+    The natural, prosperous present faction. They want stable ecology and water sources,
+    fear drought, blight, and paradox storms, and reward restoration of nature.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

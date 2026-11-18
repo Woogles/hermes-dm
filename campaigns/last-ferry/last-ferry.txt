@@ -1,0 +1,839 @@
+Campaign 3: last-ferry
+
+This is a new intermediate campaign.
+last-ferry/campaign.yaml
+version: 1.0
+
+campaign:
+  id: last-ferry
+  title: The Last Ferry
+
+  description: >
+    An intermediate harbor-mystery campaign where a ferry called the Last Ferry arrives
+    on nights that never appear in the harbor ledger, while fog bells remember passengers
+    who were never logged. The party uses ferry logs, tide keys, and bell tokens to prove
+    which memories are physical facts and which are fog echoes.
+
+author: Eric
+
+difficulty: intermediate
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 12
+
+theme:
+  - investigation
+  - memory
+  - harbor-mystery
+  - fog-echoes
+
+style:
+  combat: medium
+  roleplay: high
+  exploration: high
+
+estimated_sessions: 26
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: intermediate
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - memory
+    - ferry records
+    - evidence
+    - moderate paradoxes
+  avoid:
+    - rules-heavy time travel
+    - hidden information overload
+    - combat as only solution
+    - instant paradox collapse
+  always:
+    - provide one obvious clue per scene
+    - show one visible consequence after failure
+    - ask one question at a time
+    - use ferry logs as memory sources
+  never:
+    - completely block progression
+    - hide that a paradox changed
+    - allow unanchored travel without consequence
+
+runtime_variables:
+  memory_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_memory_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  echo_nights:
+    type: integer
+    default: 0
+    min: 0
+  ferry_log_fragments:
+    type: integer
+    default: 0
+    min: 0
+  tide_keys:
+    type: integer
+    default: 0
+    min: 0
+  bell_tokens:
+    type: integer
+    default: 0
+    min: 0
+  dock_anchor_stable:
+    type: integer
+    default: 0
+    min: 0
+    max: 1
+  false_names:
+    type: array
+    default: []
+  faction_influence:
+    type: object
+    default:
+      hollowmouth-ferrykeepers: 0
+      fog-ledger: 0
+      drowned-choir: 0
+      tide-guild: 0
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - hollowmouth-ferrykeepers
+    - fog-ledger
+    - drowned-choir
+    - tide-guild
+  locations:
+    - old-harbor
+    - ferry-landing
+    - fog-bell
+    - tide-archive
+    - drydock
+    - split-harbor
+  adventures:
+    - missing-night
+    - fog-that-remembers-the-ship
+    - tide-ledger
+    - ferry-arrives-twice
+    - dock-that-cannot-dock
+    - manifest-of-two-nights
+    - bell-of-drowned-names
+    - split-harbor
+    - last-ferry
+  npcs:
+    - captain-marrow
+    - tide-auditor
+    - ferry-echo
+    - drowned-bellkeeper
+    - fog-ledger-clerk
+  encounters:
+    - fog-ledger-heist
+    - ferry-echo
+    - drowned-bell
+    - split-harbor
+  items:
+    - ferry-log-fragment
+    - fog-lantern
+    - tide-key
+    - bell-token
+  rewards:
+    - ferry-log-fragment
+    - fog-lantern
+    - tide-key
+    - bell-token
+	
+last-ferry/dm_behavior.yaml
+yaml
+
+dm_behavior:
+
+  clue_style: medium
+
+  mystery_complexity: intermediate
+
+  combat_lethality: moderate
+
+  guidance_level: medium
+
+  allow_rule_explanations: true
+
+  remind_players: true
+
+  ask_one_question_at_a_time: true
+
+  hidden_information: medium
+
+  fail_forward: partial
+
+last-ferry/lore.md
+markdown
+
+# The Last Ferry Lore
+
+The campaign is set in a foggy harbor town called Marrowtide Harbor.
+
+A ferry called the Last Ferry seems to arrive on nights that do not appear in official harbor records. People remember crossing it. Records say it never ran. Fog bells remember passengers who were never logged.
+
+This is not campaign-wide time travel. It is a localized ferry memory echo.
+
+## Core anomaly
+
+The party must prove which ferry memories are:
+
+- physical records
+- witness memories
+- fog echoes
+- ledger edits
+- faction tampering
+
+## Safe anchors
+
+- Ferry Landing
+- Old Dock
+- Tide Ledger
+- Bell of Drowned Names
+- Split Harbor
+
+last-ferry/state_schema.yaml
+yaml
+
+state_schema:
+  campaign_id: last-ferry
+
+  custom_fields:
+    memory_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
+
+    max_memory_marks:
+      type: integer
+      default: 3
+
+    ferry_log_fragments:
+      type: integer
+      default: 0
+
+    tide_keys:
+      type: integer
+      default: 0
+
+    bell_tokens:
+      type: integer
+      default: 0
+
+    echo_nights:
+      type: integer
+      default: 0
+
+    faction_influence:
+      type: object
+      default:
+        hollowmouth-ferrykeepers: 0
+        fog-ledger: 0
+        drowned-choir: 0
+        tide-guild: 0
+
+    false_names:
+      type: array
+      default: []
+
+last-ferry/session0.md
+markdown
+
+# Session 0: The Last Ferry
+
+## Character guidance
+
+For intermediate difficulty, allow moderate planning but keep beginner-friendly support.
+
+Give each player:
+
+- One favorite skill
+- One trusted spell or feature
+- One background:
+  - Harbor hand
+  - Ledger clerk
+  - Tide witness
+  - Ferry child
+
+## Opening hook
+
+Read to players:
+
+> “A ferry has arrived on a night that does not appear in the ledger. People remember crossing it. The fog bell remembers names that were never logged. The Tide Guild says the harbor was always safe. The ledger says it was not. What is real: the memory, the record, or the fog?”
+
+Then ask:
+
+- What do you investigate first?
+- Do you trust the ferry log or the witness?
+- What can you prove?
+
+last-ferry/rewards.yaml
+yaml
+
+rewards:
+  - ferry-log-fragment
+  - fog-lantern
+  - tide-key
+  - bell-token
+
+summary:
+  reward_type: harbor-tools
+  goal: Provide moderate investigation tools without full time magic.
+
+last-ferry/factions/hollowmouth-ferrykeepers.yaml
+yaml
+
+faction:
+  id: hollowmouth-ferrykeepers
+  name: Hollowmouth Ferrykeepers
+  alignment: neutral-good
+  description: >
+    The safe harbor faction. They maintain ferry routes, prefer anchors, and reward calm,
+    repaired harbor memory.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+last-ferry/factions/fog-ledger.yaml
+yaml
+
+faction:
+  id: fog-ledger
+  name: Fog Ledger Society
+  alignment: neutral-evil
+  description: >
+    A shady harbor society that buys impossible ferry memories, sells false tickets,
+    and plants evidence in old ledgers.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+last-ferry/factions/drowned-choir.yaml
+yaml
+
+faction:
+  id: drowned-choir
+  name: Drowned Choir
+  alignment: chaotic-neutral
+  description: >
+    A future cult that wants the Last Ferry to arrive for a lost voyage. They send drowned
+    singers into fog zones and reward memory paradoxes.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+last-ferry/factions/tide-guild.yaml
+yaml
+
+faction:
+  id: tide-guild
+  name: Tide Guild
+  alignment: neutral-good
+  description: >
+    The nature and ecology faction. They want the harbor stable, safe, and free from blight.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+last-ferry/locations/old-harbor.yaml
+yaml
+
+location:
+  id: old-harbor
+  name: Old Harbor
+  kind: hub
+  description: >
+    The main campaign hub. Ferries arrive here, but not every remembered arrival appears in records.
+
+last-ferry/locations/ferry-landing.yaml
+yaml
+
+location:
+  id: ferry-landing
+  name: Ferry Landing
+  kind: anchor
+  description: >
+    A stable ferry anchor. Safe travel begins here.
+  anchor: true
+
+last-ferry/locations/fog-bell.yaml
+yaml
+
+location:
+  id: fog-bell
+  name: Fog Bell
+  kind: memory-site
+  description: >
+    A bell that remembers names that should not be there.
+
+last-ferry/locations/tide-archive.yaml
+yaml
+
+location:
+  id: tide-archive
+  name: Tide Archive
+  kind: archive
+  description: >
+    Harbor ledgers, ferry logs, and contradictory records.
+
+last-ferry/locations/drydock.yaml
+yaml
+
+location:
+  id: drydock
+  name: Drydock
+  kind: site
+  description: >
+    A shipyard where missing ferries were built or removed.
+
+last-ferry/locations/split-harbor.yaml
+yaml
+
+location:
+  id: split-harbor
+  name: Split Harbor
+  kind: paradox-zone
+  description: >
+    A final paradox zone where multiple harbor versions overlap.
+
+last-ferry/acts/act1.yaml
+yaml
+
+act:
+  number: 1
+  name: The Night the Ferry Should Not Have Arrived
+  level_range: "1-4"
+  goal: Learn that the ferry anomaly is real and find one safe harbor anchor.
+  adventures:
+    - missing-night
+    - fog-that-remembers-the-ship
+    - tide-ledger
+  main_locations:
+    - old-harbor
+    - tide-archive
+    - ferry-landing
+  main_factions:
+    - hollowmouth-ferrykeepers
+    - fog-ledger
+    - tide-guild
+
+last-ferry/acts/act2.yaml
+yaml
+
+act:
+  number: 2
+  name: Two Nights
+  level_range: "5-8"
+  goal: Prove which ferry route was tampered and stabilize one anchor.
+  adventures:
+    - ferry-arrives-twice
+    - dock-that-cannot-dock
+    - manifest-of-two-nights
+  main_locations:
+    - fog-bell
+    - drydock
+    - tide-archive
+  main_factions:
+    - fog-ledger
+    - drowned-choir
+    - hollowmouth-ferrykeepers
+
+last-ferry/acts/act3.yaml
+yaml
+
+act:
+  number: 3
+  name: The Last Ferry
+  level_range: "9-12"
+  goal: Resolve the Split Harbor and decide what the Last Ferry should become.
+  adventures:
+    - bell-of-drowned-names
+    - split-harbor
+    - last-ferry
+  main_locations:
+    - split-harbor
+    - fog-bell
+    - old-harbor
+  main_factions:
+    - drowned-choir
+    - hollowmouth-ferrykeepers
+    - tide-guild
+
+last-ferry/adventures/missing-night.yaml
+yaml
+
+adventure:
+  id: missing-night
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover why a ferry arrived on a night not in the ledger.
+  major_clues:
+    - missing night ledger page
+    - witness remembers crossing
+    - fog bell rings with old names
+  success_condition: prove one ferry memory
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 10
+      meaning: find missing ledger page
+    - check: History
+      dc: 10
+      meaning: compare witness memory to ledger
+    - check: Insight
+      dc: 12
+      meaning: notice witness memory is too perfect
+
+last-ferry/adventures/fog-that-remembers-the-ship.yaml
+yaml
+
+adventure:
+  id: fog-that-remembers-the-ship
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Discover why the fog remembers a ferry that should not have sailed.
+  major_clues:
+    - fog bell repeats names
+    - old ferry route matches drydock
+    - witness remembers lantern color
+  success_condition: stabilize one ferry memory
+  failure_condition: paradox +1
+
+last-ferry/adventures/tide-ledger.yaml
+yaml
+
+adventure:
+  id: tide-ledger
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Discover whether the tide ledger was edited or copied.
+  major_clues:
+    - two ledger versions
+    - false ticket
+    - ferry keeper memory
+  success_condition: identify edited record
+  failure_condition: Fog Ledger gains Influence
+
+last-ferry/adventures/ferry-arrives-twice.yaml
+yaml
+
+adventure:
+  id: ferry-arrives-twice
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Determine which ferry is Anchor and which is Echo.
+  major_clues:
+    - same ferry appears in same harbor
+    - manifest mismatch
+    - anchor rule
+  success_condition: stabilize one ferry copy
+  failure_condition: paradox +1
+  echo_rule: >
+    One copy is an Echo. If not separated or stabilized, it may become hostile.
+
+last-ferry/adventures/dock-that-cannot-dock.yaml
+yaml
+
+adventure:
+  id: dock-that-cannot-dock
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Discover why a dock exists in memory but cannot physically receive the ferry.
+  major_clues:
+    - dock wear pattern
+    - missing rope marks
+    - false ferry manifest
+  success_condition: restore safe dock anchor
+  failure_condition: paradox +1
+
+last-ferry/adventures/manifest-of-two-nights.yaml
+yaml
+
+adventure:
+  id: manifest-of-two-nights
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Compare two ferry manifests and prove which names were false.
+  major_clues:
+    - two nights
+    - repeated names
+    - false ticket
+  success_condition: identify false names
+  failure_condition: Drowned Choir reacts
+
+last-ferry/adventures/bell-of-drowned-names.yaml
+yaml
+
+adventure:
+  id: bell-of-drowned-names
+  act: 3
+  level_range: "9-10"
+  objective: |
+    Discover why the bell remembers passengers who were never ferried.
+  major_clues:
+    - bell remembers drowned names
+    - tide log contradicts itself
+    - false witness
+  success_condition: stabilize one drowned witness
+  failure_condition: major paradox +1
+
+last-ferry/adventures/split-harbor.yaml
+yaml
+
+adventure:
+  id: split-harbor
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Resolve overlapping harbor versions without collapsing the tide.
+  major_clues:
+    - four harbor versions
+    - paradox storm
+    - duplicated ferry
+  success_condition: stabilize split harbor
+  failure_condition: catastrophic harbor collapse risk
+
+last-ferry/adventures/last-ferry.yaml
+yaml
+
+adventure:
+  id: last-ferry
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Decide what the Last Ferry should become: stable route, protected anomaly, or erased route.
+  major_clues:
+    - final anchors
+    - final witness
+    - Drowned Choir
+    - Ferrykeepers
+  success_condition: choose ending
+  failure_condition: unresolved ferry paradox ending
+
+last-ferry/npcs/captain-marrow.yaml
+yaml
+
+npc:
+  id: captain-marrow
+  name: Captain Marrow
+  faction: hollowmouth-ferrykeepers
+  importance: major
+  disposition: friendly
+  secrets: 4
+  first_appearance: missing-night
+  role: >
+    Remembers routes and ferry customs, but memory can be fog-touched.
+
+last-ferry/npcs/tide-auditor.yaml
+yaml
+
+npc:
+  id: tide-auditor
+  name: Tide Auditor
+  faction: tide-guild
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: tide-ledger
+  role: >
+    Checks harbor ledgers and tide records for edits.
+
+last-ferry/npcs/ferry-echo.yaml
+yaml
+
+npc:
+  id: ferry-echo
+  name: Ferry Echo
+  faction: hollowmouth-ferrykeepers
+  importance: major
+  disposition: cautious
+  secrets: 5
+  first_appearance: fog-that-remembers-the-ship
+  role: >
+    A duplicate ferry memory or false ferry copy.
+
+last-ferry/npcs/drowned-bellkeeper.yaml
+yaml
+
+npc:
+  id: drowned-bellkeeper
+  name: Drowned Bellkeeper
+  faction: drowned-choir
+  importance: major
+  disposition: hostile
+  secrets: 4
+  first_appearance: bell-of-drowned-names
+  role: >
+    A cult figure who makes the bell remember names that should not exist.
+
+last-ferry/npcs/fog-ledger-clerk.yaml
+yaml
+
+npc:
+  id: fog-ledger-clerk
+  name: Fog Ledger Clerk
+  faction: fog-ledger
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: tide-ledger
+  role: >
+    A shady clerk who plants false tickets or edits ferry ledgers.
+
+last-ferry/encounters/fog-ledger-heist.yaml
+yaml
+
+encounter:
+  id: fog-ledger-heist
+  type: social-skill
+  level_range: "1-4"
+  goal: expose false ledger evidence
+  options:
+    - ask witness questions
+    - check paper
+    - compare ferry logs
+  failure_consequence: >
+    Fog Ledger gains influence, but party learns one ledger edit.
+
+last-ferry/encounters/ferry-echo.yaml
+yaml
+
+encounter:
+  id: ferry-echo
+  type: combat-social
+  level_range: "5-8"
+  goal: stabilize one ferry copy
+  options:
+    - prove it is Echo
+    - use Tide Key
+    - use Bell Token
+
+last-ferry/encounters/drowned-bell.yaml
+yaml
+
+encounter:
+  id: drowned-bell
+  type: ritual-skill
+  level_range: "5-12"
+  goal: stop Drowned Choir ritual
+  skill_options:
+    - Religion
+    - Insight
+    - Arcana
+  failure_consequence: >
+    One drowned witness remains, but paradox rises.
+
+last-ferry/encounters/split-harbor.yaml
+yaml
+
+encounter:
+  id: split-harbor
+  type: paradox-boss
+  level_range: "9-12"
+  hazards:
+    - harbor versions overlap
+    - fog bells change initiative order
+    - ferry Echo may turn hostile
+
+last-ferry/items/ferry-log-fragment.yaml
+yaml
+
+item:
+  id: ferry-log-fragment
+  name: Ferry Log Fragment
+  rarity: uncommon
+  mechanical: >
+    Can be spent as one true clue during a ferry investigation.
+
+last-ferry/items/fog-lantern.yaml
+yaml
+
+item:
+  id: fog-lantern
+  name: Fog Lantern
+  rarity: common-wondrous
+  mechanical: >
+    Once per long rest, spend a bonus action to see one true harbor clue within 30 feet.
+
+last-ferry/items/tide-key.yaml
+yaml
+
+item:
+  id: tide-key
+  name: Tide Key
+  rarity: rare
+  mechanical: >
+    Opens one safe harbor anchor route.
+
+last-ferry/items/bell-token.yaml
+yaml
+
+item:
+  id: bell-token
+  name: Bell Token
+  rarity: story
+  mechanical: >
+    Spend one Bell Token to stabilize one false memory in a fog bell.
+
+data/campaigns/last-ferry/session-state.json
+json
+
+{
+  "campaign": "last-ferry",
+  "current_act": 1,
+  "current_adventure": "missing-night",
+  "current_location": "old-harbor",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "ferry_log_fragments": 0,
+    "tide_keys": 0,
+    "bell_tokens": 0,
+    "echo_nights": 0,
+    "faction_influence": {
+      "hollowmouth-ferrykeepers": 0,
+      "fog-ledger": 0,
+      "drowned-choir": 0,
+      "tide-guild": 0
+    },
+    "false_names": []
+  }
+}

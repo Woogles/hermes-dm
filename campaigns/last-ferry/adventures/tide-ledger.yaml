@@ -1,0 +1,12 @@
+adventure:
+  id: tide-ledger
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Discover whether the tide ledger was edited or copied.
+  major_clues:
+    - two ledger versions
+    - false ticket
+    - ferry keeper memory
+  success_condition: identify edited record
+  failure_condition: Fog Ledger gains Influence

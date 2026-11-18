@@ -1,0 +1,36 @@
+state_schema:
+  campaign_id: salt-tide-archive
+
+  custom_fields:
+    memory_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
+
+    max_memory_marks:
+      type: integer
+      default: 3
+
+    tide_log_fragments:
+      type: integer
+      default: 0
+
+    salt_compass_uses:
+      type: integer
+      default: 1
+      minimum: 0
+      maximum: 1
+
+    lighthouse_tokens:
+      type: integer
+      default: 0
+
+    false_floods:
+      type: array
+      default: []
+
+    water_anchors:
+      type: array
+      default:
+        - harbor-clock

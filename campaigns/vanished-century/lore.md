@@ -1,60 +1,42 @@
-version: 1.0
+# Vanished Century Lore
 
-campaign:
-  id: vanished-century
-  title: The Vanished Century
+The party are agents of the Midnight Circle, a young investigator organization investigating impossible cases.
 
-author: Eric
+Something has been stealing people, objects, and memories from ordinary places while leaving clean, impossible holes behind.
 
-difficulty: beginner
+## World layers
 
-player_count:
-  min: 3
-  max: 5
+### Aboveworld
 
-level_range:
-  start: 1
-  end: 12
+Normal modern society:
 
-theme:
-  - mystery
-  - investigation
-  - time-anomalies
-  - modern-underhollow
+- Cities
+- Schools
+- Museums
+- Train stations
+- Suburbs
+- News networks
 
-style:
-  combat: low
-  roleplay: high
-  exploration: medium
+The party begins here.
 
-estimated_sessions: 24
+### Ring of Stones
 
-campaign_type: story
+A hidden ley-line network beneath old cities.
 
-ruleset: dnd-5.5e
+### Underhollow
 
-recommended_players: beginner
+A magical underground city built in stone, root, and crystal.
 
-ai_instructions:
-  emphasize:
-    - investigation
-    - evidence
-    - clues
-    - simple choices
-    - visible consequences
+## Core rule
 
-  avoid:
-    - excessive combat
-    - hidden information overload
-    - instant death
-    - complex time magic
+The campaign is about proving what happened, not assuming what anyone remembers.
 
-  always:
-    - provide at least one obvious clue
-    - ask one question at a time
-    - let failed checks still reveal something useful
-    - show known facts clearly
+Physical evidence, written records, witness memories, and magical traces may disagree.
 
-  never:
-    - completely block progression
-    - make the answer unknowable without clues
+The party must identify:
+
+- physical facts
+- corrected records
+- witness contradictions
+- magical echoes
+- anchors

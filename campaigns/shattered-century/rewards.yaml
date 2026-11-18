@@ -1,0 +1,9 @@
+rewards:
+  - chronal-loom
+  - paradox-shard
+  - paradox-key
+  - unmaking-key
+
+summary:
+  reward_type: campaign-artifacts
+  goal: Provide limited time-travel power with clear constraints.

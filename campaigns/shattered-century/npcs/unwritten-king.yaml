@@ -1,0 +1,16 @@
+npc:
+  id: unwritten-king
+  name: Unwritten King
+  faction: unwritten
+  importance: major
+  disposition: hostile
+  secrets: 5
+  first_appearance: final-century
+  role: >
+    Final Act 3 boss or Loom Paradox.
+  lair_actions:
+    - force one ally to reroll a Wisdom save
+    - reroll one initiative result
+    - trigger minor paradox storm
+    - create Echo duplicate
+    - erase temporary ally's future anchor

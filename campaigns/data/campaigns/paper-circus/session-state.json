@@ -1,0 +1,16 @@
+{
+  "campaign": "paper-circus",
+  "current_act": 1,
+  "current_adventure": "missing-ringmaster",
+  "current_location": "grand-pavilion",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "tickets_found": [],
+    "false_tickets": [],
+    "witnesses_confirmed": [],
+    "parade_routes": []
+  }
+}

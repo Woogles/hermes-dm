@@ -1,0 +1,17 @@
+act:
+  number: 3
+  name: The Last Ferry
+  level_range: "9-12"
+  goal: Resolve the Split Harbor and decide what the Last Ferry should become.
+  adventures:
+    - bell-of-drowned-names
+    - split-harbor
+    - last-ferry
+  main_locations:
+    - split-harbor
+    - fog-bell
+    - old-harbor
+  main_factions:
+    - drowned-choir
+    - hollowmouth-ferrykeepers
+    - tide-guild

@@ -1,0 +1,6 @@
+item:
+  id: ferry-log-fragment
+  name: Ferry Log Fragment
+  rarity: uncommon
+  mechanical: >
+    Can be spent as one true clue during a ferry investigation.

@@ -1,0 +1,22 @@
+adventure:
+  id: almanac-ninth-year
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover that a time leak is pulling water from the past into the present.
+  major_clues:
+    - town drought
+    - almanac says rain happened
+    - archives disagree
+  success_condition: locate one Loom fragment
+  failure_condition: minor paradox +1
+  skill_challenge:
+    - check: Nature
+      dc: 12
+      meaning: rain pattern mismatch
+    - check: History
+      dc: 13
+      meaning: town archives vs memory
+    - check: Investigation
+      dc: 12
+      meaning: physical water traces

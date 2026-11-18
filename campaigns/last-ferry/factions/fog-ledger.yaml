@@ -1,0 +1,11 @@
+faction:
+  id: fog-ledger
+  name: Fog Ledger Society
+  alignment: neutral-evil
+  description: >
+    A shady harbor society that buys impossible ferry memories, sells false tickets,
+    and plants evidence in old ledgers.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

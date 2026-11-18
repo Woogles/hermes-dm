@@ -1,0 +1,7 @@
+item:
+  id: lighthouse-token
+  name: Lighthouse Token
+  rarity: story
+  kind: resource
+  mechanical: >
+    Spend one token to stabilize one false lighthouse memory.

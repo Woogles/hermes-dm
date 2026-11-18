@@ -1,0 +1,10 @@
+faction:
+  id: salt-guild
+  name: Salt Guild
+  alignment: neutral-good
+  description: >
+    Ecology and tide workers who want the coast stable and healthy.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

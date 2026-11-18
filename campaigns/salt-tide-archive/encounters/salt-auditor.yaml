@@ -1,0 +1,9 @@
+encounter:
+  id: salt-auditor
+  type: social-skill
+  level_range: "1-10"
+  goal: determine whether auditor is truthful, copied, or false
+  options:
+    - compare tide logs
+    - ask one question
+    - use Tide Lens

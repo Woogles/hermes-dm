@@ -1,0 +1,11 @@
+encounter:
+  id: drowned-bell
+  type: ritual-skill
+  level_range: "5-12"
+  goal: stop Drowned Choir ritual
+  skill_options:
+    - Religion
+    - Insight
+    - Arcana
+  failure_consequence: >
+    One drowned witness remains, but paradox rises.

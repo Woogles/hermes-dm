@@ -1,0 +1,11 @@
+faction:
+  id: hollowmouth-ferrykeepers
+  name: Hollowmouth Ferrykeepers
+  alignment: neutral-good
+  description: >
+    The safe harbor faction. They maintain ferry routes, prefer anchors, and reward calm,
+    repaired harbor memory.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

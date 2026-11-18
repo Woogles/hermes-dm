@@ -1,0 +1,22 @@
+adventure:
+  id: missing-ringmaster
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover why the town remembers a ringmaster who does not appear in the ledger.
+  major_clues:
+    - poster with ringmaster
+    - ticket says one show
+    - witness remembers too perfectly
+  success_condition: identify ringmaster memory
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 10
+      meaning: find poster and ticket
+    - check: History
+      dc: 10
+      meaning: compare memory to ledger
+    - check: Insight
+      dc: 12
+      meaning: witness memory is too perfect

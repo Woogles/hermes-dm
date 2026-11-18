@@ -1,0 +1,12 @@
+adventure:
+  id: archive-of-two-shows
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Compare two archive versions of the same parade.
+  major_clues:
+    - two programs
+    - one copied poster
+    - one witness echo
+  success_condition: identify true archive version
+  failure_condition: archive becomes false memory

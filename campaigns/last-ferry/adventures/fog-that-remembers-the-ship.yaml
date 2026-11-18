@@ -1,0 +1,12 @@
+adventure:
+  id: fog-that-remembers-the-ship
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Discover why the fog remembers a ferry that should not have sailed.
+  major_clues:
+    - fog bell repeats names
+    - old ferry route matches drydock
+    - witness remembers lantern color
+  success_condition: stabilize one ferry memory
+  failure_condition: paradox +1

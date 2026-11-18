@@ -1,0 +1,17 @@
+adventure:
+  id: final-century
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Decide how the century should exist and resolve the final paradox.
+  major_clues:
+    - four anchors
+    - Unwritten King
+    - Loom Paradox
+  success_condition: choose one ending
+  failure_condition: unresolved catastrophic ending
+  endings:
+    - Restore the original century.
+    - Accept a new stable timeline.
+    - Split the timeline.
+    - Destroy the Loom.

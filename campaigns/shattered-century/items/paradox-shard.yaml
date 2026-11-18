@@ -1,0 +1,8 @@
+item:
+  id: paradox-shard
+  name: Paradox Shard
+  rarity: uncommon
+  mechanical: >
+    Three shards can recharge one Loom Charge.
+  warning: >
+    Spending shards does not remove paradox severity.

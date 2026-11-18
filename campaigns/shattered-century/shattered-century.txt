@@ -1,0 +1,1136 @@
+Campaign 2: shattered-century
+shattered-century/campaign.yaml
+version: 1.0
+
+campaign:
+  id: shattered-century
+  title: A Shattered Century
+
+  description: >
+    An advanced time-travel investigation campaign in which a town called Harlowe is
+    caught in overlapping time loops. A damaged artifact called the Chronal Loom moves the
+    party between eras, and every change the party makes raises a paradox the factions
+    race to exploit. The party must repair the Loom, protect anchors, and choose how the
+    century should end.
+
+author: Eric
+
+difficulty: advanced
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 12
+
+theme:
+  - time-travel
+  - investigation
+  - time-anomalies
+  - faction-conflict
+
+style:
+  combat: medium
+  roleplay: medium
+  exploration: high
+
+estimated_sessions: 30
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: advanced
+
+ai_instructions:
+  emphasize:
+    - time anchors
+    - Loom charges
+    - paradox consequences
+    - visible timeline changes
+    - faction reactions
+  avoid:
+    - excessive combat
+    - time travel as unlimited exploit
+    - hidden information overload
+    - instant timeline death
+  always:
+    - show one immediate visible consequence after a change
+    - explain paradox severity clearly
+    - ask one question at a time
+    - let failure still change the timeline visibly
+  never:
+    - completely block progression
+    - hide that Loom charges were spent
+    - let future items freely exist in the past without anchor rules
+
+runtime_variables:
+  loom_charges:
+    type: integer
+    default: 2
+    min: 0
+    max: 4
+  max_loom_charges:
+    type: integer
+    default: 2
+  paradox_shards:
+    type: integer
+    default: 0
+    min: 0
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  era:
+    type: string
+    default: the-bloom
+    allowed:
+      - the-founding
+      - the-bloom
+      - the-ashfall
+      - the-drowned
+      - the-unwritten
+  time_anchors_discovered:
+    type: integer
+    default: 3
+    min: 0
+  paradox_keys:
+    type: integer
+    default: 0
+    min: 0
+    max: 4
+  unmaking_key_found:
+    type: integer
+    default: 0
+    min: 0
+    max: 1
+  chronal_loom_attuned:
+    type: integer
+    default: 0
+    min: 0
+    max: 1
+  temporal_exposure:
+    type: object
+    default:
+      characters: {}
+  chronal_stasis:
+    type: array
+    default: []
+  faction_influence:
+    type: object
+    default:
+      loomkeepers: 0
+      ashen-choir: 0
+      gilded-ledger: 0
+      unwritten: 0
+      bloom: 0
+  visible_timeline_changes:
+    type: array
+    default: []
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - loomkeepers
+    - ashen-choir
+    - gilded-ledger
+    - unwritten
+    - bloom
+  locations:
+    - harlowe
+    - market-of-miracles
+    - clockwork-vaults
+    - old-dam
+    - grave-that-was-never-dug
+    - ashfall-shrine
+    - founding-chapel
+    - ledger-vault
+    - clockwork-bridge
+    - split-market
+    - ninth-dam
+    - chapel-of-two-names
+    - drowned-bridge
+    - loom-control-room
+  adventures:
+    - almanac-ninth-year
+    - rain-that-never-fell
+    - grave-that-was-never-dug
+    - old-dam-anchor
+    - paradox-key-recovery
+    - unwritten-century
+    - founding-chapel
+    - ledger-vault
+    - split-market
+    - loom-control-room
+    - final-century
+  npcs:
+    - loomkeeper-warden
+    - gilded-ledger-spy
+    - echo-warden
+    - ash-choir-assassin
+    - unwritten-herald
+    - unwritten-king
+  encounters:
+    - paradox-storm
+    - echo-guards
+    - loom-defense
+    - unwritten-rewrite
+    - split-market
+  items:
+    - chronal-loom
+    - paradox-shard
+    - paradox-key
+    - unmaking-key
+  rewards:
+    - chronal-loom
+    - paradox-shard
+    - paradox-key
+    - unmaking-key
+	
+shattered-century/dm_behavior.yaml
+yaml
+
+dm_behavior:
+
+  clue_style: subtle
+
+  mystery_complexity: advanced
+
+  combat_lethality: realistic
+
+  guidance_level: low
+
+  allow_rule_explanations: true
+
+  remind_players: false
+
+  ask_one_question_at_a_time: true
+
+  hidden_information: high
+
+  fail_forward: partial
+
+shattered-century/lore.md
+markdown
+
+# A Shattered Century Lore
+
+Harlowe is not one town. It is the same town caught in overlapping time loops.
+
+The party must repair the Chronal Loom, stop timeline collapse, and decide how to restore or protect the century.
+
+## Eras
+
+- The Founding: town built peacefully
+- The Bloom: healthy, prosperous present
+- The Ashfall: dying future
+- The Drowned: underwater future
+- The Unwritten: rewritten by rebels
+
+## Core rule
+
+Time travel is a campaign mechanism, not unlimited player power.
+
+Travel requires:
+
+- Anchors
+- Loom charges
+- Careful paradox management
+
+shattered-century/state_schema.yaml
+yaml
+
+state_schema:
+  campaign_id: shattered-century
+
+  custom_fields:
+    loom_charges:
+      type: integer
+      default: 2
+      minimum: 0
+      maximum: 4
+
+    max_loom_charges:
+      type: integer
+      default: 2
+
+    paradox_shards:
+      type: integer
+      default: 0
+
+    faction_influence:
+      type: object
+      default:
+        loomkeepers: 0
+        ashen-choir: 0
+        gilded-ledger: 0
+        unwritten: 0
+        bloom: 0
+
+    time_anchors:
+      type: array
+      default:
+        - market-of-miracles
+        - old-dam
+        - clockwork-vaults
+
+    era:
+      type: string
+      default: the-bloom
+
+    era_values:
+      type: array
+      default:
+        - the-founding
+        - the-bloom
+        - the-ashfall
+        - the-drowned
+        - the-unwritten
+
+    temporal_exposure:
+      type: object
+      default:
+        characters: {}
+
+    chronal_stasis:
+      type: array
+      default: []
+
+    visible_timeline_changes:
+      type: array
+      default: []
+
+shattered-century/session0.md
+markdown
+
+# Session 0: A Shattered Century
+
+## Character guidance
+
+This campaign is advanced. Keep combat normal, but emphasize planning, travel choices, anchors, and paradox consequences.
+
+## Opening hook
+
+Read to players:
+
+> “Harlowe has a drought, but the town archives say it rained in the past. Worse, the market’s layout changes from year to year. A clockwork device beneath the Clockwork Vaults has three broken anchors. If the device stays damaged, Harlowe will not be one town. It will be four towns trying to become one.”
+
+Then ask:
+
+- What do you investigate first?
+- Do you trust records, physical traces, or memory?
+- Which era do you visit?
+- Which anchor will you use?
+
+shattered-century/rewards.yaml
+yaml
+
+rewards:
+  - chronal-loom
+  - paradox-shard
+  - paradox-key
+  - unmaking-key
+
+summary:
+  reward_type: campaign-artifacts
+  goal: Provide limited time-travel power with clear constraints.
+
+shattered-century/factions/loomkeepers.yaml
+yaml
+
+faction:
+  id: loomkeepers
+  name: Loomkeepers
+  alignment: lawful-neutral
+  description: >
+    They police stable time travel. They prefer anchors, hate paradoxes, reward safe restoration,
+    and offer repair quests.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+shattered-century/factions/ashen-choir.yaml
+yaml
+
+faction:
+  id: ashen-choir
+  name: Ashen Choir
+  alignment: chaotic-neutral
+  description: >
+    A cult of future believers. They want to destroy stable timelines, worship paradoxes,
+    send assassins and future warriors into the past, and reward chaos.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+shattered-century/factions/gilded-ledger.yaml
+yaml
+
+faction:
+  id: gilded-ledger
+  name: Gilded Ledger
+  alignment: neutral-evil
+  description: >
+    A time-aware crime syndicate. They steal across timelines, exploit anchors,
+    buy future information, and create heists that require time jumps.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+shattered-century/factions/unwritten.yaml
+yaml
+
+faction:
+  id: unwritten
+  name: The Unwritten
+  alignment: chaotic-neutral
+  description: >
+    A rebel army from an alternate future. They know what has not happened yet,
+    send soldiers backward, and want to rewrite the town's fate.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+shattered-century/factions/bloom.yaml
+yaml
+
+faction:
+  id: bloom
+  name: The Bloom
+  alignment: neutral-good
+  description: >
+    The natural, prosperous present faction. They want stable ecology and water sources,
+    fear drought, blight, and paradox storms, and reward restoration of nature.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+shattered-century/locations/harlowe.yaml
+yaml
+
+location:
+  id: harlowe
+  name: Harlowe
+  kind: town
+  description: >
+    The campaign town, caught in overlapping time loops.
+
+shattered-century/locations/market-of-miracles.yaml
+yaml
+
+location:
+  id: market-of-miracles
+  name: Market of Miracles
+  kind: hub
+  description: >
+    A central marketplace that exists in multiple eras.
+
+shattered-century/locations/clockwork-vaults.yaml
+yaml
+
+location:
+  id: clockwork-vaults
+  name: Clockwork Vaults
+  kind: underground
+  description: >
+    Underground engine rooms. Useful for combat, Loom repair, paradox cores, and Loomkeepers.
+
+shattered-century/locations/old-dam.yaml
+yaml
+
+location:
+  id: old-dam
+  name: Old Dam
+  kind: anchor
+  description: >
+    Water control center. Best for the Act 1 drought problem.
+  anchor: true
+
+shattered-century/locations/grave-that-was-never-dug.yaml
+yaml
+
+location:
+  id: grave-that-was-never-dug
+  name: Grave That Was Never Dug
+  kind: site
+  description: >
+    A cemetery with tombstones that create memory paradoxes.
+
+shattered-century/locations/ashfall-shrine.yaml
+yaml
+
+location:
+  id: ashfall-shrine
+  name: Ashfall Shrine
+  kind: future-site
+  description: >
+    Ashen Choir rituals, time storms, cursed relics, and Religion checks.
+
+shattered-century/locations/founding-chapel.yaml
+yaml
+
+location:
+  id: founding-chapel
+  name: Founding Chapel
+  kind: anchor
+  description: >
+    Past civic center, civic anchor, mayor paradox, and historical records.
+  anchor: true
+
+shattered-century/locations/ledger-vault.yaml
+yaml
+
+location:
+  id: ledger-vault
+  name: Ledger Vault
+  kind: site
+  description: >
+    A vault tied to time-aware crime syndicate heists.
+
+shattered-century/locations/clockwork-bridge.yaml
+yaml
+
+location:
+  id: clockwork-bridge
+  name: Clockwork Bridge
+  kind: site
+  description: >
+    A bridge that can become dry, flooded, destroyed, or rewritten.
+
+shattered-century/locations/split-market.yaml
+yaml
+
+location:
+  id: split-market
+  name: Split Market
+  kind: paradox-zone
+  description: >
+    A late-game location where four versions of the same market overlap.
+
+shattered-century/locations/ninth-dam.yaml
+yaml
+
+location:
+  id: ninth-dam
+  name: Ninth Dam
+  kind: late-site
+  description: >
+    A late-game water anchor that may overlap with other dam versions.
+
+shattered-century/locations/chapel-of-two-names.yaml
+yaml
+
+location:
+  id: chapel-of-two-names
+  name: Chapel of Two Names
+  kind: paradox-site
+  description: >
+    A chapel where civic memory conflicts across eras.
+
+shattered-century/locations/drowned-bridge.yaml
+yaml
+
+location:
+  id: drowned-bridge
+  name: Drowned Bridge
+  kind: late-site
+  description: >
+    A bridge version existing underwater in another era.
+
+shattered-century/locations/loom-control-room.yaml
+yaml
+
+location:
+  id: loom-control-room
+  name: Loom Control Room
+  kind: final-site
+  description: >
+    The final Loom stabilization zone.
+
+shattered-century/acts/act1.yaml
+yaml
+
+act:
+  number: 1
+  name: The Almanac of the Ninth Year
+  level_range: "1-4"
+  goal: Learn time travel is happening, repair the Loom, and prevent a small paradox.
+  adventures:
+    - almanac-ninth-year
+    - rain-that-never-fell
+    - grave-that-was-never-dug
+    - old-dam-anchor
+  main_locations:
+    - market-of-miracles
+    - old-dam
+    - clockwork-vaults
+    - grave-that-was-never-dug
+  main_antagonists:
+    - gilded-ledger
+    - ashen-choir
+  boss: echo-warden
+
+shattered-century/acts/act2.yaml
+yaml
+
+act:
+  number: 2
+  name: The Unwritten Century
+  level_range: "5-8"
+  goal: Collect Paradox Keys, stop future rebels, and stabilize the timeline.
+  adventures:
+    - paradox-key-recovery
+    - unwritten-century
+    - founding-chapel
+    - ledger-vault
+  main_locations:
+    - ashfall-shrine
+    - founding-chapel
+    - ledger-vault
+    - clockwork-bridge
+  main_factions:
+    - unwritten
+    - loomkeepers
+    - gilded-ledger
+    - bloom
+  boss: unwritten-herald
+
+shattered-century/acts/act3.yaml
+yaml
+
+act:
+  number: 3
+  name: The Unmaking
+  level_range: "9-12"
+  goal: Enter the Loom's core, stabilize the century, and choose an ending.
+  adventures:
+    - split-market
+    - loom-control-room
+    - final-century
+  main_locations:
+    - loom-control-room
+    - split-market
+    - ninth-dam
+    - chapel-of-two-names
+    - drowned-bridge
+    - ashfall-throne
+  main_factions:
+    - unwritten
+    - loomkeepers
+    - gilded-ledger
+    - bloom
+    - ashen-choir
+  boss: unwritten-king
+
+shattered-century/adventures/almanac-ninth-year.yaml
+yaml
+
+adventure:
+  id: almanac-ninth-year
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover that a time leak is pulling water from the past into the present.
+  major_clues:
+    - town drought
+    - almanac says rain happened
+    - archives disagree
+  success_condition: locate one Loom fragment
+  failure_condition: minor paradox +1
+  skill_challenge:
+    - check: Nature
+      dc: 12
+      meaning: rain pattern mismatch
+    - check: History
+      dc: 13
+      meaning: town archives vs memory
+    - check: Investigation
+      dc: 12
+      meaning: physical water traces
+
+shattered-century/adventures/rain-that-never-fell.yaml
+yaml
+
+adventure:
+  id: rain-that-never-fell
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Restore the water route without creating a new flood or destroying the Ashfall Shrine water source.
+  major_clues:
+    - farmer remembers rain
+    - drought in present
+    - missing dam gate
+  success_condition: return water route safely
+  failure_condition: paradox +1
+  paradox_risk:
+    - If too much water is removed, Ashfall Shrine loses its water source.
+    - If too much water is returned, the present market floods.
+
+shattered-century/adventures/grave-that-was-never-dug.yaml
+yaml
+
+adventure:
+  id: grave-that-was-never-dug
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Repair the memory paradox around a cemetery.
+  major_clues:
+    - two tombstones in one era
+    - one tombstone in another
+  success_condition: stabilize grave anchor
+  failure_condition: restless echo appears
+  skill_challenge:
+    - check: History
+      dc: 15
+      meaning: identify the true death
+    - check: Religion
+      dc: 16
+      meaning: calm the restless dead
+    - check: Arcana
+      dc: 14
+      meaning: stabilize the grave marker
+
+shattered-century/adventures/old-dam-anchor.yaml
+yaml
+
+adventure:
+  id: old-dam-anchor
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Prevent future items or future water routes from becoming unsafe anchors.
+  major_clues:
+    - Old Dam exists across eras
+    - Loom fragments near water routes
+  success_condition: establish safe anchor
+  failure_condition: anchor becomes unstable
+  boss:
+    id: echo-warden
+    statblock: reskinned 5.5e CR 3-4 caster
+
+shattered-century/adventures/paradox-key-recovery.yaml
+yaml
+
+adventure:
+  id: paradox-key-recovery
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Recover four Paradox Keys without letting The Unwritten erase witnessed events.
+  major_clues:
+    - future rebels sabotaging anchors
+    - faction conflicts
+    - keys held by faction-aligned sites
+  success_condition: recover four Paradox Keys
+  failure_condition: major paradox
+  faction_conflicts:
+    - Loomkeepers want stability.
+    - The Unwritten want destruction.
+    - Gilded Ledger wants to steal future knowledge.
+    - The Bloom wants nature restored.
+
+shattered-century/adventures/unwritten-century.yaml
+yaml
+
+adventure:
+  id: unwritten-century
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Repair one major timeline fracture.
+  major_clues:
+    - erased event not witnessed yet
+    - false anchor memory
+    - Ashen Choir ritual
+  success_condition: repair fracture
+  failure_condition: major paradox +1
+  skill_challenge:
+    - check: Arcana
+      dc: 15
+      meaning: understand the fracture
+    - check: History
+      dc: 17
+      meaning: find correct anchor point
+    - check: Investigation
+      dc: 14
+      meaning: locate paradox core
+    - check: Religion
+      dc: 16
+      meaning: calm or manipulate Ashen Choir
+
+shattered-century/adventures/founding-chapel.yaml
+yaml
+
+adventure:
+  id: founding-chapel
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Prevent The Unwritten from rewriting the town's founding.
+  major_clues:
+    - two mayoral records
+    - civic anchor
+    - one mayor is Echo NPC
+  success_condition: protect true civic anchor
+  failure_condition: political paradox
+  paradox_rule: >
+    If the Echo mayor is crowned, the town's political history destabilizes.
+
+shattered-century/adventures/ledger-vault.yaml
+yaml
+
+adventure:
+  id: ledger-vault
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Stop or expose a time-aware heist across years.
+  major_clues:
+    - vault stolen in 1997
+    - second vault in 2003
+    - future copy must not find past copy
+  success_condition: erase suspicion safely
+  failure_condition: Gilded Ledger gains Influence
+  anchor_rule: >
+    You cannot bring a 2020 lockpick back to 1997 unless that lockpick type existed then.
+
+shattered-century/adventures/split-market.yaml
+yaml
+
+adventure:
+  id: split-market
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Stabilize a location where four versions of the market overlap.
+  major_clues:
+    - same market in four states
+    - paradox storm
+    - duplicated NPCs
+  success_condition: stabilize one anchor path
+  failure_condition: major paradox
+  hazards:
+    - Wisdom disadvantage in unstable era
+    - concentration saves in paradox zones
+    - initiative changes after first round
+
+shattered-century/adventures/loom-control-room.yaml
+yaml
+
+adventure:
+  id: loom-control-room
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Bind the Loom and recover the Unmaking Key.
+  major_clues:
+    - Loom fracture
+    - Unmaking Key
+    - true founding event
+  success_condition: Loom stabilized
+  failure_condition: catastrophic collapse risk
+  skill_challenge:
+    - check: Arcana
+      dc: 20
+      meaning: bind the Loom
+    - check: History
+      dc: 20
+      meaning: identify true founding event
+    - check: Religion
+      dc: 22
+      meaning: silence or empower Ashen Choir
+    - check: Investigation
+      dc: 18
+      meaning: locate Unmaking Key
+
+shattered-century/adventures/final-century.yaml
+yaml
+
+adventure:
+  id: final-century
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Decide how the century should exist and resolve the final paradox.
+  major_clues:
+    - four anchors
+    - Unwritten King
+    - Loom Paradox
+  success_condition: choose one ending
+  failure_condition: unresolved catastrophic ending
+  endings:
+    - Restore the original century.
+    - Accept a new stable timeline.
+    - Split the timeline.
+    - Destroy the Loom.
+
+shattered-century/npcs/loomkeeper-warden.yaml
+yaml
+
+npc:
+  id: loomkeeper-warden
+  name: Loomkeeper Warden
+  faction: loomkeepers
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: almanac-ninth-year
+  role: >
+    Prefers anchors and hates paradoxes.
+  behavior:
+    - offers repair quests
+    - corrects unsafe travel
+    - punishes reckless future-item misuse
+
+shattered-century/npcs/gilded-ledger-spy.yaml
+yaml
+
+npc:
+  id: gilded-ledger-spy
+  name: Gilded Ledger Spy
+  faction: gilded-ledger
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: almanac-ninth-year
+  role: >
+    Steals across timelines and exploits anchors.
+  behavior:
+    - creates heists requiring time jumps
+    - buys future information
+    - plants false evidence
+
+shattered-century/npcs/echo-warden.yaml
+yaml
+
+npc:
+  id: echo-warden
+  name: Echo Warden
+  faction: loomkeepers
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: old-dam-anchor
+  role: >
+    Prevents players from carrying future items back into the past.
+  behavior:
+    - creates Echo tokens
+    - blocks unsafe anchor movement
+    - cannot fight for too long
+
+shattered-century/npcs/ash-choir-assassin.yaml
+yaml
+
+npc:
+  id: ash-choir-assassin
+  name: Ashen Choir Assassin
+  faction: ashen-choir
+  importance: minor
+  disposition: hostile
+  secrets: 2
+  first_appearance: rain-that-never-fell
+  role: >
+    Sends assassins and future warriors into the past.
+
+shattered-century/npcs/unwritten-herald.yaml
+yaml
+
+npc:
+  id: unwritten-herald
+  name: Unwritten Herald
+  faction: unwritten
+  importance: major
+  disposition: hostile
+  secrets: 4
+  first_appearance: unwritten-century
+  role: >
+    Mid-campaign Act 2 boss.
+  behavior:
+    - Rewrite reaction once per round
+    - rerolls one damage roll or skill check against a timeline event
+    - erases future events that the party has not yet witnessed
+
+shattered-century/npcs/unwritten-king.yaml
+yaml
+
+npc:
+  id: unwritten-king
+  name: Unwritten King
+  faction: unwritten
+  importance: major
+  disposition: hostile
+  secrets: 5
+  first_appearance: final-century
+  role: >
+    Final Act 3 boss or Loom Paradox.
+  lair_actions:
+    - force one ally to reroll a Wisdom save
+    - reroll one initiative result
+    - trigger minor paradox storm
+    - create Echo duplicate
+    - erase temporary ally's future anchor
+
+shattered-century/encounters/paradox-storm.yaml
+yaml
+
+encounter:
+  id: paradox-storm
+  type: hazard
+  level_range: "1-12"
+  effects:
+    - creatures gain disadvantage on Wisdom checks
+    - spellcasters must succeed on a DC 12 Concentration save in paradox zone
+    - initiative order changes after the first round
+    - duplicated NPC may become hostile
+
+shattered-century/encounters/echo-guards.yaml
+yaml
+
+encounter:
+  id: echo-guards
+  type: combat-social
+  level_range: "1-4"
+  enemies:
+    - Gilded Ledger agent
+    - two Echo Guards
+  options:
+    - identify Anchor Copy or Echo Copy
+    - repair nearby anchor
+    - fight only if anchor is threatened
+
+shattered-century/encounters/loom-defense.yaml
+yaml
+
+encounter:
+  id: loom-defense
+  type: combat-skill
+  level_range: "5-8"
+  objective: >
+    Protect one stable anchor while repairing the Loom.
+  options:
+    - stabilize one anchor
+    - convince Loomkeeper ally
+    - fight to hold line
+
+shattered-century/encounters/unwritten-rewrite.yaml
+yaml
+
+encounter:
+  id: unwritten-rewrite
+  type: boss
+  level_range: "5-8"
+  boss:
+    - unwritten-herald
+  special: >
+    Rewrite reaction once per round.
+
+shattered-century/encounters/split-market.yaml
+yaml
+
+encounter:
+  id: split-market
+  type: paradox-boss
+  level_range: "9-12"
+  hazards:
+    - four versions of market overlap
+    - paradox storm
+    - time-split combat zone
+
+shattered-century/items/chronal-loom.yaml
+yaml
+
+item:
+  id: chronal-loom
+  name: Chronal Loom
+  rarity: wondrous
+  requires_attunement: true
+  actions:
+    - spend one Loom Charge to travel to an anchored era
+  senses:
+    - Anchor Sense within 100 feet
+    - Echo Sense for Anchor Copy or Echo Copy
+  repair_pulse:
+    - once per long rest, grant advantage on one Arcana or History paradox check
+
+shattered-century/items/paradox-shard.yaml
+yaml
+
+item:
+  id: paradox-shard
+  name: Paradox Shard
+  rarity: uncommon
+  mechanical: >
+    Three shards can recharge one Loom Charge.
+  warning: >
+    Spending shards does not remove paradox severity.
+
+shattered-century/items/paradox-key.yaml
+yaml
+
+item:
+  id: paradox-key
+  name: Paradox Key
+  rarity: rare
+  mechanical: >
+    Used to recover and stabilize major timeline fractures in Act 2.
+
+shattered-century/items/unmaking-key.yaml
+yaml
+
+item:
+  id: unmaking-key
+  name: Unmaking Key
+  rarity: legendary
+  mechanical: >
+    Required for final Act 3 resolution.
+
+data/campaigns/shattered-century/session-state.json
+json
+
+{
+  "campaign": "shattered-century",
+  "current_act": 1,
+  "current_adventure": "almanac-ninth-year",
+  "current_location": "market-of-miracles",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "loom_charges": 2,
+    "max_loom_charges": 2,
+    "paradox_shards": 0,
+    "faction_influence": {
+      "loomkeepers": 0,
+      "ashen-choir": 0,
+      "gilded-ledger": 0,
+      "unwritten": 0,
+      "bloom": 0
+    },
+    "time_anchors": [
+      "market-of-miracles",
+      "old-dam",
+      "clockwork-vaults"
+    ],
+    "era": "the-bloom",
+    "temporal_exposure": {
+      "characters": {}
+    },
+    "chronal_stasis": [],
+    "visible_timeline_changes": []
+  }
+}

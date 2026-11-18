@@ -1,0 +1,6 @@
+item:
+  id: tide-lens
+  name: Tide Lens
+  rarity: uncommon
+  mechanical: >
+    Once per long rest, spend a bonus action to see one true water mark within 30 feet.

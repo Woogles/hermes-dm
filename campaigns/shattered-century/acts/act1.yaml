@@ -1,0 +1,19 @@
+act:
+  number: 1
+  name: The Almanac of the Ninth Year
+  level_range: "1-4"
+  goal: Learn time travel is happening, repair the Loom, and prevent a small paradox.
+  adventures:
+    - almanac-ninth-year
+    - rain-that-never-fell
+    - grave-that-was-never-dug
+    - old-dam-anchor
+  main_locations:
+    - market-of-miracles
+    - old-dam
+    - clockwork-vaults
+    - grave-that-was-never-dug
+  main_antagonists:
+    - gilded-ledger
+    - ashen-choir
+  boss: echo-warden

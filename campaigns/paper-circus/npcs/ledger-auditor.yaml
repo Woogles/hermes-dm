@@ -1,0 +1,10 @@
+npc:
+  id: ledger-auditor
+  name: Ledger Auditor
+  faction: paper-ticket-ledger
+  importance: major
+  disposition: cautious
+  secrets: 2
+  first_appearance: ticket-that-says-nothing
+  role: >
+    Checks whether parade tickets were copied, edited, or sold.

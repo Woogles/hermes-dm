@@ -1,0 +1,6 @@
+item:
+  id: memory-ticket
+  name: Memory Ticket
+  rarity: common
+  mechanical: >
+    Spend one Memory Mark to remember one exact detail from a ticket, poster, or witness statement.

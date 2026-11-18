@@ -1,60 +1,43 @@
-version: 1.0
+state_schema:
+  campaign_id: vanished-century
 
-campaign:
-  id: vanished-century
-  title: The Vanished Century
+  custom_fields:
+    case_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
 
-author: Eric
+    max_case_marks:
+      type: integer
+      default: 3
 
-difficulty: beginner
+    ring_anchors:
+      type: array
+      default: []
 
-player_count:
-  min: 3
-  max: 5
+    faction_relationship:
+      type: object
+      default:
+        midnight-circle: 100
+        silver-council: 0
+        grotto-market: 0
+        unseen-century: -50
+        aboveworld-news-bureau: 0
 
-level_range:
-  start: 1
-  end: 12
+    known_facts:
+      type: array
+      default: []
 
-theme:
-  - mystery
-  - investigation
-  - time-anomalies
-  - modern-underhollow
+    unresolved_questions:
+      type: array
+      default:
+        - source-of-anomaly
 
-style:
-  combat: low
-  roleplay: high
-  exploration: medium
-
-estimated_sessions: 24
-
-campaign_type: story
-
-ruleset: dnd-5.5e
-
-recommended_players: beginner
-
-ai_instructions:
-  emphasize:
-    - investigation
-    - evidence
-    - clues
-    - simple choices
-    - visible consequences
-
-  avoid:
-    - excessive combat
-    - hidden information overload
-    - instant death
-    - complex time magic
-
-  always:
-    - provide at least one obvious clue
-    - ask one question at a time
-    - let failed checks still reveal something useful
-    - show known facts clearly
-
-  never:
-    - completely block progression
-    - make the answer unknowable without clues
+    case_file:
+      type: object
+      default:
+        known: []
+        contradictions: []
+        unresolved: []
+        choices: []

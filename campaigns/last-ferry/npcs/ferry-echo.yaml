@@ -1,0 +1,10 @@
+npc:
+  id: ferry-echo
+  name: Ferry Echo
+  faction: hollowmouth-ferrykeepers
+  importance: major
+  disposition: cautious
+  secrets: 5
+  first_appearance: fog-that-remembers-the-ship
+  role: >
+    A duplicate ferry memory or false ferry copy.

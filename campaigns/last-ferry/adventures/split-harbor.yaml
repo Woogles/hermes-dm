@@ -1,0 +1,12 @@
+adventure:
+  id: split-harbor
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Resolve overlapping harbor versions without collapsing the tide.
+  major_clues:
+    - four harbor versions
+    - paradox storm
+    - duplicated ferry
+  success_condition: stabilize split harbor
+  failure_condition: catastrophic harbor collapse risk

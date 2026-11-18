@@ -1,0 +1,7 @@
+item:
+  id: fairground-compass
+  name: Fairground Compass
+  rarity: rare
+  kind: resource
+  mechanical: >
+    Once, allow the party to choose one parade route to stabilize without a paradox.

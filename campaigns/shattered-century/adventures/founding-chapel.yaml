@@ -1,0 +1,14 @@
+adventure:
+  id: founding-chapel
+  act: 2
+  level_range: "5-8"
+  objective: |
+    Prevent The Unwritten from rewriting the town's founding.
+  major_clues:
+    - two mayoral records
+    - civic anchor
+    - one mayor is Echo NPC
+  success_condition: protect true civic anchor
+  failure_condition: political paradox
+  paradox_rule: >
+    If the Echo mayor is crowned, the town's political history destabilizes.

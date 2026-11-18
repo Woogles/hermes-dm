@@ -1,0 +1,6 @@
+location:
+  id: ledger-vault
+  name: Ledger Vault
+  kind: site
+  description: >
+    A vault tied to time-aware crime syndicate heists.

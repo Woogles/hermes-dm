@@ -1,0 +1,8 @@
+item:
+  id: ringmaster-whistle
+  name: Ringmaster Whistle
+  rarity: uncommon
+  kind: story-item
+  mechanical: >
+    Once per long rest, grant advantage on one Performance, Insight, or Persuasion check connected
+    to a remembered circus scene.

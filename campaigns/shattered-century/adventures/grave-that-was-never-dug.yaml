@@ -1,0 +1,21 @@
+adventure:
+  id: grave-that-was-never-dug
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Repair the memory paradox around a cemetery.
+  major_clues:
+    - two tombstones in one era
+    - one tombstone in another
+  success_condition: stabilize grave anchor
+  failure_condition: restless echo appears
+  skill_challenge:
+    - check: History
+      dc: 15
+      meaning: identify the true death
+    - check: Religion
+      dc: 16
+      meaning: calm the restless dead
+    - check: Arcana
+      dc: 14
+      meaning: stabilize the grave marker

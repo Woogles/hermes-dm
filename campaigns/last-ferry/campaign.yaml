@@ -1,0 +1,165 @@
+Campaign 3: last-ferry
+
+This is a new intermediate campaign.
+version: 1.0
+
+campaign:
+  id: last-ferry
+  title: The Last Ferry
+
+  description: >
+    An intermediate harbor-mystery campaign where a ferry called the Last Ferry arrives
+    on nights that never appear in the harbor ledger, while fog bells remember passengers
+    who were never logged. The party uses ferry logs, tide keys, and bell tokens to prove
+    which memories are physical facts and which are fog echoes.
+
+author: Eric
+
+difficulty: intermediate
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 12
+
+theme:
+  - investigation
+  - memory
+  - harbor-mystery
+  - fog-echoes
+
+style:
+  combat: medium
+  roleplay: high
+  exploration: high
+
+estimated_sessions: 26
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: intermediate
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - memory
+    - ferry records
+    - evidence
+    - moderate paradoxes
+  avoid:
+    - rules-heavy time travel
+    - hidden information overload
+    - combat as only solution
+    - instant paradox collapse
+  always:
+    - provide one obvious clue per scene
+    - show one visible consequence after failure
+    - ask one question at a time
+    - use ferry logs as memory sources
+  never:
+    - completely block progression
+    - hide that a paradox changed
+    - allow unanchored travel without consequence
+
+runtime_variables:
+  memory_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_memory_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  echo_nights:
+    type: integer
+    default: 0
+    min: 0
+  ferry_log_fragments:
+    type: integer
+    default: 0
+    min: 0
+  tide_keys:
+    type: integer
+    default: 0
+    min: 0
+  bell_tokens:
+    type: integer
+    default: 0
+    min: 0
+  dock_anchor_stable:
+    type: integer
+    default: 0
+    min: 0
+    max: 1
+  false_names:
+    type: array
+    default: []
+  faction_influence:
+    type: object
+    default:
+      hollowmouth-ferrykeepers: 0
+      fog-ledger: 0
+      drowned-choir: 0
+      tide-guild: 0
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - hollowmouth-ferrykeepers
+    - fog-ledger
+    - drowned-choir
+    - tide-guild
+  locations:
+    - old-harbor
+    - ferry-landing
+    - fog-bell
+    - tide-archive
+    - drydock
+    - split-harbor
+  adventures:
+    - missing-night
+    - fog-that-remembers-the-ship
+    - tide-ledger
+    - ferry-arrives-twice
+    - dock-that-cannot-dock
+    - manifest-of-two-nights
+    - bell-of-drowned-names
+    - split-harbor
+    - last-ferry
+  npcs:
+    - captain-marrow
+    - tide-auditor
+    - ferry-echo
+    - drowned-bellkeeper
+    - fog-ledger-clerk
+  encounters:
+    - fog-ledger-heist
+    - ferry-echo
+    - drowned-bell
+    - split-harbor
+  items:
+    - ferry-log-fragment
+    - fog-lantern
+    - tide-key
+    - bell-token
+  rewards:
+    - ferry-log-fragment
+    - fog-lantern
+    - tide-key
+    - bell-token

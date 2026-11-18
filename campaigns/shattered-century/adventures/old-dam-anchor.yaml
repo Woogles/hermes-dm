@@ -1,0 +1,14 @@
+adventure:
+  id: old-dam-anchor
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Prevent future items or future water routes from becoming unsafe anchors.
+  major_clues:
+    - Old Dam exists across eras
+    - Loom fragments near water routes
+  success_condition: establish safe anchor
+  failure_condition: anchor becomes unstable
+  boss:
+    id: echo-warden
+    statblock: reskinned 5.5e CR 3-4 caster

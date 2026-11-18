@@ -1,0 +1,12 @@
+adventure:
+  id: forgotten-circus
+  act: 2
+  level_range: "4-6"
+  objective: |
+    Discover why one circus act was erased from public memory but still remembered privately.
+  major_clues:
+    - private note
+    - false public record
+    - performer memory
+  success_condition: prove one act existed
+  failure_condition: paradox +1

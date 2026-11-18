@@ -1,0 +1,9 @@
+encounter:
+  id: paradox-storm
+  type: hazard
+  level_range: "1-12"
+  effects:
+    - creatures gain disadvantage on Wisdom checks
+    - spellcasters must succeed on a DC 12 Concentration save in paradox zone
+    - initiative order changes after the first round
+    - duplicated NPC may become hostile

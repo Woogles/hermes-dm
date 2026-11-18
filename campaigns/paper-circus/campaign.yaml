@@ -1,0 +1,148 @@
+Campaign 4: paper-circus
+
+This is a new beginner campaign.
+version: 1.0
+
+campaign:
+  id: paper-circus
+  title: The Paper Circus
+
+  description: >
+    A beginner memory-mystery campaign where a town remembers a big circus parade that the
+    ledger, posters, and tickets disagree about. The party uses memory marks and ticket
+    evidence to tell real performances from copied, sold, or falsely remembered ones.
+
+author: Eric
+
+difficulty: beginner
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 8
+
+theme:
+  - mystery
+  - memory
+  - circus
+  - folklore
+
+style:
+  combat: low
+  roleplay: high
+  exploration: medium
+
+estimated_sessions: 18
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - memory
+    - clues
+    - tickets
+    - posters
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - complex time magic
+    - instant death
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failure reveal something useful
+    - keep clues physical and simple
+  never:
+    - completely block progression
+    - hide all clues
+    - make a memory-only answer without proof
+
+runtime_variables:
+  memory_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_memory_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  tickets_found:
+    type: array
+    default: []
+  false_tickets:
+    type: array
+    default: []
+  witnesses_confirmed:
+    type: array
+    default: []
+  parade_routes_stabilized:
+    type: integer
+    default: 0
+    min: 0
+    max: 3
+  forgotten_faces_trust:
+    type: integer
+    default: 0
+    min: -100
+    max: 100
+  lantern_paper_disturbance:
+    type: integer
+    default: 0
+    min: 0
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - vellam-town-council
+    - forgotten-faces
+    - paper-ticket-ledger
+    - lantern-foxes
+  locations:
+    - grand-pavilion
+    - paper-street
+    - archive-barn
+    - ticket-yard
+  adventures:
+    - missing-ringmaster
+    - phantom-parade
+    - ticket-that-says-nothing
+    - forgotten-circus
+    - archive-of-two-shows
+    - paper-fairground
+  npcs:
+    - ringmaster-quill
+    - missing-girl
+    - ledger-auditor
+    - lantern-fox
+  encounters:
+    - paper-auditor
+    - memory-float
+  items:
+    - memory-ticket
+    - ringmaster-whistle
+    - archive-lens
+    - fairground-compass
+  rewards:
+    - memory-ticket
+    - ringmaster-whistle
+    - archive-lens
+    - fairground-compass

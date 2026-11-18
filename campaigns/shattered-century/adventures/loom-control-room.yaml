@@ -1,0 +1,25 @@
+adventure:
+  id: loom-control-room
+  act: 3
+  level_range: "9-12"
+  objective: |
+    Bind the Loom and recover the Unmaking Key.
+  major_clues:
+    - Loom fracture
+    - Unmaking Key
+    - true founding event
+  success_condition: Loom stabilized
+  failure_condition: catastrophic collapse risk
+  skill_challenge:
+    - check: Arcana
+      dc: 20
+      meaning: bind the Loom
+    - check: History
+      dc: 20
+      meaning: identify true founding event
+    - check: Religion
+      dc: 22
+      meaning: silence or empower Ashen Choir
+    - check: Investigation
+      dc: 18
+      meaning: locate Unmaking Key

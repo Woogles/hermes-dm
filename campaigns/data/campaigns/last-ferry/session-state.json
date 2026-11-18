@@ -1,0 +1,23 @@
+{
+  "campaign": "last-ferry",
+  "current_act": 1,
+  "current_adventure": "missing-night",
+  "current_location": "old-harbor",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "ferry_log_fragments": 0,
+    "tide_keys": 0,
+    "bell_tokens": 0,
+    "echo_nights": 0,
+    "faction_influence": {
+      "hollowmouth-ferrykeepers": 0,
+      "fog-ledger": 0,
+      "drowned-choir": 0,
+      "tide-guild": 0
+    },
+    "false_names": []
+  }
+}

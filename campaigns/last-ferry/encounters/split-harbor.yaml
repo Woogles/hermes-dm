@@ -1,0 +1,8 @@
+encounter:
+  id: split-harbor
+  type: paradox-boss
+  level_range: "9-12"
+  hazards:
+    - harbor versions overlap
+    - fog bells change initiative order
+    - ferry Echo may turn hostile

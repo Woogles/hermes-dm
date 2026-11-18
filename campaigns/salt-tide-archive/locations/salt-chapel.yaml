@@ -1,0 +1,6 @@
+location:
+  id: salt-chapel
+  name: Salt Chapel
+  kind: site
+  description: >
+    A coastal shrine where flood memories become public prayers.

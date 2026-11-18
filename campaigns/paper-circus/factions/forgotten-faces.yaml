@@ -1,0 +1,10 @@
+faction:
+  id: forgotten-faces
+  name: Circus of Forgotten Faces
+  alignment: chaotic-neutral
+  description: >
+    A mysterious performer group that remembers acts no one can prove happened.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
