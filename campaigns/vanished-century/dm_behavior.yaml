@@ -1,19 +1,60 @@
-dm_behavior:
+version: 1.0
 
-  clue_style: obvious
+campaign:
+  id: vanished-century
+  title: The Vanished Century
 
-  mystery_complexity: beginner
+author: Eric
 
-  combat_lethality: forgiving
+difficulty: beginner
 
-  guidance_level: high
+player_count:
+  min: 3
+  max: 5
 
-  allow_rule_explanations: true
+level_range:
+  start: 1
+  end: 12
 
-  remind_players: true
+theme:
+  - mystery
+  - investigation
+  - time-anomalies
+  - modern-underhollow
 
-  ask_one_question_at_a_time: true
+style:
+  combat: low
+  roleplay: high
+  exploration: medium
 
-  hidden_information: low
+estimated_sessions: 24
 
-  fail_forward: true
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - evidence
+    - clues
+    - simple choices
+    - visible consequences
+
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - instant death
+    - complex time magic
+
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failed checks still reveal something useful
+    - show known facts clearly
+
+  never:
+    - completely block progression
+    - make the answer unknowable without clues

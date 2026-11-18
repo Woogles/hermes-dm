@@ -1,28 +1,40 @@
-reward:
-  id: witness-notebook
-  name: Witness Notebook
-  kind: item
-  rarity: common-wondrous
-  mechanical: >
-    While holding it, the party can spend one Case Mark to remember one exact detail of a scene,
-    conversation, or record.
-  narrative: A case file tool that helps the party keep proof separate from rumor.
----
-reward:
-  id: case-lens
-  name: Case Lens
-  kind: item
-  rarity: wondrous
-  mechanical: >
-    Once per long rest, spend a bonus action to see one true clue within 30 feet. The clue may be
-    magical residue, a witness contradiction, a hidden mark, or a false plaque.
-  narrative: A simple investigative tool for beginner parties.
----
-reward:
-  id: ring-anchor-token
-  name: Ring Anchor Token
-  kind: resource
-  rarity: story
-  mechanical: >
-    The party may use one token to safely enter the Ring of Stones in one session.
-  narrative: Gives story power without complex magic.
+# Session 0: The Vanished Century
+
+## Character guidance
+
+Keep characters simple.
+
+Recommended beginner classes:
+
+- Fighter
+- Barbarian
+- Ranger
+- Rogue
+- Cleric
+- Druid
+- Wizard with prepared spell lists
+- Bard
+- Paladin
+- Sorcerer
+
+Give each player:
+
+- One favorite skill
+- One trusted spell or feature
+- One background:
+  - Student
+  - Investigator
+  - City child
+  - Forest guide
+
+## Opening hook
+
+Read to players:
+
+> “The Midnight Circle received a strange report. Three witnesses say a person was missing from a photo for years. The photo changes when looked at from memory, but not when looked at physically. No theft was reported. No damage was reported. One witness says the person remembers being saved, but the records say the person was never saved. Something in the past is wrong.”
+
+Then ask:
+
+- What do you investigate first?
+- What do you ask witnesses?
+- Do you trust memory, records, or physical proof?

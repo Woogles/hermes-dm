@@ -2,19 +2,26 @@
 
 ## Character guidance
 
-Let players pick simple characters.
+Keep characters simple.
 
-Beginner recommendations:
+Recommended beginner classes:
 
-- Fighter, Barbarian, Ranger, Rogue
-- Cleric, Druid, Wizard with prepared spell lists
-- Bard, Paladin, Sorcerer
+- Fighter
+- Barbarian
+- Ranger
+- Rogue
+- Cleric
+- Druid
+- Wizard with prepared spell lists
+- Bard
+- Paladin
+- Sorcerer
 
-Keep it simple:
+Give each player:
 
-- Give each player a favorite skill.
-- Give each player one spell or feature they trust.
-- Let them choose one background:
+- One favorite skill
+- One trusted spell or feature
+- One background:
   - Student
   - Investigator
   - City child
@@ -31,5 +38,3 @@ Then ask:
 - What do you investigate first?
 - What do you ask witnesses?
 - Do you trust memory, records, or physical proof?
-
-This teaches the party that the campaign is about evidence.

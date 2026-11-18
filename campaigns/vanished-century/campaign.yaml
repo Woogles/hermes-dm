@@ -48,7 +48,6 @@ ai_instructions:
     - hidden information overload
     - instant death
     - complex time magic
-    - all clues being subtle
 
   always:
     - provide at least one obvious clue
@@ -58,5 +57,4 @@ ai_instructions:
 
   never:
     - completely block progression
-    - hide that a paradox track changed
     - make the answer unknowable without clues
