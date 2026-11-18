@@ -1,0 +1,29 @@
+adventure:
+  id: clock-that-does-not-tick
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Discover why the clock tower contradicts repair records and witness memories.
+  major_clues:
+    - hands move when seen
+    - bells ring when remembered
+    - repair log says repaired twice
+  success_condition: recover Ring Anchor
+  failure_condition: paradox +1
+
+  skill_challenge:
+    - check: Investigation
+      dc: 12
+      meaning: the clock is real but the repair log is wrong
+    - check: History
+      dc: 15
+      meaning: the clock was repaired during a memory rewrite
+    - check: Arcana
+      dc: 16
+      meaning: the clock holds a fragment of the Ring of Stones
+    - check: Persuasion
+      dc: 13
+      meaning: the city council is afraid of admitting the truth
+      Act 1 ending:
+
+    “The Aboveworld is only the first layer. The hidden Ring is now open. But if you enter it carelessly, you may create the next paradox.”

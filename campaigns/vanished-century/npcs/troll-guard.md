@@ -1,0 +1,11 @@
+npc:
+  id: troll-guard
+  name: Bramble Page Guard
+  faction: silver-council
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: bramble-stacks
+
+  role: >
+    Protects a page no one admits to having.

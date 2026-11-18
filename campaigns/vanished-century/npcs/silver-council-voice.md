@@ -1,0 +1,14 @@
+npc:
+  id: silver-council-voice
+  name: Silver Council Voice
+  faction: silver-council
+  importance: major
+  disposition: lawful-neutral
+  secrets: 4
+  first_appearance: silver-council-meeting
+
+  role: >
+    Demands proof, honesty, and source of memory.
+
+  social_rule: >
+    The Council does not allow the party to lie, but it can offer help if the party is honest.

@@ -1,0 +1,24 @@
+npc:
+  id: unwritten-archivist
+  name: Unwritten Archivist
+  faction: unseen-century
+  importance: major
+  disposition: hostile
+  secrets: 5
+  first_appearance: city-with-no-name
+
+  role: >
+    Final act force. Erases one memory, replaces one witness, creates one fake record.
+
+  behavior:
+    - erases one memory
+    - replaces one witness
+    - creates one fake record
+
+  final_choice:
+    - save the witness
+    - save the record
+    - save the future
+
+  non_tpk_rule: >
+    If the party loses, the Archivist erases one final witness. One future remains visible.

@@ -1,0 +1,20 @@
+act:
+  number: 3
+  name: The Unwritten Century
+  level_range: "9-12"
+  goal: Decide how the century should exist without forcing every secret into the open.
+  adventures:
+    - city-with-no-name
+    - four-courts
+  main_locations:
+    - city-with-no-name
+    - four-courts
+  main_antagonists:
+    - unseen-century
+    - silver-council
+  ending_condition: >
+    The party stabilizes anchors and chooses one of the campaign endings.
+
+    Act 3 should not hide the campaign’s central tension. Tell the party:
+
+    “You are trying to make the century stable, not find every secret.”

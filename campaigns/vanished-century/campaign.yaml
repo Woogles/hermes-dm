@@ -20,6 +20,7 @@ theme:
   - mystery
   - investigation
   - time-anomalies
+  - modern-underhollow
 
 style:
   combat: low
@@ -30,8 +31,32 @@ estimated_sessions: 24
 
 campaign_type: story
 
-ruleset:
-  dnd-5.5e
+ruleset: dnd-5.5e
 
-recommended_players:
-  beginner
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - evidence
+    - clues
+    - simple choices
+    - visible consequences
+
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - instant death
+    - complex time magic
+    - all clues being subtle
+
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failed checks still reveal something useful
+    - show known facts clearly
+
+  never:
+    - completely block progression
+    - hide that a paradox track changed
+    - make the answer unknowable without clues

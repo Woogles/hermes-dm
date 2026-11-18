@@ -1,0 +1,13 @@
+encounter:
+  id: echo-warden-confusion
+  type: skill-challenge-combat
+  level_range: "1-4"
+  tone: light
+  major_threat:
+    - Echo Warden
+  minor_threat:
+    - Grotto Runner
+  lesson: >
+    Use Insight or Arcana before attacking.
+  failure_consequence: >
+    The party learns the cause is magical, but does not fully stabilize the echo.
