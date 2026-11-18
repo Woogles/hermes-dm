@@ -1,0 +1,8 @@
+item:
+  id: witness-notebook
+  name: Witness Notebook
+  rarity: common-wondrous
+  kind: investigative-tool
+  mechanical: >
+    While holding it, spend one Case Mark to remember one exact detail of a scene,
+    conversation, or record.

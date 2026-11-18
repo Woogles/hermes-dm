@@ -1,0 +1,23 @@
+version: 1.0
+
+campaigns:
+
+  - id: vanished-century
+    featured: true
+    category: beginner
+
+  - id: shattered-century
+    featured: true
+    category: advanced
+
+  - id: paper-circus
+    featured: false
+    category: intermediate
+
+  - id: salt-tide-archive
+    featured: false
+    category: advanced
+
+  - id: last-ferry
+    featured: false
+    category: beginner

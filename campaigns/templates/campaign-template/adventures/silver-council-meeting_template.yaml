@@ -1,0 +1,18 @@
+adventure:
+  id: '{adventure_id}'
+  act: 0
+  level_range: '{adventure_level_range}'
+  objective: '{adventure_objective}'
+  major_clues:
+  - '{adventure_major_clues_1}'
+  - '{adventure_major_clues_2}'
+  - '{adventure_major_clues_3}'
+  success_condition: '{adventure_success_condition}'
+  failure_condition: '{adventure_failure_condition}'
+  social_challenge:
+  - '{adventure_social_challenge_1}'
+  - '{adventure_social_challenge_2}'
+  - '{adventure_social_challenge_3}'
+  response_if_cautious: '{adventure_response_if_cautious}'
+  response_if_dishonest: '{adventure_response_if_dishonest}'
+  response_if_asks_for_help: '{adventure_response_if_asks_for_help}'

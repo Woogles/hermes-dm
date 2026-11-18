@@ -1,0 +1,10 @@
+dm_behavior:
+  clue_style: '{dm_behavior_clue_style}'
+  mystery_complexity: '{dm_behavior_mystery_complexity}'
+  combat_lethality: '{dm_behavior_combat_lethality}'
+  guidance_level: '{dm_behavior_guidance_level}'
+  allow_rule_explanations: false
+  remind_players: false
+  ask_one_question_at_a_time: false
+  hidden_information: '{dm_behavior_hidden_information}'
+  fail_forward: false

@@ -1,0 +1,7 @@
+rewards:
+- '{rewards_1}'
+- '{rewards_2}'
+- '{rewards_3}'
+summary:
+  reward_type: '{summary_reward_type}'
+  goal: '{summary_goal}'

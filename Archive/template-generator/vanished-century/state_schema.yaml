@@ -1,0 +1,43 @@
+state_schema:
+  campaign_id: vanished-century
+
+  custom_fields:
+    case_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
+
+    max_case_marks:
+      type: integer
+      default: 3
+
+    ring_anchors:
+      type: array
+      default: []
+
+    faction_relationship:
+      type: object
+      default:
+        midnight-circle: 100
+        silver-council: 0
+        grotto-market: 0
+        unseen-century: -50
+        aboveworld-news-bureau: 0
+
+    known_facts:
+      type: array
+      default: []
+
+    unresolved_questions:
+      type: array
+      default:
+        - source-of-anomaly
+
+    case_file:
+      type: object
+      default:
+        known: []
+        contradictions: []
+        unresolved: []
+        choices: []

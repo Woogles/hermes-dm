@@ -1,0 +1,11 @@
+faction:
+  id: aboveworld-news-bureau
+  name: Aboveworld News Bureau
+  alignment: lawful-neutral
+  description: >
+    Ordinary journalists who see impossible things but do not understand them. They provide witnesses,
+    report contradictions, create public suspicion, and help the party find ordinary clues.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

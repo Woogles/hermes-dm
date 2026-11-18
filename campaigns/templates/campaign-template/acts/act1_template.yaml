@@ -1,0 +1,16 @@
+act:
+  number: 0
+  name: '{act_name}'
+  level_range: '{act_level_range}'
+  goal: '{act_goal}'
+  adventures:
+  - '{act_adventures_1}'
+  - '{act_adventures_2}'
+  - '{act_adventures_3}'
+  main_locations:
+  - '{act_main_locations_1}'
+  - '{act_main_locations_2}'
+  main_antagonists:
+  - '{act_main_antagonists_1}'
+  - '{act_main_antagonists_2}'
+  ending_condition: '{act_ending_condition}'

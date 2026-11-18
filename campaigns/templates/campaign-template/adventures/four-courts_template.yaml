@@ -1,0 +1,22 @@
+adventure:
+  id: '{adventure_id}'
+  act: 0
+  level_range: '{adventure_level_range}'
+  objective: '{adventure_objective}'
+  major_clues:
+  - '{adventure_major_clues_1}'
+  - '{adventure_major_clues_2}'
+  - '{adventure_major_clues_3}'
+  - '{adventure_major_clues_4}'
+  success_condition: '{adventure_success_condition}'
+  failure_condition: '{adventure_failure_condition}'
+  final_boss:
+    name: '{adventure_final_boss_name}'
+    recommended_statblock: '{adventure_final_boss_recommended_statblock}'
+    goal: '{adventure_final_boss_goal}'
+  scene_template:
+  - '{adventure_scene_template_1}'
+  - '{adventure_scene_template_2}'
+  - '{adventure_scene_template_3}'
+  - '{adventure_scene_template_4}'
+  - '{adventure_scene_template_5}'

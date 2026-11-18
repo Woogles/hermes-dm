@@ -1,0 +1,6 @@
+encounter:
+  id: '{encounter_id}'
+  type: '{encounter_type}'
+  level_range: '{encounter_level_range}'
+  major_problem: '{encounter_major_problem}'
+  failure_consequence: '{encounter_failure_consequence}'

@@ -1,0 +1,16 @@
+npc:
+  id: '{npc_id}'
+  name: '{npc_name}'
+  faction: '{npc_faction}'
+  importance: '{npc_importance}'
+  disposition: '{npc_disposition}'
+  secrets: 0
+  first_appearance: '{npc_first_appearance}'
+  role: '{npc_role}'
+  behavior:
+  - '{npc_behavior_1}'
+  - '{npc_behavior_2}'
+  - '{npc_behavior_3}'
+  lesson: '{npc_lesson}'
+  insight_on_success: '{npc_insight_on_success}'
+  arcana_on_success: '{npc_arcana_on_success}'

@@ -1,0 +1,1111 @@
+Campaign 1: vanished-century
+vanished-century/campaign.yaml
+version: 1.0
+
+campaign:
+  id: vanished-century
+  title: The Vanished Century
+
+  description: >
+    A beginner mystery-investigation campaign where a hidden magical world called
+    Underhollow is rewriting people, objects, and memories across a modern city,
+    leaving clean impossible holes. The party proves what happened instead of trusting memory.
+
+author: Eric
+
+difficulty: beginner
+status: released
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 12
+
+theme:
+  - mystery
+  - investigation
+  - time-anomalies
+  - modern-underhollow
+
+style:
+  combat: low
+  roleplay: high
+  exploration: medium
+
+estimated_sessions: 24
+
+campaign_type: story
+
+ruleset: dnd-5.5e
+
+recommended_players: beginner
+
+ai_instructions:
+  emphasize:
+    - investigation
+    - evidence
+    - clues
+    - simple choices
+    - visible consequences
+  avoid:
+    - excessive combat
+    - hidden information overload
+    - instant death
+    - complex time magic
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failed checks still reveal something useful
+    - show known facts clearly
+  never:
+    - completely block progression
+    - make the answer unknowable without clues
+
+runtime_variables:
+  case_marks:
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+  max_case_marks:
+    type: integer
+    default: 3
+  paradox_track:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  ring_anchors:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  ring_anchor_tokens:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  silver_council_trust:
+    type: integer
+    default: 0
+    min: -100
+    max: 100
+  unseen_century_threat:
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+  known_facts:
+    type: array
+    default: []
+  unresolved_questions:
+    type: array
+    default:
+      - source-of-anomaly
+  case_file:
+    type: object
+    default:
+      known: []
+      contradictions: []
+      unresolved:
+        - source-of-anomaly
+      choices: []
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - midnight-circle
+    - silver-council
+    - grotto-market
+    - unseen-century
+    - aboveworld-news-bureau
+  locations:
+    - old-museum-quarter
+    - library-no-exit
+    - ring-of-stones
+    - crystal-court
+    - grotto-market
+    - bramble-stacks
+    - bridge-gap
+    - city-with-no-name
+    - four-courts
+  adventures:
+    - library-no-exit
+    - missing-rainstorm
+    - clock-that-does-not-tick
+    - bridge-that-was-never-built
+    - bramble-stacks
+    - silver-council-meeting
+    - silent-century
+    - city-with-no-name
+    - four-courts
+  npcs:
+    - echo-warden
+    - grotto-runner
+    - silent-auditor
+    - gnome-librarian
+    - troll-guard
+    - silver-council-voice
+    - unwritten-archivist
+  encounters:
+    - grotto-runner-ambush
+    - echo-warden-confusion
+    - bridge-guardian-test
+    - ring-collapse
+  items:
+    - witness-notebook
+    - case-lens
+    - ring-anchor-token
+  rewards:
+    - witness-notebook
+    - case-lens
+    - ring-anchor-token
+
+vanished-century/dm_behavior.yaml
+yaml
+
+dm_behavior:
+
+  clue_style: obvious
+
+  mystery_complexity: beginner
+
+  combat_lethality: forgiving
+
+  guidance_level: high
+
+  allow_rule_explanations: true
+
+  remind_players: true
+
+  ask_one_question_at_a_time: true
+
+  hidden_information: low
+
+  fail_forward: true
+
+vanished-century/lore.md
+markdown
+
+# Vanished Century Lore
+
+The party are agents of the Midnight Circle, a young investigator organization investigating impossible cases.
+
+Something has been stealing people, objects, and memories from ordinary places while leaving clean, impossible holes behind.
+
+## World layers
+
+### Aboveworld
+
+Normal modern society:
+
+- Cities
+- Schools
+- Museums
+- Train stations
+- Suburbs
+- News networks
+
+The party begins here.
+
+### Ring of Stones
+
+A hidden ley-line network beneath old cities.
+
+### Underhollow
+
+A magical underground city built in stone, root, and crystal.
+
+## Core rule
+
+The campaign is about proving what happened, not assuming what anyone remembers.
+
+Physical evidence, written records, witness memories, and magical traces may disagree.
+
+The party must identify:
+
+- physical facts
+- corrected records
+- witness contradictions
+- magical echoes
+- anchors
+
+vanished-century/state_schema.yaml
+yaml
+
+state_schema:
+  campaign_id: vanished-century
+
+  custom_fields:
+    case_marks:
+      type: integer
+      default: 3
+      minimum: 0
+      maximum: 5
+
+    max_case_marks:
+      type: integer
+      default: 3
+
+    ring_anchors:
+      type: array
+      default: []
+
+    faction_relationship:
+      type: object
+      default:
+        midnight-circle: 100
+        silver-council: 0
+        grotto-market: 0
+        unseen-century: -50
+        aboveworld-news-bureau: 0
+
+    known_facts:
+      type: array
+      default: []
+
+    unresolved_questions:
+      type: array
+      default:
+        - source-of-anomaly
+
+    case_file:
+      type: object
+      default:
+        known: []
+        contradictions: []
+        unresolved: []
+        choices: []
+
+vanished-century/session0.md
+markdown
+
+# Session 0: The Vanished Century
+
+## Character guidance
+
+Keep characters simple.
+
+Recommended beginner classes:
+
+- Fighter
+- Barbarian
+- Ranger
+- Rogue
+- Cleric
+- Druid
+- Wizard with prepared spell lists
+- Bard
+- Paladin
+- Sorcerer
+
+Give each player:
+
+- One favorite skill
+- One trusted spell or feature
+- One background:
+  - Student
+  - Investigator
+  - City child
+  - Forest guide
+
+## Opening hook
+
+Read to players:
+
+> “The Midnight Circle received a strange report. Three witnesses say a person was missing from a photo for years. The photo changes when looked at from memory, but not when looked at physically. No theft was reported. No damage was reported. One witness says the person remembers being saved, but the records say the person was never saved. Something in the past is wrong.”
+
+Then ask:
+
+- What do you investigate first?
+- What do you ask witnesses?
+- Do you trust memory, records, or physical proof?
+
+vanished-century/rewards.yaml
+yaml
+
+rewards:
+  - witness-notebook
+  - case-lens
+  - ring-anchor-token
+
+summary:
+  reward_type: story-items
+  goal: Give beginners simple investigative tools without complex magic.
+
+vanished-century/factions/midnight-circle.yaml
+yaml
+
+faction:
+  id: midnight-circle
+  name: Midnight Circle
+  alignment: neutral-good
+  description: >
+    The player organization. They investigate, respect evidence, want safe answers,
+    and reward the party with resources.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+vanished-century/factions/silver-council.yaml
+yaml
+
+faction:
+  id: silver-council
+  name: Silver Council
+  alignment: lawful-neutral
+  description: >
+    The fairy society of Underhollow. They enforce rules, are cautious, punish recklessness,
+    and reward cooperation.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+vanished-century/factions/grotto-market.yaml
+yaml
+
+faction:
+  id: grotto-market
+  name: Grotto Market
+  alignment: chaotic-neutral
+  description: >
+    A black market under Underhollow. It sells forbidden items, buys secrets, creates crime
+    and temptation, and rewards illegal knowledge.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+vanished-century/factions/unseen-century.yaml
+yaml
+
+faction:
+  id: unseen-century
+  name: Unseen Century
+  alignment: chaotic-neutral
+  description: >
+    A mysterious force that erases or steals people, memories, and objects. It creates holes
+    in records, moves people without warning, leaves perfect silence, and rewards paradoxes.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+vanished-century/factions/aboveworld-news-bureau.yaml
+yaml
+
+faction:
+  id: aboveworld-news-bureau
+  name: Aboveworld News Bureau
+  alignment: lawful-neutral
+  description: >
+    Ordinary journalists who see impossible things but do not understand them. They provide witnesses,
+    report contradictions, create public suspicion, and help the party find ordinary clues.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100
+
+vanished-century/locations/old-museum-quarter.yaml
+yaml
+
+location:
+  id: old-museum-quarter
+  name: The Old Museum Quarter
+  kind: public-area
+  description: >
+    A normal city block with statues, archives, a clock tower, a hidden statue room,
+    a witness circle, and a subway entrance that does not match the map.
+  anchor: old-museum-anchor
+
+vanished-century/locations/library-no-exit.yaml
+yaml
+
+location:
+  id: library-no-exit
+  name: The Library With No Exit
+  kind: public-building
+  description: >
+    A public library whose reading room doors do not match outside. A shelf remembers
+    a book that no longer exists physically. A statue remembers a different name from its plaque.
+  anchor: library-anchor
+
+vanished-century/locations/ring-of-stones.yaml
+yaml
+
+location:
+  id: ring-of-stones
+  name: The Ring of Stones
+  kind: hidden-network
+  description: >
+    A hidden ley-line network beneath old cities. It becomes available after Act 1.
+
+vanished-century/locations/crystal-court.yaml
+yaml
+
+location:
+  id: crystal-court
+  name: Crystal Court
+  kind: underhollow
+  description: >
+    Fairy society council meetings and safe zones.
+
+vanished-century/locations/grotto-market.yaml
+yaml
+
+location:
+  id: grotto-market
+  name: Grotto Market
+  kind: black-market
+  description: >
+    A black market under Underhollow. It sells stolen relics and forbidden tools.
+
+vanished-century/locations/bramble-stacks.yaml
+yaml
+
+location:
+  id: bramble-stacks
+  name: Bramble Stacks
+  kind: underhollow
+  description: >
+    Huge root libraries under Underhollow. They hold old records and lost centuries.
+
+vanished-century/locations/bridge-gap.yaml
+yaml
+
+location:
+  id: bridge-gap
+  name: Bridge Gap
+  kind: ring-of-stones
+  description: >
+    A city street broken in two places where a bridge existed in memory but not in maps.
+
+vanished-century/acts/act1.yaml
+yaml
+
+act:
+  number: 1
+  name: The First Impossible Case
+  level_range: "1-4"
+  goal: Discover that someone or something has been moved without leaving a clear physical hole.
+  adventures:
+    - library-no-exit
+    - missing-rainstorm
+    - clock-that-does-not-tick
+  main_locations:
+    - old-museum-quarter
+    - library-no-exit
+  main_antagonists:
+    - unseen-century
+    - grotto-market
+  ending_condition: >
+    The party finds one Ring Anchor. The Ring of Stones becomes available, but careless entry creates a paradox.
+
+vanished-century/acts/act2.yaml
+yaml
+
+act:
+  number: 2
+  name: The Hidden Ring of the Underhollow
+  level_range: "5-8"
+  goal: Find the Underhollow, learn its rules, and stop the Unseen Century from moving people into it.
+  adventures:
+    - bridge-that-was-never-built
+    - bramble-stacks
+    - silver-council-meeting
+    - silent-century
+  main_locations:
+    - bridge-gap
+    - bramble-stacks
+    - crystal-court
+  main_factions:
+    - silver-council
+    - grotto-market
+    - unseen-century
+  ending_condition: >
+    The party repairs the Ring, opens the Underhollow, and proves the correct founding memory.
+
+vanished-century/acts/act3.yaml
+yaml
+
+act:
+  number: 3
+  name: The Unwritten Century
+  level_range: "9-12"
+  goal: Decide how the century should exist without forcing every secret into the open.
+  adventures:
+    - city-with-no-name
+    - four-courts
+  main_locations:
+    - city-with-no-name
+    - four-courts
+  main_antagonists:
+    - unseen-century
+    - silver-council
+  ending_condition: >
+    The party stabilizes anchors and chooses one of the campaign endings.
+
+vanished-century/adventures/library-no-exit.yaml
+yaml
+
+adventure:
+  id: library-no-exit
+  act: 1
+  level_range: "1-2"
+  objective: |
+    Discover why the library remembers a different history.
+  major_clues:
+    - missing shelf
+    - altered plaque
+    - witness contradiction
+  success_condition: identify source of anomaly
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 10
+      meaning: find the missing shelf space
+    - check: History
+      dc: 10
+      meaning: learn why the plaque feels wrong
+    - check: Insight
+      dc: 12
+      meaning: notice one witness memory is too perfect
+    - check: History
+      dc: 13
+      meaning: reconstruct what happened first
+  known_on_success: >
+    The plaque changed before the statue was carved. The statue remembers the old name.
+    The library remembers the new name.
+  known_on_failure_with_plan: >
+    You find that the book is not missing. It was never physically removed.
+    It was removed from history.
+
+vanished-century/adventures/missing-rainstorm.yaml
+yaml
+
+adventure:
+  id: missing-rainstorm
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Discover why a town remembers a rainstorm that no record shows.
+  major_clues:
+    - dry riverbed
+    - photo of flooded street
+    - missing page from yearbook
+  success_condition: stabilize the water choice
+  failure_condition: paradox +1
+  simple_answer: >
+    The rain did not disappear naturally. It was moved by a magical echo.
+  choices:
+    - Save the present water supply.
+    - Return water to the past using a safe ring node.
+    - Stabilize the memory only.
+  skill_challenge:
+    - check: Nature
+      dc: 12
+      meaning: weather pattern mismatch
+    - check: History
+      dc: 13
+      meaning: public memory vs records
+    - check: Investigation
+      dc: 12
+      meaning: the photo was taken during a real event
+    - check: Arcana
+      dc: 15
+      meaning: a magical echo was left in town memory
+    - check: Persuasion
+      dc: 14
+      meaning: ask a witness if they remember physically or only through stories
+
+vanished-century/adventures/clock-that-does-not-tick.yaml
+yaml
+
+adventure:
+  id: clock-that-does-not-tick
+  act: 1
+  level_range: "1-4"
+  objective: |
+    Discover why the clock tower contradicts repair records and witness memories.
+  major_clues:
+    - hands move when seen
+    - bells ring when remembered
+    - repair log says repaired twice
+  success_condition: recover Ring Anchor
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 12
+      meaning: the clock is real but the repair log is wrong
+    - check: History
+      dc: 15
+      meaning: the clock was repaired during a memory rewrite
+    - check: Arcana
+      dc: 16
+      meaning: the clock holds a fragment of the Ring of Stones
+    - check: Persuasion
+      dc: 13
+      meaning: the city council is afraid of admitting the truth
+
+vanished-century/adventures/bridge-that-was-never-built.yaml
+yaml
+
+adventure:
+  id: bridge-that-was-never-built
+  act: 2
+  level_range: "5-6"
+  objective: |
+    Discover why a bridge exists in memory but not in city maps.
+  major_clues:
+    - child remembers walking across it
+    - bus driver remembers avoiding it
+    - physical street is broken in two places
+  success_condition: prove the bridge anchor
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 13
+      meaning: there is a real gap where the bridge stood
+    - check: Nature
+      dc: 14
+      meaning: road wear matches old traffic
+    - check: History
+      dc: 15
+      meaning: a bridge was removed from official memory during one decade
+    - check: Arcana
+      dc: 16
+      meaning: a ley-line node is under the broken gap
+  ring_entry_rule:
+    - follow a known anchor
+      cost: 1 case mark
+      result: safe
+    - use a witness memory
+      cost: 2 case marks
+      result: safe but a witness changes
+    - follow a stolen item
+      result: automatic paradox
+      result_type: risky
+
+vanished-century/adventures/bramble-stacks.yaml
+yaml
+
+adventure:
+  id: bramble-stacks
+  act: 2
+  level_range: "5-7"
+  objective: |
+    Discover why one Bramble record is physically present but not properly remembered.
+  major_clues:
+    - book never printed
+    - shelf sealed
+    - troll guard protects a page no one admits to having
+  success_condition: identify future information moved into the past
+  failure_condition: paradox +1
+  skill_challenge:
+    - check: Investigation
+      dc: 13
+      meaning: the missing record exists physically
+    - check: History
+      dc: 15
+      meaning: the record was copied then erased
+    - check: Arcana
+      dc: 16
+      meaning: the page carries a Ring Anchor signature
+    - check: Religion
+      dc: 16
+      meaning: a witness memory was made to be believed
+    - check: Persuasion
+      dc: 14
+      meaning: one guard can be convinced to reveal the page
+  beginner_rule: >
+    If the party fails two checks but explains what they are trying to learn, let them
+    use a Case Mark to get one true detail.
+
+vanished-century/adventures/silver-council-meeting.yaml
+yaml
+
+adventure:
+  id: silver-council-meeting
+  act: 2
+  level_range: "6-8"
+  objective: |
+    Speak honestly to the Silver Council and prove what you know.
+  major_clues:
+    - council demands proof
+    - council wants source of memory
+    - safe answer avoids paradox
+  success_condition: gain Silver Council trust or mark party as witness
+  failure_condition: paradox +1
+  social_challenge:
+    - who speaks
+    - what proof do they show
+    - what do they say about the contradiction
+  response_if_cautious: >
+    The Council accepts your statement. It marks you as a witness, not an enemy.
+  response_if_dishonest: >
+    The Council notices a mismatch. It will send a Silent Auditor after you.
+  response_if_asks_for_help: >
+    The Council offers a safe escort through the Bramble Stacks.
+
+vanished-century/adventures/silent-century.yaml
+yaml
+
+adventure:
+  id: silent-century
+  act: 2
+  level_range: "7-8"
+  objective: |
+    Stabilize the Ring before it collapses.
+  major_clues:
+    - ring fracture
+    - true anchor sequence
+    - founding memory
+  success_condition: repair Ring and open Underhollow safely
+  failure_condition: major paradox
+  skill_challenge:
+    - check: Investigation
+      dc: 16
+      meaning: locate the Ring fracture
+    - check: Arcana
+      dc: 17
+      meaning: find the true anchor sequence
+    - check: History
+      dc: 18
+      meaning: prove the correct founding memory
+    - check: Religion
+      dc: 18
+      meaning: silence or correct a false witness
+    - check: Persuasion
+      dc: 17
+      meaning: gain Silver Council trust
+
+vanished-century/adventures/city-with-no-name.yaml
+yaml
+
+adventure:
+  id: city-with-no-name
+  act: 3
+  level_range: "9-10"
+  objective: |
+    Decide what to do with a city that exists in records but not in witness memory.
+  major_clues:
+    - blank plaque
+    - road named in one century but not another
+    - tunnel leads to city no one entered
+  success_condition: repair or protect the city
+  failure_condition: city becomes dead year
+  skill_challenge:
+    - check: Investigation
+      dc: 18
+    - check: History
+      dc: 18
+    - check: Arcana
+      dc: 20
+    - check: Insight
+      dc: 17
+
+vanished-century/adventures/four-courts.yaml
+yaml
+
+adventure:
+  id: four-courts
+  act: 3
+  level_range: "10-12"
+  objective: |
+    Stabilize four anchors and decide how the century should exist.
+  major_clues:
+    - old museum anchor
+    - bridge gap anchor
+    - bramble anchor
+    - crystal anchor
+  success_condition: stable century ending
+  failure_condition: unresolved paradox ending
+  final_boss:
+    name: Unwritten Archivist
+    recommended_statblock: reskinned 5.5e CR 11-12 humanoid caster or ancient construct
+    goal: force party to choose save witness, save record, or save future
+  scene_template:
+    - two obvious clues
+    - one contradiction
+    - one skill challenge
+    - one resource cost
+    - one consequence
+
+vanished-century/npcs/echo-warden.yaml
+yaml
+
+npc:
+  id: echo-warden
+  name: Echo Warden
+  faction: unseen-century
+  importance: major
+  disposition: cautious
+  secrets: 3
+  first_appearance: library-no-exit
+  role: >
+    Confuses witnesses and tests whether they remember the same event.
+  behavior:
+    - uses reactions to confuse witnesses
+    - creates one fake echo
+    - cannot fight for too long
+  lesson: >
+    Use Insight or Arcana before attacking.
+  insight_on_success: >
+    You realize the Echo Warden is not attacking people. It is testing whether witnesses
+    remember the same event.
+  arcana_on_success: >
+    You find that its magic leaves tiny frost marks on old records.
+
+vanished-century/npcs/grotto-runner.yaml
+yaml
+
+npc:
+  id: grotto-runner
+  name: Grotto Market Runner
+  faction: grotto-market
+  importance: minor
+  disposition: curious
+  secrets: 1
+  first_appearance: library-no-exit
+  role: >
+    Steals a note from a witness and drops a Case Mark token.
+  behavior:
+    - runs away from witnesses
+    - uses one magical trick to hide
+  lesson: >
+    Chase clues, not just attack.
+
+vanished-century/npcs/silent-auditor.yaml
+yaml
+
+npc:
+  id: silent-auditor
+  name: Silent Auditor
+  faction: silver-council
+  importance: major
+  disposition: cautious
+  secrets: 2
+  first_appearance: bridge-that-was-never-built
+  role: >
+    Checks whether the party remembers an anchor correctly.
+  options:
+    - talk to them
+    - prove they are witnesses
+    - fight only if provoked
+    - find a safer entry
+
+vanished-century/npcs/gnome-librarian.yaml
+yaml
+
+npc:
+  id: gnome-librarian
+  name: Gnome Librarian
+  faction: silver-council
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: bramble-stacks
+  role: >
+    Provides witness-style but unreliable archive memory.
+  clue: >
+    Says the wrong thing on cue, creating a memory contradiction.
+
+vanished-century/npcs/troll-guard.yaml
+yaml
+
+npc:
+  id: troll-guard
+  name: Bramble Page Guard
+  faction: silver-council
+  importance: minor
+  disposition: cautious
+  secrets: 2
+  first_appearance: bramble-stacks
+  role: >
+    Protects a page no one admits to having.
+
+vanished-century/npcs/silver-council-voice.yaml
+yaml
+
+npc:
+  id: silver-council-voice
+  name: Silver Council Voice
+  faction: silver-council
+  importance: major
+  disposition: cautious
+  secrets: 4
+  first_appearance: silver-council-meeting
+  role: >
+    Demands proof, honesty, and source of memory.
+  social_rule: >
+    The Council does not allow the party to lie, but it can offer help if the party is honest.
+
+vanished-century/npcs/unwritten-archivist.yaml
+yaml
+
+npc:
+  id: unwritten-archivist
+  name: Unwritten Archivist
+  faction: unseen-century
+  importance: major
+  disposition: hostile
+  secrets: 5
+  first_appearance: city-with-no-name
+  role: >
+    Final act force. Erases one memory, replaces one witness, creates one fake record.
+  behavior:
+    - erases one memory
+    - replaces one witness
+    - creates one fake record
+  final_choice:
+    - save the witness
+    - save the record
+    - save the future
+  non_tpk_rule: >
+    If the party loses, the Archivist erases one final witness. One future remains visible.
+
+vanished-century/encounters/grotto-runner-ambush.yaml
+yaml
+
+encounter:
+  id: grotto-runner-ambush
+  type: chase-social
+  level_range: "1-4"
+  major_threat:
+    - Grotto Runner
+  minor_threat:
+    - witness distraction
+  player_options:
+    - chase the runner
+    - question the witness
+    - use Insight to predict the theft
+  failure_consequence: >
+    A Case Mark token is lost, but the clue remains discoverable.
+
+vanished-century/encounters/echo-warden-confusion.yaml
+yaml
+
+encounter:
+  id: echo-warden-confusion
+  type: skill-challenge-combat
+  level_range: "1-4"
+  major_threat:
+    - Echo Warden
+  minor_threat:
+    - Grotto Runner
+  lesson: >
+    Use Insight or Arcana before attacking.
+  failure_consequence: >
+    The party learns the cause is magical, but does not fully stabilize the echo.
+
+vanished-century/encounters/bridge-guardian-test.yaml
+yaml
+
+encounter:
+  id: bridge-guardian-test
+  type: social-combat
+  level_range: "5-8"
+  enemies:
+    - Trollgate Warden
+    - Grotto Market Fence
+    - Silent Auditor
+  options:
+    - talk to the Silent Auditor
+    - prove they are witnesses
+    - fight only if provoked
+    - find a safer entry
+  success_text: >
+    They are not attacking. They are checking whether you remember the bridge correctly.
+
+vanished-century/encounters/ring-collapse.yaml
+yaml
+
+encounter:
+  id: ring-collapse
+  type: skill-challenge
+  level_range: "7-8"
+  major_problem: >
+    The Ring is beginning to collapse.
+  failure_consequence: >
+    A major paradox becomes active, but the party can still repair one anchor.
+
+vanished-century/items/witness-notebook.yaml
+yaml
+
+item:
+  id: witness-notebook
+  name: Witness Notebook
+  rarity: common-wondrous
+  kind: investigative-tool
+  mechanical: >
+    While holding it, spend one Case Mark to remember one exact detail of a scene,
+    conversation, or record.
+
+vanished-century/items/case-lens.yaml
+yaml
+
+item:
+  id: case-lens
+  name: Case Lens
+  rarity: wondrous
+  kind: investigative-tool
+  mechanical: >
+    Once per long rest, spend a bonus action to see one true clue within 30 feet.
+    The clue may be magical residue, a witness contradiction, a hidden mark, or a false plaque.
+
+vanished-century/items/ring-anchor-token.yaml
+yaml
+
+item:
+  id: ring-anchor-token
+  name: Ring Anchor Token
+  rarity: story
+  kind: resource
+  mechanical: >
+    Spend one token to safely enter the Ring of Stones in one session.
+
+data/campaigns/vanished-century/session-state.json
+json
+
+{
+  "campaign": "vanished-century",
+  "current_act": 1,
+  "current_adventure": "library-no-exit",
+  "current_location": "old-museum-quarter",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "case_marks": 3,
+    "max_case_marks": 3,
+    "ring_anchors": [],
+    "faction_relationship": {
+      "midnight-circle": 100,
+      "silver-council": 0,
+      "grotto-market": 0,
+      "unseen-century": -50,
+      "aboveworld-news-bureau": 0
+    },
+    "known_facts": [],
+    "unresolved_questions": [
+      "source-of-anomaly"
+    ],
+    "case_file": {
+      "known": [],
+      "contradictions": [],
+      "unresolved": [
+        "source-of-anomaly"
+      ],
+      "choices": []
+    }
+  }
+}

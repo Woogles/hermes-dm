@@ -1,0 +1,8 @@
+item:
+  id: case-lens
+  name: Case Lens
+  rarity: wondrous
+  kind: investigative-tool
+  mechanical: >
+    Once per long rest, spend a bonus action to see one true clue within 30 feet.
+    The clue may be magical residue, a witness contradiction, a hidden mark, or a false plaque.

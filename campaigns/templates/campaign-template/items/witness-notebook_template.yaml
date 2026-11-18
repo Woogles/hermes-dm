@@ -1,0 +1,6 @@
+item:
+  id: '{item_id}'
+  name: '{item_name}'
+  rarity: '{item_rarity}'
+  kind: '{item_kind}'
+  mechanical: '{item_mechanical}'

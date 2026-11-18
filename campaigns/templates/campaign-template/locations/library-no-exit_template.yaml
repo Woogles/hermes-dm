@@ -1,0 +1,6 @@
+location:
+  id: '{location_id}'
+  name: '{location_name}'
+  kind: '{location_kind}'
+  description: '{location_description}'
+  anchor: '{location_anchor}'

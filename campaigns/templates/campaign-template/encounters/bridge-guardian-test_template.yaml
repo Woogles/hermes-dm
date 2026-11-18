@@ -1,0 +1,14 @@
+encounter:
+  id: '{encounter_id}'
+  type: '{encounter_type}'
+  level_range: '{encounter_level_range}'
+  enemies:
+  - '{encounter_enemies_1}'
+  - '{encounter_enemies_2}'
+  - '{encounter_enemies_3}'
+  options:
+  - '{encounter_options_1}'
+  - '{encounter_options_2}'
+  - '{encounter_options_3}'
+  - '{encounter_options_4}'
+  success_text: '{encounter_success_text}'

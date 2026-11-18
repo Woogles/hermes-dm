@@ -1,0 +1,15 @@
+npc:
+  id: grotto-runner
+  name: Grotto Market Runner
+  faction: grotto-market
+  importance: minor
+  disposition: curious
+  secrets: 1
+  first_appearance: library-no-exit
+  role: >
+    Steals a note from a witness and drops a Case Mark token.
+  behavior:
+    - runs away from witnesses
+    - uses one magical trick to hide
+  lesson: >
+    Chase clues, not just attack.

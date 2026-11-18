@@ -1,0 +1,14 @@
+npc:
+  id: '{npc_id}'
+  name: '{npc_name}'
+  faction: '{npc_faction}'
+  importance: '{npc_importance}'
+  disposition: '{npc_disposition}'
+  secrets: 0
+  first_appearance: '{npc_first_appearance}'
+  role: '{npc_role}'
+  options:
+  - '{npc_options_1}'
+  - '{npc_options_2}'
+  - '{npc_options_3}'
+  - '{npc_options_4}'

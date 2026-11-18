@@ -1,0 +1,27 @@
+adventure:
+  id: '{adventure_id}'
+  act: 0
+  level_range: '{adventure_level_range}'
+  objective: '{adventure_objective}'
+  major_clues:
+  - '{adventure_major_clues_1}'
+  - '{adventure_major_clues_2}'
+  - '{adventure_major_clues_3}'
+  success_condition: '{adventure_success_condition}'
+  failure_condition: '{adventure_failure_condition}'
+  skill_challenge:
+  - check: '{adventure_skill_challenge_0_check}'
+    dc: 0
+    meaning: '{adventure_skill_challenge_0_meaning}'
+  - check: '{adventure_skill_challenge_1_check}'
+    dc: 0
+    meaning: '{adventure_skill_challenge_1_meaning}'
+  - check: '{adventure_skill_challenge_2_check}'
+    dc: 0
+    meaning: '{adventure_skill_challenge_2_meaning}'
+  - check: '{adventure_skill_challenge_3_check}'
+    dc: 0
+    meaning: '{adventure_skill_challenge_3_meaning}'
+  - check: '{adventure_skill_challenge_4_check}'
+    dc: 0
+    meaning: '{adventure_skill_challenge_4_meaning}'

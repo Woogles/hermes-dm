@@ -1,0 +1,32 @@
+{
+  "campaign": "vanished-century",
+  "current_act": 1,
+  "current_adventure": "library-no-exit",
+  "current_location": "old-museum-quarter",
+  "paradox_level": 0,
+  "quests_completed": [],
+  "campaign_state": {
+    "case_marks": 3,
+    "max_case_marks": 3,
+    "ring_anchors": [],
+    "faction_relationship": {
+      "midnight-circle": 100,
+      "silver-council": 0,
+      "grotto-market": 0,
+      "unseen-century": -50,
+      "aboveworld-news-bureau": 0
+    },
+    "known_facts": [],
+    "unresolved_questions": [
+      "source-of-anomaly"
+    ],
+    "case_file": {
+      "known": [],
+      "contradictions": [],
+      "unresolved": [
+        "source-of-anomaly"
+      ],
+      "choices": []
+    }
+  }
+}

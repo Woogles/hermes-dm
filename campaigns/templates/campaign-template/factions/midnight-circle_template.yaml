@@ -1,0 +1,9 @@
+faction:
+  id: '{faction_id}'
+  name: '{faction_name}'
+  alignment: '{faction_alignment}'
+  description: '{faction_description}'
+  relationship_scale:
+    trusted: 0
+    neutral: 0
+    hostile: 0

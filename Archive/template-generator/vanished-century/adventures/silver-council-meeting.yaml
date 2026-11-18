@@ -1,0 +1,22 @@
+adventure:
+  id: silver-council-meeting
+  act: 2
+  level_range: "6-8"
+  objective: |
+    Speak honestly to the Silver Council and prove what you know.
+  major_clues:
+    - council demands proof
+    - council wants source of memory
+    - safe answer avoids paradox
+  success_condition: gain Silver Council trust or mark party as witness
+  failure_condition: paradox +1
+  social_challenge:
+    - who speaks
+    - what proof do they show
+    - what do they say about the contradiction
+  response_if_cautious: >
+    The Council accepts your statement. It marks you as a witness, not an enemy.
+  response_if_dishonest: >
+    The Council notices a mismatch. It will send a Silent Auditor after you.
+  response_if_asks_for_help: >
+    The Council offers a safe escort through the Bramble Stacks.

@@ -1,0 +1,151 @@
+Campaign 1: '{Campaign 1}'
+version: 0.0
+campaign:
+  id: '{campaign_id}'
+  title: '{campaign_title}'
+  description: '{campaign_description}'
+author: '{author}'
+difficulty: '{difficulty}'
+status: '{status}'
+player_count:
+  min: 0
+  max: 0
+level_range:
+  start: 0
+  end: 0
+theme:
+- '{theme_1}'
+- '{theme_2}'
+- '{theme_3}'
+- '{theme_4}'
+style:
+  combat: '{style_combat}'
+  roleplay: '{style_roleplay}'
+  exploration: '{style_exploration}'
+estimated_sessions: 0
+campaign_type: '{campaign_type}'
+ruleset: '{ruleset}'
+recommended_players: '{recommended_players}'
+ai_instructions:
+  emphasize:
+  - '{ai_instructions_emphasize_1}'
+  - '{ai_instructions_emphasize_2}'
+  - '{ai_instructions_emphasize_3}'
+  - '{ai_instructions_emphasize_4}'
+  - '{ai_instructions_emphasize_5}'
+  avoid:
+  - '{ai_instructions_avoid_1}'
+  - '{ai_instructions_avoid_2}'
+  - '{ai_instructions_avoid_3}'
+  - '{ai_instructions_avoid_4}'
+  always:
+  - '{ai_instructions_always_1}'
+  - '{ai_instructions_always_2}'
+  - '{ai_instructions_always_3}'
+  - '{ai_instructions_always_4}'
+  never:
+  - '{ai_instructions_never_1}'
+  - '{ai_instructions_never_2}'
+runtime_variables:
+  case_marks:
+    type: '{runtime_variables_case_marks_type}'
+    default: 0
+    min: 0
+    max: 0
+  max_case_marks:
+    type: '{runtime_variables_max_case_marks_type}'
+    default: 0
+  paradox_track:
+    type: '{runtime_variables_paradox_track_type}'
+    default: 0
+    min: 0
+    max: 0
+  ring_anchors:
+    type: '{runtime_variables_ring_anchors_type}'
+    default: 0
+    min: 0
+    max: 0
+  ring_anchor_tokens:
+    type: '{runtime_variables_ring_anchor_tokens_type}'
+    default: 0
+    min: 0
+    max: 0
+  silver_council_trust:
+    type: '{runtime_variables_silver_council_trust_type}'
+    default: 0
+    min: 0
+    max: 0
+  unseen_century_threat:
+    type: '{runtime_variables_unseen_century_threat_type}'
+    default: 0
+    min: 0
+    max: 0
+  known_facts:
+    type: '{runtime_variables_known_facts_type}'
+    default: []
+  unresolved_questions:
+    type: '{runtime_variables_unresolved_questions_type}'
+    default:
+    - '{runtime_variables_unresolved_questions_default_1}'
+  case_file:
+    type: '{runtime_variables_case_file_type}'
+    default:
+      known: []
+      contradictions: []
+      unresolved:
+      - '{runtime_variables_case_file_default_unresolved_1}'
+      choices: []
+resources:
+  session:
+  - '{resources_session_1}'
+  acts:
+  - '{resources_acts_1}'
+  - '{resources_acts_2}'
+  - '{resources_acts_3}'
+  factions:
+  - '{resources_factions_1}'
+  - '{resources_factions_2}'
+  - '{resources_factions_3}'
+  - '{resources_factions_4}'
+  - '{resources_factions_5}'
+  locations:
+  - '{resources_locations_1}'
+  - '{resources_locations_2}'
+  - '{resources_locations_3}'
+  - '{resources_locations_4}'
+  - '{resources_locations_5}'
+  - '{resources_locations_6}'
+  - '{resources_locations_7}'
+  - '{resources_locations_8}'
+  - '{resources_locations_9}'
+  adventures:
+  - '{resources_adventures_1}'
+  - '{resources_adventures_2}'
+  - '{resources_adventures_3}'
+  - '{resources_adventures_4}'
+  - '{resources_adventures_5}'
+  - '{resources_adventures_6}'
+  - '{resources_adventures_7}'
+  - '{resources_adventures_8}'
+  - '{resources_adventures_9}'
+  npcs:
+  - '{resources_npcs_1}'
+  - '{resources_npcs_2}'
+  - '{resources_npcs_3}'
+  - '{resources_npcs_4}'
+  - '{resources_npcs_5}'
+  - '{resources_npcs_6}'
+  - '{resources_npcs_7}'
+  encounters:
+  - '{resources_encounters_1}'
+  - '{resources_encounters_2}'
+  - '{resources_encounters_3}'
+  - '{resources_encounters_4}'
+  items:
+  - '{resources_items_1}'
+  - '{resources_items_2}'
+  - '{resources_items_3}'
+  rewards:
+  - '{resources_rewards_1}'
+  - '{resources_rewards_2}'
+  - '{resources_rewards_3}'

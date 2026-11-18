@@ -1,0 +1,6 @@
+location:
+  id: bridge-gap
+  name: Bridge Gap
+  kind: ring-of-stones
+  description: >
+    A city street broken in two places where a bridge existed in memory but not in maps.

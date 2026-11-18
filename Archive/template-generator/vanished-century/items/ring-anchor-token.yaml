@@ -1,0 +1,7 @@
+item:
+  id: ring-anchor-token
+  name: Ring Anchor Token
+  rarity: story
+  kind: resource
+  mechanical: >
+    Spend one token to safely enter the Ring of Stones in one session.

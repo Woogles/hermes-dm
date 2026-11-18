@@ -1,0 +1,13 @@
+encounter:
+  id: '{encounter_id}'
+  type: '{encounter_type}'
+  level_range: '{encounter_level_range}'
+  major_threat:
+  - '{encounter_major_threat_1}'
+  minor_threat:
+  - '{encounter_minor_threat_1}'
+  player_options:
+  - '{encounter_player_options_1}'
+  - '{encounter_player_options_2}'
+  - '{encounter_player_options_3}'
+  failure_consequence: '{encounter_failure_consequence}'
