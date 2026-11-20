@@ -1,0 +1,8 @@
+rewards:
+  - example-item
+summary:
+  reward_type: investigation-tools   # see rewards-schema.md
+  goal: TBD <=1 sentence.
+# optional:
+# per_act:
+#   act1: [example-item]

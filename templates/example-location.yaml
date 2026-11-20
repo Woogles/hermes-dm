@@ -1,0 +1,7 @@
+location:
+  id: example-location
+  name: Example Location
+  kind: site                        # see location-schema.md enum
+  description: >
+    TBD what it looks/feels like (<=2 sentences).
+  anchor: true                      # only if kind: anchor or is a fact-proof site

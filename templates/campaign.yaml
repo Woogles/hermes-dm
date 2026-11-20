@@ -1,0 +1,94 @@
+version: 1.0
+
+campaign:
+  id: template-campaign           # FORK-CHECKLIST step 1: rename
+  title: "TBD"
+  description: >
+    TBD <= 60 words. What the party is doing and the world truth-model.
+  schema_version: 1
+
+author: "TBD"
+difficulty: beginner             # enum beginner|intermediate|advanced
+status: draft                    # enum draft|beta|released|deprecated
+
+player_count:
+  min: 3
+  max: 5
+
+level_range:
+  start: 1
+  end: 8                         # cover every adventure "X-Y"
+
+theme:
+  - mystery
+  - investigation
+
+style:
+  combat: low                    # low|medium|high
+  roleplay: high
+  exploration: medium
+
+estimated_sessions: 18
+campaign_type: story
+ruleset: dnd-5.5e
+recommended_players: beginner    # usually == difficulty
+
+ai_instructions:
+  emphasize:
+    - TBD
+  avoid:
+    - excessive combat
+    - hidden information overload
+  always:
+    - provide at least one obvious clue
+    - ask one question at a time
+    - let failed checks still reveal something useful
+  never:
+    - completely block progression
+
+runtime_variables:
+  case_marks:
+    display_name: "Case Marks"
+    description: "investigation resource."
+    type: integer
+    default: 3
+    min: 0
+    max: 5
+    visible_to_players: true
+    scope: session
+  paradox_track:
+    display_name: "Paradox Track"
+    type: integer
+    default: 0
+    min: 0
+    max: 5
+    visible_to_players: true
+    scope: persistent
+
+resources:
+  session:
+    - session0
+  acts:
+    - act1
+    - act2
+    - act3
+  factions:
+    - example-faction
+  locations:
+    - example-location
+  adventures:
+    - example-adventure
+  npcs:
+    - example-npc
+  encounters:
+    - example-encounter
+  items:
+    - example-item
+  rewards:
+    - example-item
+
+quests:
+  quest_id_equals_adventure_id: true
+  opening_quest_id: example-adventure   # must match a quest id below
+  quest_ids:
+    - example-adventure

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-dm.example/schema/schema_state.json",
+  "title": "AI DM campaign state schema v1",
+  "description": "Validates data/campaigns/<id>/session-state.json. Values only; definitions live in campaign.yaml.",
+  "type": "object",
+  "required": ["campaign","schema_version","campaign_version","created_at","updated_at","session_number","current_act","current_adventure","current_location","active_quests","quests_completed","runtime"],
+  "additionalProperties": false,
+  "properties": {
+    "campaign":         { "$ref": "#/defs/id_or_empty" },
+    "schema_version":   { "type": "integer", "minimum": 0 },
+    "campaign_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$|^$" },
+    "created_at":       { "$ref": "#/defs/timestamp_or_empty" },
+    "updated_at":       { "$ref": "#/defs/timestamp_or_empty" },
+    "session_number":   { "type": "integer", "minimum": 0 },
+    "current_act":      { "type": "integer", "minimum": 0, "maximum": 12 },
+    "current_adventure":{ "$ref": "#/defs/id_or_empty" },
+    "current_location": { "$ref": "#/defs/id_or_empty" },
+    "active_quests":    { "type": "array", "uniqueItems": true, "items": { "$ref": "#/defs/id" } },
+    "quests_completed": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/defs/id" } },
+    "runtime":          { "type": "object" }
+  },
+  "defs": {
+    "id":        { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "id_or_empty": { "type": "string", "pattern": "^$|^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "timestamp_or_empty": { "oneOf": [ { "enum": [""] },
+      { "type": "string", "format": "date-time", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(Z|[+-]\\d{2}:\\d{2})?$" } ] }
+  }
+}

@@ -1,0 +1,12 @@
+act:
+  number: 1
+  name: Example Act One
+  level_range: "1-2"                # keep within campaign.level_range
+  goal: TBD one sentence.
+  adventures:
+    - example-adventure
+  main_locations:
+    - example-location
+  main_factions:
+    - example-faction
+  ending_condition: TBD one sentence.

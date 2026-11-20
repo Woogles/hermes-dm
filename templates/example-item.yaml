@@ -1,0 +1,7 @@
+item:
+  id: example-item
+  name: Example Item
+  rarity: uncommon                  # see item-schema.md
+  kind: investigative-tool
+  mechanical: >
+    TBD: spend a bonus action once per long rest to reveal one true clue.

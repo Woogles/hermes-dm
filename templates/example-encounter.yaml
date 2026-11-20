@@ -1,0 +1,12 @@
+encounter:
+  id: example-encounter
+  type: skill-challenge-combat      # see encounter-schema.md primaries
+  level_range: "1-2"
+  tone: low                         # low|moderate|high|unstable|extreme
+  major_threat:
+    - Example NPC
+  player_options:
+    - investigate
+    - talk
+    - fight only if provoked
+  failure_consequence: TBD state change, never death.

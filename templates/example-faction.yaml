@@ -1,0 +1,10 @@
+faction:
+  id: example-faction
+  name: Example Faction
+  alignment: neutral-good           # 9-point alignment enum
+  description: >
+    TBD who they are and what they want.
+  relationship_scale:
+    trusted: 100
+    neutral: 0
+    hostile: -100

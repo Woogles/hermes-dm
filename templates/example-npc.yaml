@@ -1,0 +1,13 @@
+npc:
+  id: example-npc
+  name: Example NPC
+  faction: example-faction
+  importance: minor                 # minor|major
+  disposition: cautious             # cautious|curious|friendly|hostile|mischievous
+  secrets: 2                        # 1-5
+  first_appearance: example-adventure
+  role: TBD one sentence.
+  options:
+    - talk
+    - fight only if provoked
+  lesson: TBD what the party learns.

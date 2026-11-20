@@ -1,0 +1,10 @@
+dm_behavior:
+  clue_style: obvious            # obvious|medium|subtle
+  mystery_complexity: beginner   # beginner|intermediate|advanced
+  combat_lethality: forgiving    # forgiving|moderate|realistic
+  guidance_level: high           # high|medium|low
+  allow_rule_explanations: true
+  remind_players: true
+  ask_one_question_at_a_time: true
+  hidden_information: low        # low|medium|high
+  fail_forward: true             # true|partial|false
