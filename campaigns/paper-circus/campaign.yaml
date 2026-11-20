@@ -10,8 +10,7 @@ campaign:
     ledger, posters, and tickets disagree about. The party uses memory marks and ticket
     evidence to tell real performances from copied, sold, or falsely remembered ones.
 
-  schema_version: 1
-
+campaign_image: assets/paper-circus.webp
 author: Eric
 
 difficulty: beginner
@@ -42,7 +41,7 @@ campaign_type: story
 
 ruleset: dnd-5.5e
 
-recommended_players: beginner
+recommended_experience: beginner
 
 ai_instructions:
   emphasize:
@@ -204,3 +203,13 @@ resources:
     - ringmaster-whistle
     - archive-lens
     - fairground-compass
+
+starting_state:
+
+  act: 1
+
+  adventure: missing-ringmaster
+
+  location: grand-pavilion
+
+  session: session0

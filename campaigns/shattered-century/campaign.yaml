@@ -12,8 +12,7 @@ campaign:
     race to exploit. The party must repair the Loom, protect anchors, and choose how the
     century should end.
 
-  schema_version: 1
-
+campaign_image: assets/shattered-century.webp
 author: Eric
 
 difficulty: advanced
@@ -44,7 +43,7 @@ campaign_type: story
 
 ruleset: dnd-5.5e
 
-recommended_players: advanced
+recommended_experience: advanced
 
 ai_instructions:
   emphasize:
@@ -287,3 +286,8 @@ resources:
     - paradox-shard
     - paradox-key
     - unmaking-key
+starting_state:
+  act: 1
+  adventure: almanac-ninth-year
+  location: market-of-miracles
+  session: session0

@@ -10,8 +10,7 @@ campaign:
     Underhollow is rewriting people, objects, and memories across a modern city,
     leaving clean impossible holes. The party proves what happened instead of trusting memory.
 
-  schema_version: 1
-
+campaign_image: assets/vanished-century-cover.webp
 author: Eric
 
 difficulty: beginner
@@ -42,7 +41,7 @@ campaign_type: story
 
 ruleset: dnd-5.5e
 
-recommended_players: beginner
+recommended_experience: beginner
 
 ai_instructions:
   emphasize:
@@ -233,3 +232,10 @@ resources:
     - witness-notebook
     - case-lens
     - ring-anchor-token
+
+starting_state:
+  act: 1
+  adventure: library-no-exit
+  location: old-museum-quarter
+  session: session0
+    

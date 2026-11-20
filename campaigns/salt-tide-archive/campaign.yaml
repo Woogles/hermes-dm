@@ -10,8 +10,7 @@ campaign:
     witnesses, and pavement disagree about. The party uses water marks, tide logs, and
     salt compasses to separate real physical evidence from copied or drowned memory.
 
-  schema_version: 1
-
+campaign_image: assets/salt-tide-archive.webp
 author: Eric
 
 difficulty: beginner
@@ -43,7 +42,7 @@ campaign_type: story
 
 ruleset: dnd-5.5e
 
-recommended_players: beginner
+recommended_experience: beginner
 
 ai_instructions:
   emphasize:
@@ -208,3 +207,9 @@ resources:
     - salt-compass
     - lighthouse-token
     - tide-log-fragment
+
+starting_state:
+  act: 1
+  adventure: dry-archive-that-remembers-water
+  location: salt-tide-archive
+  session: session0

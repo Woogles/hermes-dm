@@ -11,8 +11,7 @@ campaign:
     who were never logged. The party uses ferry logs, tide keys, and bell tokens to prove
     which memories are physical facts and which are fog echoes.
 
-  schema_version: 1
-
+campaign_image: assets/last-ferryr.webp
 author: Eric
 
 difficulty: intermediate
@@ -43,7 +42,7 @@ campaign_type: story
 
 ruleset: dnd-5.5e
 
-recommended_players: intermediate
+recommended_experience: intermediate
 
 ai_instructions:
   emphasize:
@@ -226,3 +225,14 @@ resources:
     - fog-lantern
     - tide-key
     - bell-token
+
+
+starting_state:
+
+  act: 1
+
+  adventure: missing-night
+
+  location: old-harbor
+
+  session: session0
