@@ -1,0 +1,28 @@
+{
+  "campaign": "last-ferry",
+  "schema_version": 1,
+  "campaign_version": "1.0",
+  "created_at": "2026-11-17T15:30:00Z",
+  "updated_at": "2026-11-17T15:30:00Z",
+  "session_number": 0,
+  "current_act": 1,
+  "current_adventure": "missing-night",
+  "current_location": "old-harbor",
+  "active_quests": [
+    "the-lost-night",
+    "missing-night"
+  ],
+  "quests_completed": [],
+  "runtime": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "paradox_track": 0,
+    "echo_nights": 0,
+    "ferry_log_fragments": 0,
+    "tide_keys": 0,
+    "bell_tokens": 0,
+    "dock_anchor_stable": 0,
+    "false_names": [],
+    "faction_influence": { "hollowmouth-ferrykeepers": 0, "fog-ledger": 0, "drowned-choir": 0, "tide-guild": 0 }
+  }
+}

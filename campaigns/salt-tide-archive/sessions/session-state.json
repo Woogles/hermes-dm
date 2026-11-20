@@ -1,0 +1,27 @@
+{
+  "campaign": "salt-tide-archive",
+  "schema_version": 1,
+  "campaign_version": "1.0",
+  "created_at": "2026-11-17T15:30:00Z",
+  "updated_at": "2026-11-17T15:30:00Z",
+  "session_number": 0,
+  "current_act": 1,
+  "current_adventure": "dry-archive-that-remembers-water",
+  "current_location": "salt-tide-archive",
+  "active_quests": [
+    "the-drowned-year",
+    "dry-archive-that-remembers-water"
+  ],
+  "quests_completed": [],
+  "runtime": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "paradox_track": 0,
+    "tide_log_fragments": 0,
+    "salt_compass_uses": 1,
+    "lighthouse_tokens": 0,
+    "water_anchors_stable": 1,
+    "false_floods": [],
+    "drowned_choir_influence": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "campaign": "",
+  "schema_version": 0,
+  "campaign_version": "",
+  "created_at": "",
+  "updated_at": "",
+  "session_number": 0,
+  "current_act": 0,
+  "current_adventure": "",
+  "current_location": "",
+  "active_quests": [],
+  "quests_completed": [],
+  "runtime": {}
+}

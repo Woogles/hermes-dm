@@ -238,4 +238,17 @@ starting_state:
   adventure: library-no-exit
   location: old-museum-quarter
   session: session0
-    
+quests:
+  quest_id_equals_adventure_id: true
+  opening_quest_id: the-missing-century
+  quest_ids:
+    - the-missing-century
+    - library-no-exit
+    - missing-rainstorm
+    - clock-that-does-not-tick
+    - bridge-that-was-never-built
+    - bramble-stacks
+    - silver-council-meeting
+    - silent-century
+    - city-with-no-name
+    - four-courts

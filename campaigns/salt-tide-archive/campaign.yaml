@@ -213,3 +213,15 @@ starting_state:
   adventure: dry-archive-that-remembers-water
   location: salt-tide-archive
   session: session0
+
+quests:
+  quest_id_equals_adventure_id: true
+  opening_quest_id: the-drowned-year
+  quest_ids:
+    - the-drowned-year
+    - dry-archive-that-remembers-water
+    - flood-that-never-was
+    - salt-map-remembers-harbor
+    - drowned-choir-memory
+    - two-named-tower
+    - tide-that-will-not-wait

@@ -1,0 +1,28 @@
+
+{
+  "campaign": "paper-circus",
+  "schema_version": 1,
+  "campaign_version": "1.0",
+  "created_at": "2026-11-17T15:30:00Z",
+  "updated_at": "2026-11-17T15:30:00Z",
+  "session_number": 0,
+  "current_act": 1,
+  "current_adventure": "missing-ringmaster",
+  "current_location": "grand-pavilion",
+  "active_quests": [
+    "the-forgotten-circus",
+    "missing-ringmaster"
+  ],
+  "quests_completed": [],
+  "runtime": {
+    "memory_marks": 3,
+    "max_memory_marks": 3,
+    "paradox_track": 0,
+    "tickets_found": [],
+    "false_tickets": [],
+    "witnesses_confirmed": [],
+    "parade_routes_stabilized": 0,
+    "forgotten_faces_trust": 0,
+    "lantern_paper_disturbance": 0
+  }
+}

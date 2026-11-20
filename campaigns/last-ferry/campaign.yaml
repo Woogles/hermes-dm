@@ -230,9 +230,20 @@ resources:
 starting_state:
 
   act: 1
-
   adventure: missing-night
-
   location: old-harbor
-
   session: session0
+quests:
+  quest_id_equals_adventure_id: true
+  opening_quest_id: the-lost-night
+  quest_ids:
+    - the-lost-night
+    - missing-night
+    - fog-that-remembers-the-ship
+    - tide-ledger
+    - ferry-arrives-twice
+    - dock-that-cannot-dock
+    - manifest-of-two-nights
+    - bell-of-drowned-names
+    - split-harbor
+    - last-ferry

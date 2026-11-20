@@ -1,0 +1,32 @@
+{
+  "campaign": "shattered-century",
+  "schema_version": 1,
+  "campaign_version": "1.0",
+  "created_at": "2026-11-17T15:30:00Z",
+  "updated_at": "2026-11-17T15:30:00Z",
+  "session_number": 0,
+  "current_act": 1,
+  "current_adventure": "almanac-ninth-year",
+  "current_location": "market-of-miracles",
+  "active_quests": [
+    "the-shattered-century",
+    "almanac-ninth-year"
+  ],
+  "quests_completed": [],
+  "runtime": {
+    "loom_charges": 2,
+    "max_loom_charges": 2,
+    "paradox_shards": 0,
+    "paradox_track": 0,
+    "era": "the-bloom",
+    "time_anchors_discovered": 3,
+    "paradox_keys": 0,
+    "unmaking_key_found": 0,
+    "chronal_loom_attuned": 0,
+    "temporal_exposure": 0,
+    "temporal_exposure_by_character": {},
+    "chronal_stasis": [],
+    "faction_influence": { "loomkeepers": 0, "ashen-choir": 0, "gilded-ledger": 0, "unwritten": 0, "bloom": 0 },
+    "visible_timeline_changes": []
+  }
+}

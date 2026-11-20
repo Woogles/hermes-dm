@@ -291,3 +291,19 @@ starting_state:
   adventure: almanac-ninth-year
   location: market-of-miracles
   session: session0
+quests:
+  quest_id_equals_adventure_id: true
+  opening_quest_id: the-shattered-century
+  quest_ids:
+    - the-shattered-century
+    - almanac-ninth-year
+    - rain-that-never-fell
+    - grave-that-was-never-dug
+    - old-dam-anchor
+    - paradox-key-recovery
+    - unwritten-century
+    - founding-chapel
+    - ledger-vault
+    - split-market
+    - loom-control-room
+    - final-century

@@ -207,9 +207,18 @@ resources:
 starting_state:
 
   act: 1
-
   adventure: missing-ringmaster
-
   location: grand-pavilion
-
   session: session0
+
+quests:
+  quest_id_equals_adventure_id: true
+  opening_quest_id: the-forgotten-circus
+  quest_ids:
+    - the-forgotten-circus
+    - missing-ringmaster
+    - phantom-parade
+    - ticket-that-says-nothing
+    - forgotten-circus
+    - archive-of-two-shows
+    - paper-fairground
