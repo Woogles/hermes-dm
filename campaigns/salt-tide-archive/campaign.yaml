@@ -1,6 +1,4 @@
-Campaign 5: salt-tide-archive
-
-This is the second new beginner campaign.
+schema_version: 1.0
 version: 1.0
 
 campaign:
@@ -11,6 +9,8 @@ campaign:
     A beginner coastal-archive mystery where a town remembers a flood that its records,
     witnesses, and pavement disagree about. The party uses water marks, tide logs, and
     salt compasses to separate real physical evidence from copied or drowned memory.
+
+  schema_version: 1
 
 author: Eric
 
@@ -68,45 +68,102 @@ ai_instructions:
     - make memory alone solve the mystery
 
 runtime_variables:
+
   memory_marks:
+    display_name: "Memory Marks"
+    description: >
+      Investigation resource spent to ask exact questions about tide logs, lighthouse
+      memories, or witness statements.
     type: integer
     default: 3
     min: 0
     max: 5
+    visible_to_players: true
+    scope: session
+
   max_memory_marks:
+    display_name: "Max Memory Marks"
+    description: >
+      The maximum number of Memory Marks available for the current session.
     type: integer
     default: 3
+    min: 1
+    max: 5
+    visible_to_players: true
+    scope: session
+
   paradox_track:
+    display_name: "Paradox Track"
+    description: >
+      How badly the flood and tide memory contradiction has become a paradox.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   tide_log_fragments:
+    display_name: "Tide Log Fragments"
+    description: >
+      Recovered fragments that can prove one flood or tide memory.
     type: integer
     default: 0
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   salt_compass_uses:
+    display_name: "Salt Compass Uses"
+    description: >
+      Uses of the Salt Compass remaining to stabilize one tide memory without a paradox.
     type: integer
     default: 1
     min: 0
     max: 1
+    visible_to_players: true
+    scope: persistent
+
   lighthouse_tokens:
+    display_name: "Lighthouse Tokens"
+    description: >
+      Tokens spent to stabilize one false lighthouse memory.
     type: integer
     default: 0
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   water_anchors_stable:
+    display_name: "Stable Water Anchors"
+    description: >
+      The number of stable tide anchors the party has proven.
     type: integer
     default: 1
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   false_floods:
+    display_name: "False Floods"
+    description: >
+      Flood memories the party believes are false or copied.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
+
   drowned_choir_influence:
+    display_name: "Drowned Choir Influence"
+    description: >
+      Hidden pressure from the Drowned Choir making people remember drowned names and floods.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: false
+    scope: persistent
 
 resources:
   session:

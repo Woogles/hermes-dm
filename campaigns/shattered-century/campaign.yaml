@@ -1,4 +1,4 @@
-Campaign 2: shattered-century
+schema_version: 1.0
 version: 1.0
 
 campaign:
@@ -11,6 +11,8 @@ campaign:
     party between eras, and every change the party makes raises a paradox the factions
     race to exploit. The party must repair the Loom, protect anchors, and choose how the
     century should end.
+
+  schema_version: 1
 
 author: Eric
 
@@ -67,24 +69,55 @@ ai_instructions:
     - let future items freely exist in the past without anchor rules
 
 runtime_variables:
+
   loom_charges:
+    display_name: "Loom Charges"
+    description: >
+      Available Chronal Loom travel resources. Spending charges changes the timeline and
+      creates risk.
     type: integer
     default: 2
     min: 0
     max: 4
+    visible_to_players: true
+    scope: long_rest
+
   max_loom_charges:
+    display_name: "Max Loom Charges"
+    description: >
+      The maximum number of Loom Charges available after a long rest.
     type: integer
     default: 2
+    min: 1
+    max: 4
+    visible_to_players: true
+    scope: persistent
+
   paradox_shards:
+    display_name: "Paradox Shards"
+    description: >
+      Three shards can recharge one Loom Charge.
     type: integer
     default: 0
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   paradox_track:
+    display_name: "Paradox Track"
+    description: >
+      How badly the timeline has become unstable. The party should understand its danger.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   era:
+    display_name: "Current Era"
+    description: >
+      The era the party is currently in.
     type: string
     default: the-bloom
     allowed:
@@ -93,33 +126,85 @@ runtime_variables:
       - the-ashfall
       - the-drowned
       - the-unwritten
+    visible_to_players: true
+    scope: persistent
+
   time_anchors_discovered:
+    display_name: "Discovered Time Anchors"
+    description: >
+      The number of stable anchors the party has safely confirmed.
     type: integer
     default: 3
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   paradox_keys:
+    display_name: "Paradox Keys"
+    description: >
+      Keys recovered from major timeline fractures.
     type: integer
     default: 0
     min: 0
     max: 4
+    visible_to_players: true
+    scope: persistent
+
   unmaking_key_found:
+    display_name: "Unmaking Key Found"
+    description: >
+      Whether the party has recovered the final Unmaking Key.
     type: integer
     default: 0
     min: 0
     max: 1
+    visible_to_players: true
+    scope: persistent
+
   chronal_loom_attuned:
+    display_name: "Chronal Loom Attuned"
+    description: >
+      Whether the party has attuned the Chronal Loom.
     type: integer
     default: 0
     min: 0
     max: 1
+    visible_to_players: true
+    scope: persistent
+
   temporal_exposure:
+    display_name: "Temporal Exposure"
+    description: >
+      The highest temporal exposure among the party characters.
+    type: integer
+    default: 0
+    min: 0
+    max: 4
+    visible_to_players: true
+    scope: persistent
+
+  temporal_exposure_by_character:
+    display_name: "Character Temporal Exposure"
+    description: >
+      A character-keyed map of each character's temporal exposure.
     type: object
-    default:
-      characters: {}
+    default: {}
+    visible_to_players: true
+    scope: persistent
+
   chronal_stasis:
+    display_name: "Chronal Stasis"
+    description: >
+      Characters currently duplicated or frozen across the same era.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
+
   faction_influence:
+    display_name: "Faction Influence"
+    description: >
+      Hidden campaign pressure from factions. Do not show as a numeric track to players.
     type: object
     default:
       loomkeepers: 0
@@ -127,9 +212,17 @@ runtime_variables:
       gilded-ledger: 0
       unwritten: 0
       bloom: 0
+    visible_to_players: false
+    scope: persistent
+
   visible_timeline_changes:
+    display_name: "Visible Timeline Changes"
+    description: >
+      Consequences the party has already caused to the timeline.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
 
 resources:
   session:

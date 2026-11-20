@@ -1,4 +1,4 @@
-Campaign 1: vanished-century
+schema_version: 1.0
 version: 1.0
 
 campaign:
@@ -9,6 +9,8 @@ campaign:
     A beginner mystery-investigation campaign where a hidden magical world called
     Underhollow is rewriting people, objects, and memories across a modern city,
     leaving clean impossible holes. The party proves what happened instead of trusting memory.
+
+  schema_version: 1
 
 author: Eric
 
@@ -64,47 +66,109 @@ ai_instructions:
     - make the answer unknowable without clues
 
 runtime_variables:
+
   case_marks:
+    display_name: "Case Marks"
+    description: >
+      Investigation resource spent to remember one exact detail, compare records,
+      or stabilize a clue.
     type: integer
     default: 3
     min: 0
     max: 5
+    visible_to_players: true
+    scope: session
+
   max_case_marks:
+    display_name: "Max Case Marks"
+    description: >
+      The maximum number of Case Marks available for the current session.
     type: integer
     default: 3
+    min: 1
+    max: 5
+    visible_to_players: true
+    scope: session
+
   paradox_track:
+    display_name: "Paradox Track"
+    description: >
+      How badly the campaign's contradictions are escalating. The party should know
+      when it becomes dangerous.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   ring_anchors:
+    display_name: "Ring Anchors"
+    description: >
+      The number of safe Ring of Stones anchors the party has proven.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   ring_anchor_tokens:
+    display_name: "Ring Anchor Tokens"
+    description: >
+      Story resources that let the party safely enter the Ring of Stones in one session.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   silver_council_trust:
+    display_name: "Silver Council Trust"
+    description: >
+      How well the party has earned respect from the Silver Council.
     type: integer
     default: 0
     min: -100
     max: 100
+    visible_to_players: true
+    scope: persistent
+
   unseen_century_threat:
+    display_name: "Unseen Century Pressure"
+    description: >
+      Hidden pressure from the Unseen Century. Used to raise danger when the party acts carelessly.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: false
+    scope: persistent
+
   known_facts:
+    display_name: "Known Facts"
+    description: >
+      Confirmed, true campaign facts that have been established.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
+
   unresolved_questions:
+    display_name: "Unresolved Questions"
+    description: >
+      Campaign questions still worth investigating.
     type: array
     default:
       - source-of-anomaly
+    visible_to_players: true
+    scope: persistent
+
   case_file:
+    display_name: "Case File"
+    description: >
+      Structured investigation notes separated into confirmed facts, contradictions, and choices.
     type: object
     default:
       known: []
@@ -112,6 +176,8 @@ runtime_variables:
       unresolved:
         - source-of-anomaly
       choices: []
+    visible_to_players: true
+    scope: persistent
 
 resources:
   session:

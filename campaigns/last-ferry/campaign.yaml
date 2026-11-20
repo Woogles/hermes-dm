@@ -1,6 +1,4 @@
-Campaign 3: last-ferry
-
-This is a new intermediate campaign.
+schema_version: 1.0
 version: 1.0
 
 campaign:
@@ -12,6 +10,8 @@ campaign:
     on nights that never appear in the harbor ledger, while fog bells remember passengers
     who were never logged. The party uses ferry logs, tide keys, and bell tokens to prove
     which memories are physical facts and which are fog echoes.
+
+  schema_version: 1
 
 author: Eric
 
@@ -68,50 +68,113 @@ ai_instructions:
     - allow unanchored travel without consequence
 
 runtime_variables:
+
   memory_marks:
+    display_name: "Memory Marks"
+    description: >
+      Investigation resource spent to ask exact memory questions, compare records,
+      or stabilize one witness memory.
     type: integer
     default: 3
     min: 0
     max: 5
+    visible_to_players: true
+    scope: session
+
   max_memory_marks:
+    display_name: "Max Memory Marks"
+    description: >
+      The maximum number of Memory Marks available for the current session.
     type: integer
     default: 3
+    min: 1
+    max: 5
+    visible_to_players: true
+    scope: session
+
   paradox_track:
+    display_name: "Paradox Track"
+    description: >
+      How badly the ferry memory anomaly has become a paradox.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   echo_nights:
+    display_name: "Echo Nights"
+    description: >
+      Nights where a ferry appears in memory without a matching physical ledger record.
     type: integer
     default: 0
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   ferry_log_fragments:
+    display_name: "Ferry Log Fragments"
+    description: >
+      Recovered fragments that can prove one ferry voyage or one passenger existed.
     type: integer
     default: 0
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   tide_keys:
+    display_name: "Tide Keys"
+    description: >
+      Keys that open one safe harbor anchor route.
     type: integer
     default: 0
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   bell_tokens:
+    display_name: "Bell Tokens"
+    description: >
+      Tokens spent to stabilize one false memory in a fog bell.
     type: integer
     default: 0
     min: 0
+    visible_to_players: true
+    scope: persistent
+
   dock_anchor_stable:
+    display_name: "Dock Anchor Stable"
+    description: >
+      Whether the party has restored a safe dock anchor.
     type: integer
     default: 0
     min: 0
     max: 1
+    visible_to_players: true
+    scope: persistent
+
   false_names:
+    display_name: "False Names"
+    description: >
+      Names the party believes are false ferry-memory names.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
+
   faction_influence:
+    display_name: "Faction Influence"
+    description: >
+      Hidden harbor-faction pressure. Do not show as a numeric track to players.
     type: object
     default:
       hollowmouth-ferrykeepers: 0
       fog-ledger: 0
       drowned-choir: 0
       tide-guild: 0
+    visible_to_players: false
+    scope: persistent
 
 resources:
   session:

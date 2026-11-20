@@ -1,6 +1,4 @@
-Campaign 4: paper-circus
-
-This is a new beginner campaign.
+schema_version: 1.0
 version: 1.0
 
 campaign:
@@ -11,6 +9,8 @@ campaign:
     A beginner memory-mystery campaign where a town remembers a big circus parade that the
     ledger, posters, and tickets disagree about. The party uses memory marks and ticket
     evidence to tell real performances from copied, sold, or falsely remembered ones.
+
+  schema_version: 1
 
 author: Eric
 
@@ -67,42 +67,100 @@ ai_instructions:
     - make a memory-only answer without proof
 
 runtime_variables:
+
   memory_marks:
+    display_name: "Memory Marks"
+    description: >
+      Investigation resource spent to ask one exact question about a ticket, poster,
+      archive record, or witness statement.
     type: integer
     default: 3
     min: 0
     max: 5
+    visible_to_players: true
+    scope: session
+
   max_memory_marks:
+    display_name: "Max Memory Marks"
+    description: >
+      The maximum number of Memory Marks available for the current session.
     type: integer
     default: 3
+    min: 1
+    max: 5
+    visible_to_players: true
+    scope: session
+
   paradox_track:
+    display_name: "Paradox Track"
+    description: >
+      How badly the circus memory contradiction has become a paradox.
     type: integer
     default: 0
     min: 0
     max: 5
+    visible_to_players: true
+    scope: persistent
+
   tickets_found:
+    display_name: "Tickets Found"
+    description: >
+      Tickets the party has found and can examine.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
+
   false_tickets:
+    display_name: "False Tickets"
+    description: >
+      Tickets the party has proven to be false or copied.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
+
   witnesses_confirmed:
+    display_name: "Witnesses Confirmed"
+    description: >
+      Witnesses whose statements have been checked and confirmed.
     type: array
     default: []
+    visible_to_players: true
+    scope: persistent
+
   parade_routes_stabilized:
+    display_name: "Stabilized Parade Routes"
+    description: >
+      The number of remembered parade routes the party has stabilized.
     type: integer
     default: 0
     min: 0
     max: 3
+    visible_to_players: true
+    scope: persistent
+
   forgotten_faces_trust:
+    display_name: "Forgotten Faces Trust"
+    description: >
+      How well the party has earned respect from the Circus of Forgotten Faces.
     type: integer
     default: 0
     min: -100
     max: 100
+    visible_to_players: true
+    scope: persistent
+
   lantern_paper_disturbance:
+    display_name: "Lantern Fox Disturbance"
+    description: >
+      Hidden mischief pressure from Lantern Foxes moving paper, tickets, and witnesses.
     type: integer
     default: 0
     min: 0
+    max: 5
+    visible_to_players: false
+    scope: persistent
 
 resources:
   session:
