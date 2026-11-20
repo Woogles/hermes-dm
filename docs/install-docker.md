@@ -78,7 +78,12 @@ sudo docker run hello-world
 # For more examples and ideas, visit:
 # $https://docs.docker.com/get-started/
 ```
+OPTIONAL
 
+Change the docker user if you do log out and then log back in again. This allows: you to use docker with out sudo.
+```bash
+sudo usermod -aG docker $USER
+```
 
 Upgrade Docker Engine
 
